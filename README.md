@@ -6,7 +6,7 @@ of the Acorn A3010 computer PCB.
 Where possible the board matches the location of components and routing of
 traces.
 
-![./Acorn-A3010.png](Render of PCB)
+![Render of PCB](./Acorn-A3010.png)
 
 ## Progress ##
 
