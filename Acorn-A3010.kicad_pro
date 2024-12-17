@@ -441,7 +441,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "Acorn"
+    ]
   },
   "meta": {
     "filename": "Acorn-A3010.kicad_pro",
