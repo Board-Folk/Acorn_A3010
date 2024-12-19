@@ -266,6 +266,44 @@
 		(uuid "e7136332-336f-4bc7-880d-eed83fe525f0")
 	)
 	(sheet
+		(at 109.22 82.55)
+		(size 21.59 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0f9e4e4c-7eae-43dc-ad37-0c70003f4236")
+		(property "Sheetname" "Audio"
+			(at 109.22 81.8384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "audio.kicad_sch"
+			(at 109.22 100.9146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Acorn-A3010"
+				(path "/999882f3-94f8-4a89-9093-27a47d0cb289"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 137.16 49.53)
 		(size 21.59 17.78)
 		(fields_autoplaced yes)
@@ -309,6 +347,44 @@
 			(project "Acorn-A3010"
 				(path "/999882f3-94f8-4a89-9093-27a47d0cb289"
 					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 133.35 127)
+		(size 21.59 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "20613dd3-c886-4190-96bd-e62e2e571bea")
+		(property "Sheetname" "Keyboard"
+			(at 133.35 126.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "keyboard.kicad_sch"
+			(at 133.35 144.0946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Acorn-A3010"
+				(path "/999882f3-94f8-4a89-9093-27a47d0cb289"
+					(page "12")
 				)
 			)
 		)
@@ -604,7 +680,7 @@
 		)
 	)
 	(sheet
-		(at 109.22 82.55)
+		(at 85.09 82.55)
 		(size 21.59 17.78)
 		(fields_autoplaced yes)
 		(stroke
@@ -616,7 +692,7 @@
 		)
 		(uuid "92ee1f89-1406-45b0-9f4b-6ba7b8ccee55")
 		(property "Sheetname" "Reset"
-			(at 109.22 81.8384 0)
+			(at 85.09 81.8384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -625,7 +701,7 @@
 			)
 		)
 		(property "Sheetfile" "reset.kicad_sch"
-			(at 109.22 100.9146 0)
+			(at 85.09 100.9146 0)
 			(effects
 				(font
 					(size 1.27 1.27)

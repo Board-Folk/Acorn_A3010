@@ -440,7 +440,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "Acorn"
+    ],
     "pinned_symbol_libs": [
       "Acorn"
     ]
@@ -645,6 +647,14 @@
     [
       "b04534ef-c242-4ca8-9b8d-9d4b3e26f2f3",
       "IO"
+    ],
+    [
+      "20613dd3-c886-4190-96bd-e62e2e571bea",
+      "Keyboard"
+    ],
+    [
+      "0f9e4e4c-7eae-43dc-ad37-0c70003f4236",
+      "Audio"
     ]
   ],
   "text_variables": {}
