@@ -12575,7 +12575,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS14")
-		(at 248.92 15.24 0)
+		(at 322.58 63.5 0)
 		(unit 7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12584,7 +12584,7 @@
 		(fields_autoplaced yes)
 		(uuid "0068e08a-7525-4e2a-85c7-aae22f4761c6")
 		(property "Reference" "IC8"
-			(at 255.27 13.9699 0)
+			(at 328.93 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12593,7 +12593,7 @@
 			)
 		)
 		(property "Value" "74HCT14"
-			(at 255.27 16.5099 0)
+			(at 328.93 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12602,7 +12602,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 248.92 15.24 0)
+			(at 322.58 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12611,7 +12611,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS14"
-			(at 248.92 15.24 0)
+			(at 322.58 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12620,7 +12620,7 @@
 			)
 		)
 		(property "Description" "Hex inverter schmitt trigger"
-			(at 248.92 15.24 0)
+			(at 322.58 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
