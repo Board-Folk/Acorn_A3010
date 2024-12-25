@@ -10072,7 +10072,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Acorn:L_Acorn_8x3mm"
+		(property "Footprint" "Inductor_THT:L_Axial_L6.6mm_D2.7mm_P10.16mm_Horizontal_Vishay_IM-2"
 			(at 24.13 19.05 0)
 			(effects
 				(font

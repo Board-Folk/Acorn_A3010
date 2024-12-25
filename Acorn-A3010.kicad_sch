@@ -1023,6 +1023,44 @@
 		)
 	)
 	(sheet
+		(at 85.09 60.96)
+		(size 21.59 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2103e154-4875-4945-af52-f4b17646bf0d")
+		(property "Sheetname" "Analog Video"
+			(at 85.09 60.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "tv.kicad_sch"
+			(at 85.09 78.0546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Acorn-A3010"
+				(path "/999882f3-94f8-4a89-9093-27a47d0cb289"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 186.69 95.25)
 		(size 22.225 20.32)
 		(fields_autoplaced yes)

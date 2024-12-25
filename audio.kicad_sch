@@ -2692,6 +2692,12 @@
 		(uuid "a0b220c1-e7f8-4c04-8673-54dee464e02b")
 	)
 	(junction
+		(at 241.3 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aca946a3-d2d1-4a79-aac6-2dcb22ac8f3a")
+	)
+	(junction
 		(at 107.95 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3709,6 +3715,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 57.15) (xy 243.84 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6145253-c46c-4fa6-86e3-092bc95b4e05")
+	)
+	(wire
+		(pts
 			(xy 87.63 101.6) (xy 87.63 104.14)
 		)
 		(stroke
@@ -3886,6 +3902,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TV_Sound"
+		(shape output)
+		(at 243.84 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "978fac33-e481-4f68-97ea-87b568b05d48")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 255.6545 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
