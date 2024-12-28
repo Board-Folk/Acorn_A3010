@@ -7222,10 +7222,6 @@
 		(uuid "55fbe467-e8a1-46c8-9d92-f35ac1bdbe57")
 	)
 	(no_connect
-		(at 260.35 240.03)
-		(uuid "59906e04-0073-47a7-97e2-5a18b4427e87")
-	)
-	(no_connect
 		(at 260.35 237.49)
 		(uuid "5d4724c6-04e2-457d-92da-ee079188ecbd")
 	)
@@ -7248,6 +7244,10 @@
 	(no_connect
 		(at 260.35 250.19)
 		(uuid "b70b2fe0-7dda-4a05-b994-c943a40af526")
+	)
+	(no_connect
+		(at 260.35 255.27)
+		(uuid "d82fa8af-9023-4241-86d4-200ddaed9164")
 	)
 	(no_connect
 		(at 260.35 247.65)
@@ -12029,6 +12029,28 @@
 			)
 		)
 	)
+	(global_label "~{Ms1}"
+		(shape output)
+		(at 260.35 240.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "36b39cb9-4b0b-4497-a1f8-52b7b87d4bb4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 267.0242 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "C0"
 		(shape input)
 		(at 154.94 86.36 90)
@@ -12619,28 +12641,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "~{Ms1}"
-		(shape output)
-		(at 260.35 255.27 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a33f03ec-d077-4c47-99cc-cead1eb15507")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 267.0242 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -14861,6 +14861,72 @@
 			(project "Acorn-A3010"
 				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/5f74aac3-9761-4bed-8486-119acb837e61"
 					(reference "C119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 322.58 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "526774f8-5226-44e8-8611-afdf0da85fa6")
+		(property "Reference" "#PWR0284"
+			(at 322.58 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 322.58 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 322.58 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 322.58 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 322.58 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8bc7c3e4-fce9-4686-aa22-d6183011a524")
+		)
+		(instances
+			(project "Acorn-A3010"
+				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/5f74aac3-9761-4bed-8486-119acb837e61"
+					(reference "#PWR0284")
 					(unit 1)
 				)
 			)
@@ -17268,6 +17334,72 @@
 			(project "Acorn-A3010"
 				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/5f74aac3-9761-4bed-8486-119acb837e61"
 					(reference "C84")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 322.58 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e138422f-578e-42bb-802b-df6c0d523f31")
+		(property "Reference" "#PWR0283"
+			(at 322.58 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 322.58 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 322.58 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 322.58 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 322.58 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8c439931-c61f-4848-a27d-a80c6fcbe5cf")
+		)
+		(instances
+			(project "Acorn-A3010"
+				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/5f74aac3-9761-4bed-8486-119acb837e61"
+					(reference "#PWR0283")
 					(unit 1)
 				)
 			)
