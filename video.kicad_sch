@@ -1054,6 +1054,171 @@
 				)
 			)
 		)
+		(symbol "Device:D_Dual_CommonAnode_AKK_Split"
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Dual_CommonAnode_AKK_Split"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at -2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual diode, common anode on pin 1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Dual_CommonAnode_AKK_Split_0_0"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Dual_CommonAnode_AKK_Split_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy 1.27 0) (xy -1.27 -1.27) (xy -1.27 1.27) (xy -1.27 1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "D_Dual_CommonAnode_AKK_Split_1_1"
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "D_Dual_CommonAnode_AKK_Split_2_1"
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:D_Dual_CommonCathode_AAK"
 			(pin_names
 				(offset 0.762) hide)
@@ -1755,6 +1920,184 @@
 				)
 			)
 		)
+		(symbol "Device:Q_PNP_BEC"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Q_PNP_BEC"
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "PNP transistor, base/emitter/collector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transistor PNP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Q_PNP_BEC_0_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778) (xy 2.286 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Q_PNP_BEC_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 5.715)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -1868,196 +2211,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Transistor_BJT:2N3906"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "2N3906"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3906-D.PDF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "PNP Transistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO?92*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "2N3906_0_1"
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778) (xy 2.286 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "2N3906_1_1"
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 5.715)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2531,34 +2684,22 @@
 		(uuid "09a13a73-546c-48a2-a8b9-8156b6897283")
 	)
 	(junction
+		(at 207.01 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a934adb-9bca-4ebd-896b-7f4e6262017b")
+	)
+	(junction
 		(at 127 19.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "103901ee-6bc2-49ac-8e04-5a999c79ac0e")
 	)
 	(junction
-		(at 207.01 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1981f476-3f3b-44e3-b6e3-889c4e52426e")
-	)
-	(junction
-		(at 214.63 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1b40bd1e-d9c8-453d-bbce-b646d92cd6c6")
-	)
-	(junction
 		(at 119.38 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1d9de250-eb3c-44d6-a647-c31b3f9ee73e")
-	)
-	(junction
-		(at 222.25 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1e034388-e093-46a3-9b96-eb26170548a1")
 	)
 	(junction
 		(at 189.23 40.64)
@@ -2573,10 +2714,16 @@
 		(uuid "1f9f8272-78ca-4826-98c3-69abd50629ab")
 	)
 	(junction
-		(at 214.63 105.41)
+		(at 184.15 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "219d057c-34e5-4873-97db-cf93971a8e44")
+		(uuid "1fbdb908-d234-42bd-929f-141f5900c61e")
+	)
+	(junction
+		(at 191.77 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25efadd0-1072-4895-8c27-56a8f82cb02c")
 	)
 	(junction
 		(at 90.17 154.94)
@@ -2601,6 +2748,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2e2b44b4-162d-435f-9460-6e227f550ebd")
+	)
+	(junction
+		(at 190.5 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "367690e7-9dc5-48f6-a4a4-b14df6838fb6")
 	)
 	(junction
 		(at 140.97 33.02)
@@ -2687,12 +2840,6 @@
 		(uuid "5eba3abc-b706-47a3-8aae-2a573c478789")
 	)
 	(junction
-		(at 181.61 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5f23dbc2-c449-42de-95ee-2bda9ed88ba8")
-	)
-	(junction
 		(at 63.5 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2715,6 +2862,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ea8fe2e-242e-4392-a181-3937488f208e")
+	)
+	(junction
+		(at 176.53 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72a6ac4a-3cfc-4c7f-905d-03dd2e99e323")
 	)
 	(junction
 		(at 119.38 33.02)
@@ -2777,6 +2930,12 @@
 		(uuid "a9930e01-082a-4d80-b7c3-847a66aa2c63")
 	)
 	(junction
+		(at 214.63 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa5776a8-f932-4436-b53e-16cbb7e2aaf7")
+	)
+	(junction
 		(at 205.74 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2813,12 +2972,6 @@
 		(uuid "c4068248-ab93-4862-972d-d89fc956a03d")
 	)
 	(junction
-		(at 190.5 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c621bd27-e775-45db-9f31-f05d332f7ffe")
-	)
-	(junction
 		(at 72.39 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2831,22 +2984,16 @@
 		(uuid "d57c07d0-bc18-415b-bbfe-7e7b5a190492")
 	)
 	(junction
-		(at 207.01 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dd565a89-8fcf-41bd-a314-2045bf212507")
-	)
-	(junction
 		(at 39.37 19.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "df2623bf-c5fb-4282-96a8-37184597c70c")
 	)
 	(junction
-		(at 196.85 50.8)
+		(at 207.01 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e8a65aca-94f2-4f13-9bc2-56025d36891d")
+		(uuid "e8edb276-c1b3-452a-b6b0-e1ea8d7e2a92")
 	)
 	(junction
 		(at 190.5 85.09)
@@ -2859,6 +3006,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ea5acf2e-fc08-4767-ad06-d87b5417ac7c")
+	)
+	(junction
+		(at 214.63 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee427bcd-7255-4d38-9ff6-b6242db0ac79")
+	)
+	(junction
+		(at 222.25 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "efde9493-ae3d-4d88-84af-59e8459e2a87")
 	)
 	(junction
 		(at 63.5 50.8)
@@ -2885,34 +3044,8 @@
 		(uuid "fc1358d5-fd40-4349-9f4a-2f828d85d1a3")
 	)
 	(no_connect
-		(at 151.13 53.34)
-		(uuid "0eb4f67a-5bb3-420a-9508-9231308523a3")
-	)
-	(no_connect
-		(at 198.12 104.14)
-		(uuid "9b73286c-c487-48d3-951b-7e70269b657c")
-	)
-	(no_connect
 		(at 31.75 22.86)
 		(uuid "9ccc7d76-9800-4fae-b139-0387f963ec42")
-	)
-	(no_connect
-		(at 170.18 49.53)
-		(uuid "ce13f0ef-7720-4a4a-b049-9a947bf08635")
-	)
-	(no_connect
-		(at 156.21 45.72)
-		(uuid "fa12d3bc-858a-494e-9d59-a4db6311a2d3")
-	)
-	(wire
-		(pts
-			(xy 158.75 58.42) (xy 181.61 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02e37214-acc1-4173-a04b-45b76341af8c")
 	)
 	(wire
 		(pts
@@ -2976,17 +3109,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 50.8) (xy 196.85 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0904ca42-82f7-44dc-9064-0919498668f0")
-	)
-	(wire
-		(pts
-			(xy 189.23 62.23) (xy 189.23 67.31)
+			(xy 189.23 63.5) (xy 189.23 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3003,26 +3126,6 @@
 			(type default)
 		)
 		(uuid "0aa9a1fa-49ac-493b-9b4b-821d59737946")
-	)
-	(wire
-		(pts
-			(xy 205.74 109.22) (xy 229.87 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0aedabe5-3c39-40c2-aa97-c298aa72a2b1")
-	)
-	(wire
-		(pts
-			(xy 196.85 58.42) (xy 220.98 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0cb1f174-fd85-4faf-8eae-5f6cc4951bd9")
 	)
 	(wire
 		(pts
@@ -3086,6 +3189,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 54.61) (xy 213.36 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13a2e747-711f-456f-b9ea-1bae3611f14a")
+	)
+	(wire
+		(pts
 			(xy 190.5 92.71) (xy 190.5 109.22)
 		)
 		(stroke
@@ -3093,6 +3206,26 @@
 			(type default)
 		)
 		(uuid "13c7707f-422b-475f-9d30-032e5325ddbb")
+	)
+	(wire
+		(pts
+			(xy 222.25 85.09) (xy 222.25 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "141164eb-95ba-4c56-a90d-a5d30999836e")
+	)
+	(wire
+		(pts
+			(xy 176.53 52.07) (xy 176.53 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1546a1e8-8de5-4314-b01e-ee4e75cee766")
 	)
 	(wire
 		(pts
@@ -3206,7 +3339,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 54.61) (xy 162.56 54.61)
+			(xy 119.38 54.61) (xy 163.83 54.61)
 		)
 		(stroke
 			(width 0)
@@ -3226,6 +3359,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 50.8) (xy 205.74 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a52f101-7456-4812-90fb-55920d415d6a")
+	)
+	(wire
+		(pts
 			(xy 119.38 24.13) (xy 119.38 19.05)
 		)
 		(stroke
@@ -3233,16 +3376,6 @@
 			(type default)
 		)
 		(uuid "2a64c8da-ed66-4ddf-a9a0-99c5f0b07a57")
-	)
-	(wire
-		(pts
-			(xy 207.01 92.71) (xy 207.01 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ac0e6a8-6ea7-4216-a76c-0962e63f6542")
 	)
 	(wire
 		(pts
@@ -3276,16 +3409,6 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 113.03) (xy 207.01 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2cd14930-2a95-4e65-a6c3-b0f20f945bd9")
-	)
-	(wire
-		(pts
 			(xy 81.28 19.05) (xy 63.5 19.05)
 		)
 		(stroke
@@ -3296,16 +3419,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 92.71) (xy 222.25 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ee05c3b-4cc5-4327-adbe-cefcaba5c3b0")
-	)
-	(wire
-		(pts
 			(xy 133.35 58.42) (xy 133.35 86.36)
 		)
 		(stroke
@@ -3313,16 +3426,6 @@
 			(type default)
 		)
 		(uuid "2f0024a1-f1d4-49b2-bdae-c1e4e3d11875")
-	)
-	(wire
-		(pts
-			(xy 222.25 101.6) (xy 233.68 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f46846d-13d5-414a-9083-0208d542ddb0")
 	)
 	(wire
 		(pts
@@ -3356,7 +3459,17 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 113.03) (xy 207.01 113.03)
+			(xy 181.61 59.69) (xy 181.61 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "314ccd18-868f-46ba-bdf2-6b3c9c8e747b")
+	)
+	(wire
+		(pts
+			(xy 186.69 113.03) (xy 214.63 113.03)
 		)
 		(stroke
 			(width 0)
@@ -3396,7 +3509,17 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 29.21) (xy 81.28 19.05)
+			(xy 207.01 92.71) (xy 207.01 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3acaef9f-7316-495c-b831-3978aa767c1d")
+	)
+	(wire
+		(pts
+			(xy 81.28 19.05) (xy 81.28 29.21)
 		)
 		(stroke
 			(width 0)
@@ -3436,7 +3559,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 58.42) (xy 143.51 58.42)
+			(xy 140.97 58.42) (xy 147.32 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3476,6 +3599,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 58.42) (xy 220.98 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4009b52f-e5f1-4b1d-be8e-d8a3a17f321e")
+	)
+	(wire
+		(pts
 			(xy 140.97 69.85) (xy 140.97 64.77)
 		)
 		(stroke
@@ -3483,16 +3616,6 @@
 			(type default)
 		)
 		(uuid "40467f4e-422f-4854-8ef6-cc4262bfa43c")
-	)
-	(wire
-		(pts
-			(xy 207.01 113.03) (xy 233.68 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4183b1b7-5365-4194-857a-c4ee78c2989a")
 	)
 	(wire
 		(pts
@@ -3506,7 +3629,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 101.6) (xy 222.25 101.6)
+			(xy 186.69 101.6) (xy 207.01 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3526,7 +3649,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 50.8) (xy 148.59 50.8)
+			(xy 97.79 50.8) (xy 153.67 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3536,13 +3659,23 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 85.09) (xy 222.25 87.63)
+			(xy 222.25 105.41) (xy 222.25 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "48a1dd7d-accd-454a-929e-98b630f9f21c")
+		(uuid "4402af13-d1ab-4e55-a3c5-d4759d998d4e")
+	)
+	(wire
+		(pts
+			(xy 190.5 109.22) (xy 194.31 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4557a146-0e58-4194-a9cc-a57cef66d00d")
 	)
 	(wire
 		(pts
@@ -3796,6 +3929,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 101.6) (xy 207.01 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dc8743f-1f24-4472-acd3-31de8ef1b4fe")
+	)
+	(wire
+		(pts
 			(xy 190.5 85.09) (xy 199.39 85.09)
 		)
 		(stroke
@@ -3856,16 +3999,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 58.42) (xy 191.77 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64fc1469-a4bd-4c16-8039-055750089379")
-	)
-	(wire
-		(pts
 			(xy 22.86 58.42) (xy 81.28 58.42)
 		)
 		(stroke
@@ -3876,33 +4009,13 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 50.8) (xy 205.74 50.8)
+			(xy 214.63 113.03) (xy 233.68 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "65ba020c-afcd-46a0-b07f-196eeac09acd")
-	)
-	(wire
-		(pts
-			(xy 214.63 85.09) (xy 222.25 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65cb7337-fcfd-41d6-819b-2138251faa82")
-	)
-	(wire
-		(pts
-			(xy 214.63 87.63) (xy 214.63 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6af15e73-7caf-435e-9457-c3c370b9eab5")
+		(uuid "6af588a0-4749-47d8-97ee-6b0925b213f6")
 	)
 	(wire
 		(pts
@@ -3916,13 +4029,13 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 54.61) (xy 213.36 54.61)
+			(xy 201.93 109.22) (xy 229.87 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6d487984-2748-48c7-bae0-48e4551e5a8e")
+		(uuid "6e924b7e-fb7b-4772-b5be-ffa28e632eee")
 	)
 	(wire
 		(pts
@@ -3933,6 +4046,16 @@
 			(type default)
 		)
 		(uuid "6f1dc73b-7759-4c8c-897e-7ae6c7eac29f")
+	)
+	(wire
+		(pts
+			(xy 222.25 92.71) (xy 222.25 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f4110e5-41a4-4519-93cd-45460114b7c7")
 	)
 	(wire
 		(pts
@@ -3966,13 +4089,13 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 87.63) (xy 207.01 85.09)
+			(xy 161.29 50.8) (xy 176.53 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "71d42c79-a605-4951-ba61-837efd642068")
+		(uuid "750e6dc9-6cea-4014-9c31-de289e3fa867")
 	)
 	(wire
 		(pts
@@ -4086,7 +4209,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 43.18) (xy 181.61 40.64)
+			(xy 181.61 44.45) (xy 181.61 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4113,6 +4236,26 @@
 			(type default)
 		)
 		(uuid "889bf904-30ff-4432-85bb-1db67a3d0d0e")
+	)
+	(wire
+		(pts
+			(xy 184.15 54.61) (xy 171.45 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c896072-5de4-4b22-adcf-8f33c3375ba8")
+	)
+	(wire
+		(pts
+			(xy 207.01 101.6) (xy 233.68 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8df88b47-6489-4686-8467-94514186e64a")
 	)
 	(wire
 		(pts
@@ -4156,16 +4299,6 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 105.41) (xy 214.63 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91f4973b-594a-40ee-b682-bff59e4e00fb")
-	)
-	(wire
-		(pts
 			(xy 105.41 29.21) (xy 105.41 33.02)
 		)
 		(stroke
@@ -4186,6 +4319,26 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 85.09) (xy 214.63 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "944bd49e-e02e-4b88-9a5e-ea5808993d37")
+	)
+	(wire
+		(pts
+			(xy 154.94 58.42) (xy 191.77 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94b8ee54-d0b1-40ba-b5eb-a35651f18208")
+	)
+	(wire
+		(pts
 			(xy 68.58 173.99) (xy 68.58 172.72)
 		)
 		(stroke
@@ -4196,13 +4349,23 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 40.64) (xy 189.23 46.99)
+			(xy 189.23 40.64) (xy 189.23 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "95821285-b074-45da-ae0b-25b3dee6d1cc")
+	)
+	(wire
+		(pts
+			(xy 214.63 85.09) (xy 222.25 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98348917-dac5-4039-9780-5e00a41a7ffd")
 	)
 	(wire
 		(pts
@@ -4213,6 +4376,16 @@
 			(type default)
 		)
 		(uuid "99f0e18e-2074-4235-812f-4f4d5e242a54")
+	)
+	(wire
+		(pts
+			(xy 214.63 85.09) (xy 214.63 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9af94e06-09b7-431d-a8da-814b0f3ecf25")
 	)
 	(wire
 		(pts
@@ -4276,7 +4449,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 85.09) (xy 214.63 85.09)
+			(xy 199.39 85.09) (xy 207.01 85.09)
 		)
 		(stroke
 			(width 0)
@@ -4333,16 +4506,6 @@
 			(type default)
 		)
 		(uuid "a81c3f1f-4295-4cfd-b900-382b5a81fee7")
-	)
-	(wire
-		(pts
-			(xy 177.8 54.61) (xy 184.15 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab295130-3962-4c7e-acd0-977ec3278fc1")
 	)
 	(wire
 		(pts
@@ -4406,6 +4569,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 113.03) (xy 214.63 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1cf09ed-8b21-443b-a005-0a3ad583ad3c")
+	)
+	(wire
+		(pts
 			(xy 148.59 24.13) (xy 148.59 19.05)
 		)
 		(stroke
@@ -4416,13 +4589,13 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 92.71) (xy 214.63 105.41)
+			(xy 222.25 105.41) (xy 233.68 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b614a4ee-4f56-48ad-a509-6aaf2cab7a94")
+		(uuid "b68098b9-f9e6-4896-93ba-712e0afe324a")
 	)
 	(wire
 		(pts
@@ -4466,16 +4639,6 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 105.41) (xy 233.68 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bda38fee-9eb2-421e-acbe-35fd2f4715a5")
-	)
-	(wire
-		(pts
 			(xy 83.82 160.02) (xy 76.2 160.02)
 		)
 		(stroke
@@ -4503,6 +4666,16 @@
 			(type default)
 		)
 		(uuid "c13006d8-d8da-4116-b1b1-af89e2d05bcb")
+	)
+	(wire
+		(pts
+			(xy 191.77 59.69) (xy 191.77 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4edb193-40bb-482a-9af9-b0e2e1d5aa85")
 	)
 	(wire
 		(pts
@@ -4586,6 +4759,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 45.72) (xy 140.97 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3a00ad3-13af-441f-89d6-48b2d297736f")
+	)
+	(wire
+		(pts
 			(xy 97.79 107.95) (xy 119.38 107.95)
 		)
 		(stroke
@@ -4656,16 +4839,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 66.04) (xy 196.85 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc7017d0-4e79-4d7e-826d-21cdde662aa6")
-	)
-	(wire
-		(pts
 			(xy 81.28 40.64) (xy 81.28 43.18)
 		)
 		(stroke
@@ -4693,36 +4866,6 @@
 			(type default)
 		)
 		(uuid "e1aa3ab0-3b66-4a25-b727-f47a8bfad23a")
-	)
-	(wire
-		(pts
-			(xy 222.25 101.6) (xy 222.25 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3740cba-b3f4-4770-a419-15376c112a6c")
-	)
-	(wire
-		(pts
-			(xy 140.97 45.72) (xy 140.97 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e37ad2c0-435c-4336-8609-d5c1372a165d")
-	)
-	(wire
-		(pts
-			(xy 163.83 50.8) (xy 176.53 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3ac6e5f-e122-4479-81a1-868ed718d047")
 	)
 	(wire
 		(pts
@@ -4756,23 +4899,23 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 85.09) (xy 207.01 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e64c1dc4-ac4f-469b-b0b5-f467941fd172")
-	)
-	(wire
-		(pts
-			(xy 186.69 105.41) (xy 214.63 105.41)
+			(xy 186.69 105.41) (xy 222.25 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e66e6f13-5d0e-463c-a892-6916d6a46a0e")
+	)
+	(wire
+		(pts
+			(xy 207.01 85.09) (xy 207.01 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e89bf4fb-c61f-4a40-b653-b4a170e1baf6")
 	)
 	(wire
 		(pts
@@ -4886,6 +5029,26 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 55.88) (xy 184.15 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5079b99-ece9-4b14-8f21-20a53d56f6d0")
+	)
+	(wire
+		(pts
+			(xy 214.63 92.71) (xy 214.63 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8d8bef9-38d8-4616-baa9-d6e919478b8f")
+	)
+	(wire
+		(pts
 			(xy 140.97 33.02) (xy 140.97 35.56)
 		)
 		(stroke
@@ -4906,17 +5069,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 58.42) (xy 181.61 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd8c1455-f928-43c7-bf27-453e24b446a6")
-	)
-	(wire
-		(pts
-			(xy 196.85 40.64) (xy 196.85 50.8)
+			(xy 196.85 40.64) (xy 196.85 52.07)
 		)
 		(stroke
 			(width 0)
@@ -5695,7 +5848,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Dual_Series_KAC")
-		(at 196.85 58.42 270)
+		(at 196.85 59.69 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5704,7 +5857,7 @@
 		(dnp no)
 		(uuid "16804bf8-8885-44da-915b-55cdc386ba37")
 		(property "Reference" "D17"
-			(at 197.866 53.086 90)
+			(at 197.866 54.356 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5713,7 +5866,7 @@
 			)
 		)
 		(property "Value" "D_Dual_Series_KAC"
-			(at 187.96 56.642 90)
+			(at 193.802 56.896 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5722,7 +5875,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 196.85 58.42 0)
+			(at 196.85 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5731,7 +5884,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 196.85 58.42 0)
+			(at 196.85 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5740,7 +5893,7 @@
 			)
 		)
 		(property "Description" "Dual diode, cathode/anode/center"
-			(at 196.85 58.42 0)
+			(at 196.85 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5905,10 +6058,83 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Dual_Series_KAC")
-		(at 198.12 109.22 0)
+		(lib_id "Device:Q_PNP_BEC")
+		(at 116.84 86.36 0)
 		(mirror x)
 		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1b917e2f-5c13-4a14-854e-8302b24d98c0")
+		(property "Reference" "Q6"
+			(at 121.92 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N3906"
+			(at 121.92 87.376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+			(at 121.92 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PNP transistor, base/emitter/collector"
+			(at 116.84 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f018b712-3f60-45f8-b102-5872c160b938")
+		)
+		(pin "2"
+			(uuid "e2f2da28-1d0a-49db-8732-b144069f7826")
+		)
+		(pin "3"
+			(uuid "6c258327-73cd-423b-8203-eeaa3fb153a9")
+		)
+		(instances
+			(project "Acorn-A3010"
+				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/21031065-42cd-49d4-b299-d2e76b62bbd8"
+					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Dual_CommonAnode_AKK_Split")
+		(at 198.12 109.22 0)
+		(mirror x)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5933,7 +6159,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 198.12 109.22 0)
+			(at 195.58 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5942,7 +6168,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 198.12 109.22 0)
+			(at 195.58 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5950,7 +6176,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual diode, cathode/anode/center"
+		(property "Description" "Dual diode, common anode on pin 1"
 			(at 198.12 109.22 0)
 			(effects
 				(font
@@ -5972,7 +6198,7 @@
 			(project "Acorn-A3010"
 				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/21031065-42cd-49d4-b299-d2e76b62bbd8"
 					(reference "D10")
-					(unit 1)
+					(unit 2)
 				)
 			)
 		)
@@ -6180,16 +6406,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Dual_CommonCathode_AAK")
-		(at 156.21 50.8 180)
-		(unit 1)
+		(lib_id "Device:D_Dual_CommonAnode_AKK_Split")
+		(at 157.48 50.8 0)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "246f72ec-09fc-4a06-bf2a-9c264e873740")
 		(property "Reference" "D12"
-			(at 152.146 47.498 0)
+			(at 152.146 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6197,7 +6423,7 @@
 			)
 		)
 		(property "Value" "BAT"
-			(at 160.528 47.498 0)
+			(at 161.798 47.752 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6205,7 +6431,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 156.21 50.8 0)
+			(at 154.94 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6214,7 +6440,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 156.21 50.8 0)
+			(at 154.94 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6222,8 +6448,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual diode, common cathode on pin 3"
-			(at 156.21 50.8 0)
+		(property "Description" "Dual diode, common anode on pin 1"
+			(at 157.48 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6244,99 +6470,22 @@
 			(project "Acorn-A3010"
 				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/21031065-42cd-49d4-b299-d2e76b62bbd8"
 					(reference "D12")
-					(unit 1)
+					(unit 2)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:2N3906")
-		(at 95.25 40.64 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "29504113-c903-4fcf-af3b-e50037176d70")
-		(property "Reference" "Q4"
-			(at 100.33 39.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N3906"
-			(at 100.33 41.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 100.33 38.735 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3906-D.PDF"
-			(at 95.25 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92"
-			(at 95.25 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "aca1e08c-b24e-4200-a4b7-fb72b2e00968")
-		)
-		(pin "1"
-			(uuid "5f6c5d85-f21d-48c9-8dd7-1fb1aa1fd815")
-		)
-		(pin "2"
-			(uuid "04f45607-b0c2-4c22-813b-9d698c757089")
-		)
-		(instances
-			(project "Acorn-A3010"
-				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/21031065-42cd-49d4-b299-d2e76b62bbd8"
-					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Dual_CommonCathode_AAK")
-		(at 170.18 54.61 180)
-		(unit 1)
+		(lib_id "Device:D_Dual_CommonAnode_AKK_Split")
+		(at 167.64 54.61 0)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "29f9c885-1282-4943-b0ea-5ae01ccee2ea")
 		(property "Reference" "D13"
-			(at 166.116 51.308 0)
+			(at 171.704 57.912 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6344,7 +6493,7 @@
 			)
 		)
 		(property "Value" "BAT"
-			(at 172.72 51.308 0)
+			(at 165.1 57.912 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6352,7 +6501,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 170.18 54.61 0)
+			(at 165.1 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6361,7 +6510,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 170.18 54.61 0)
+			(at 165.1 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6369,8 +6518,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual diode, common cathode on pin 3"
-			(at 170.18 54.61 0)
+		(property "Description" "Dual diode, common anode on pin 1"
+			(at 167.64 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6391,7 +6540,7 @@
 			(project "Acorn-A3010"
 				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/21031065-42cd-49d4-b299-d2e76b62bbd8"
 					(reference "D13")
-					(unit 1)
+					(unit 2)
 				)
 			)
 		)
@@ -6601,7 +6750,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Dual_Series_KAC")
-		(at 181.61 50.8 270)
+		(at 181.61 52.07 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6610,7 +6759,7 @@
 		(dnp no)
 		(uuid "31d05ef2-027a-4491-9c37-1ea46fc642e2")
 		(property "Reference" "D11"
-			(at 182.88 45.72 90)
+			(at 182.88 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6619,7 +6768,7 @@
 			)
 		)
 		(property "Value" "D_Dual_Series_KAC"
-			(at 172.72 48.26 90)
+			(at 172.72 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6628,7 +6777,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 181.61 50.8 0)
+			(at 181.61 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6637,7 +6786,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 181.61 50.8 0)
+			(at 181.61 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6646,7 +6795,7 @@
 			)
 		)
 		(property "Description" "Dual diode, cathode/anode/center"
-			(at 181.61 50.8 0)
+			(at 181.61 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6943,85 +7092,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:2N3906")
-		(at 116.84 40.64 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3ebbc41f-eee6-4a96-92a6-9a58c6799df3")
-		(property "Reference" "Q7"
-			(at 121.92 39.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N3906"
-			(at 121.92 41.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 121.92 38.735 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3906-D.PDF"
-			(at 116.84 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92"
-			(at 116.84 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "d4beca41-0fbe-42a6-ac31-4f0d7000b0d5")
-		)
-		(pin "1"
-			(uuid "bd3b2d9b-327e-48b6-bcf9-275e63669a14")
-		)
-		(pin "2"
-			(uuid "05c09376-1833-4adb-a51d-ebfa0ba5c81e")
-		)
-		(instances
-			(project "Acorn-A3010"
-				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/21031065-42cd-49d4-b299-d2e76b62bbd8"
-					(reference "Q7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
-		(at 222.25 90.17 180)
+		(at 207.01 90.17 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7029,7 +7101,7 @@
 		(dnp no)
 		(uuid "3ffaed39-b9ce-484a-99e2-cbadd618b59a")
 		(property "Reference" "R38"
-			(at 218.948 89.154 0)
+			(at 203.708 89.154 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7037,7 +7109,7 @@
 			)
 		)
 		(property "Value" "4K7"
-			(at 218.694 91.186 0)
+			(at 203.454 91.186 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7045,7 +7117,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 222.25 90.17 0)
+			(at 207.01 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7054,7 +7126,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 222.25 90.17 0)
+			(at 207.01 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7063,7 +7135,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 222.25 90.17 0)
+			(at 207.01 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7154,7 +7226,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Dual_Series_KAC")
-		(at 189.23 54.61 270)
+		(at 189.23 55.88 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7163,7 +7235,7 @@
 		(dnp no)
 		(uuid "40bfde5e-c0f0-4ca2-be26-c51018ba775b")
 		(property "Reference" "D14"
-			(at 189.992 49.53 90)
+			(at 189.992 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7172,7 +7244,7 @@
 			)
 		)
 		(property "Value" "D_Dual_Series_KAC"
-			(at 180.086 52.324 90)
+			(at 180.086 53.594 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7181,7 +7253,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 189.23 54.61 0)
+			(at 189.23 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7190,7 +7262,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 189.23 54.61 0)
+			(at 189.23 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7199,7 +7271,7 @@
 			)
 		)
 		(property "Description" "Dual diode, cathode/anode/center"
-			(at 189.23 54.61 0)
+			(at 189.23 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7226,18 +7298,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:2N3906")
-		(at 95.25 86.36 0)
+		(lib_id "Device:Q_PNP_BEC")
+		(at 138.43 86.36 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "42e5fe39-e459-429c-8fb1-f1bb27c99ddb")
-		(property "Reference" "Q5"
-			(at 100.33 85.0899 0)
+		(uuid "443313fe-0fca-4439-b001-60cf49505ef6")
+		(property "Reference" "Q8"
+			(at 143.51 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7246,7 +7317,7 @@
 			)
 		)
 		(property "Value" "2N3906"
-			(at 100.33 87.6299 0)
+			(at 143.51 87.376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7255,28 +7326,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 100.33 84.455 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3906-D.PDF"
-			(at 95.25 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92"
-			(at 95.25 86.36 0)
+			(at 143.51 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7284,19 +7334,110 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "2adfcb50-ca5b-4d12-b40e-55c184fa4695")
+		(property "Datasheet" "~"
+			(at 138.43 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PNP transistor, base/emitter/collector"
+			(at 138.43 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "3c546418-29bc-4d1a-ba03-1341104e07e1")
+			(uuid "594bb9c0-0cbc-400c-801a-6d6fabe47457")
 		)
 		(pin "2"
-			(uuid "20e4ebca-dd07-41b2-83ab-e427133ea20a")
+			(uuid "ff8d6b55-8813-4a17-919b-270650ebf3b0")
+		)
+		(pin "3"
+			(uuid "4ab9b92a-1835-4ebe-8b9d-c1ef53fe0c73")
 		)
 		(instances
 			(project "Acorn-A3010"
 				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/21031065-42cd-49d4-b299-d2e76b62bbd8"
-					(reference "Q5")
+					(reference "Q8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_PNP_BEC")
+		(at 138.43 40.64 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "46f17e48-b2e9-4ed5-bca4-d38deb56aefb")
+		(property "Reference" "Q9"
+			(at 143.51 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N3906"
+			(at 143.51 41.656 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+			(at 143.51 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PNP transistor, base/emitter/collector"
+			(at 138.43 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b44f4486-0f89-482d-97fd-2c36e8de6c8b")
+		)
+		(pin "2"
+			(uuid "24b61d2f-cf02-4d28-a382-5e85602a1d11")
+		)
+		(pin "3"
+			(uuid "2ac234fd-ada1-425a-9196-a5a0135089a4")
+		)
+		(instances
+			(project "Acorn-A3010"
+				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/21031065-42cd-49d4-b299-d2e76b62bbd8"
+					(reference "Q9")
 					(unit 1)
 				)
 			)
@@ -8085,83 +8226,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:2N3906")
-		(at 78.74 34.29 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6bf8217a-b8ed-4df4-b181-4c8a8896e878")
-		(property "Reference" "Q10"
-			(at 83.82 33.0199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N3906"
-			(at 83.82 35.5599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 83.82 32.385 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3906-D.PDF"
-			(at 78.74 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92"
-			(at 78.74 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "85fe8927-ee2b-4118-9304-2c263067946f")
-		)
-		(pin "1"
-			(uuid "404bcdf1-26d3-4123-89a3-fe30b059ee50")
-		)
-		(pin "2"
-			(uuid "038a4c1f-aba0-489c-b9f6-c28b5cef3e88")
-		)
-		(instances
-			(project ""
-				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/21031065-42cd-49d4-b299-d2e76b62bbd8"
-					(reference "Q10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 54.61 45.72 180)
 		(unit 1)
@@ -8901,7 +8965,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 214.63 90.17 180)
+		(at 222.25 90.17 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8909,7 +8973,7 @@
 		(dnp no)
 		(uuid "84b92067-0e66-4e20-8e66-79075e854835")
 		(property "Reference" "R26"
-			(at 211.328 89.154 0)
+			(at 218.948 89.154 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8917,7 +8981,7 @@
 			)
 		)
 		(property "Value" "4K7"
-			(at 211.074 91.186 0)
+			(at 218.694 91.186 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8925,7 +8989,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 214.63 90.17 0)
+			(at 222.25 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8934,7 +8998,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 214.63 90.17 0)
+			(at 222.25 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8943,7 +9007,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 214.63 90.17 0)
+			(at 222.25 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9734,7 +9798,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
+		(property "Footprint" "Fuse:Fuse_2512_6332Metric"
 			(at 49.53 156.21 0)
 			(effects
 				(font
@@ -10046,6 +10110,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Q_PNP_BEC")
+		(at 116.84 40.64 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa9fda67-8e4a-4a5f-b026-6909c9fe3734")
+		(property "Reference" "Q7"
+			(at 121.92 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N3906"
+			(at 121.92 41.656 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+			(at 121.92 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PNP transistor, base/emitter/collector"
+			(at 116.84 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6053dc7b-a051-4511-b4cb-4628802d32a9")
+		)
+		(pin "2"
+			(uuid "c89ad20f-1c34-45eb-a0be-4be251379b1b")
+		)
+		(pin "3"
+			(uuid "1b1d4687-ef1c-4bf9-b964-b7a32f721d9d")
+		)
+		(instances
+			(project "Acorn-A3010"
+				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/21031065-42cd-49d4-b299-d2e76b62bbd8"
+					(reference "Q7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L_Small")
 		(at 24.13 19.05 270)
 		(unit 1)
@@ -10243,83 +10380,6 @@
 			(project "Acorn-A3010"
 				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/21031065-42cd-49d4-b299-d2e76b62bbd8"
 					(reference "R70")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:2N3906")
-		(at 138.43 86.36 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b066d18c-8cca-4761-b563-4b00d08cd23f")
-		(property "Reference" "Q8"
-			(at 143.51 85.0899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N3906"
-			(at 143.51 87.6299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 143.51 84.455 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3906-D.PDF"
-			(at 138.43 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92"
-			(at 138.43 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "742af9e5-a0f8-4251-b4f8-79c6d19b96eb")
-		)
-		(pin "1"
-			(uuid "3e519003-9fc1-4ce0-b798-c0a69e4922d1")
-		)
-		(pin "2"
-			(uuid "306e3696-7477-4563-9d25-fa0ebf607b49")
-		)
-		(instances
-			(project "Acorn-A3010"
-				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/21031065-42cd-49d4-b299-d2e76b62bbd8"
-					(reference "Q8")
 					(unit 1)
 				)
 			)
@@ -10865,93 +10925,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:2N3906")
-		(at 116.84 86.36 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c19099a6-1d3b-44da-9618-3b576186d24b")
-		(property "Reference" "Q6"
-			(at 121.92 85.0899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N3906"
-			(at 121.92 87.6299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 121.92 84.455 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3906-D.PDF"
-			(at 116.84 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92"
-			(at 116.84 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "b2634b65-d72d-40d5-91e5-1dcbf807ed90")
-		)
-		(pin "1"
-			(uuid "7fee2af3-1f9c-4c72-91e8-d645673fd101")
-		)
-		(pin "2"
-			(uuid "67b62ee2-18b0-4f5f-ac60-526796c94e77")
-		)
-		(instances
-			(project "Acorn-A3010"
-				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/21031065-42cd-49d4-b299-d2e76b62bbd8"
-					(reference "Q6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Dual_CommonCathode_AAK")
-		(at 151.13 58.42 180)
-		(unit 1)
+		(lib_id "Device:D_Dual_CommonAnode_AKK_Split")
+		(at 151.13 58.42 0)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "c45f4cfa-d620-479e-b44d-9ee296533096")
 		(property "Reference" "D16"
-			(at 147.066 55.118 0)
+			(at 155.194 61.722 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10959,7 +10942,7 @@
 			)
 		)
 		(property "Value" "BAT"
-			(at 155.448 55.118 0)
+			(at 146.812 61.722 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10967,7 +10950,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 151.13 58.42 0)
+			(at 148.59 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10976,7 +10959,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 151.13 58.42 0)
+			(at 148.59 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10984,7 +10967,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual diode, common cathode on pin 3"
+		(property "Description" "Dual diode, common anode on pin 1"
 			(at 151.13 58.42 0)
 			(effects
 				(font
@@ -11006,7 +10989,7 @@
 			(project "Acorn-A3010"
 				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/21031065-42cd-49d4-b299-d2e76b62bbd8"
 					(reference "D16")
-					(unit 1)
+					(unit 2)
 				)
 			)
 		)
@@ -11350,6 +11333,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Q_PNP_BEC")
+		(at 78.74 34.29 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cb98dfd8-c103-4577-937b-78ede98a7d99")
+		(property "Reference" "Q10"
+			(at 83.82 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N3906"
+			(at 83.82 35.306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+			(at 83.82 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PNP transistor, base/emitter/collector"
+			(at 78.74 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e9a96876-b8b1-482d-8ee5-63475b9aed3f")
+		)
+		(pin "2"
+			(uuid "27adc683-23b5-4d7f-abfa-6dbbf03a6281")
+		)
+		(pin "3"
+			(uuid "43845464-e895-4e65-bc2a-26f1aed47431")
+		)
+		(instances
+			(project "Acorn-A3010"
+				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/21031065-42cd-49d4-b299-d2e76b62bbd8"
+					(reference "Q10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 55.88 142.24 270)
 		(unit 1)
@@ -11418,7 +11474,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 207.01 90.17 180)
+		(at 214.63 90.17 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11426,7 +11482,7 @@
 		(dnp no)
 		(uuid "d3477dbc-4bc5-4d63-8f93-d881bf773e09")
 		(property "Reference" "R39"
-			(at 203.708 89.154 0)
+			(at 211.328 89.154 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11434,7 +11490,7 @@
 			)
 		)
 		(property "Value" "4K7"
-			(at 203.454 91.186 0)
+			(at 211.074 91.186 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11442,7 +11498,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 207.01 90.17 0)
+			(at 214.63 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11451,7 +11507,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 207.01 90.17 0)
+			(at 214.63 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11460,7 +11516,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 207.01 90.17 0)
+			(at 214.63 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11544,6 +11600,79 @@
 			(project "Acorn-A3010"
 				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/21031065-42cd-49d4-b299-d2e76b62bbd8"
 					(reference "#PWR0242")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_PNP_BEC")
+		(at 95.25 86.36 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d888c271-0c5f-4623-847f-a5a9ee1ce4bd")
+		(property "Reference" "Q5"
+			(at 100.33 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N3906"
+			(at 100.33 87.376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+			(at 100.33 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PNP transistor, base/emitter/collector"
+			(at 95.25 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a605649-c7d4-4480-bbae-70932ee83a43")
+		)
+		(pin "2"
+			(uuid "b25e33b8-b4ff-4214-997e-882a6a33719d")
+		)
+		(pin "3"
+			(uuid "541d2008-670b-423e-840f-1097473a93ed")
+		)
+		(instances
+			(project ""
+				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/21031065-42cd-49d4-b299-d2e76b62bbd8"
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -11814,83 +11943,6 @@
 			(project "Acorn-A3010"
 				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/21031065-42cd-49d4-b299-d2e76b62bbd8"
 					(reference "R29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:2N3906")
-		(at 138.43 40.64 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ea114c86-e597-4330-aeee-bd2ee1c0daaf")
-		(property "Reference" "Q9"
-			(at 143.51 39.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N3906"
-			(at 143.51 41.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 143.51 38.735 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3906-D.PDF"
-			(at 138.43 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92"
-			(at 138.43 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "bc07f6d6-42f9-45f6-be5c-da0811a5dd06")
-		)
-		(pin "1"
-			(uuid "3455730e-7ff3-41d5-9723-b5c0ae0cb2d4")
-		)
-		(pin "2"
-			(uuid "93d9b414-7d6f-484e-8129-357df46b6f21")
-		)
-		(instances
-			(project "Acorn-A3010"
-				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/21031065-42cd-49d4-b299-d2e76b62bbd8"
-					(reference "Q9")
 					(unit 1)
 				)
 			)
@@ -12359,6 +12411,79 @@
 			(project "Acorn-A3010"
 				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/21031065-42cd-49d4-b299-d2e76b62bbd8"
 					(reference "#PWR0224")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_PNP_BEC")
+		(at 95.25 40.64 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fec32ddb-990d-46fc-b049-36f8cc00cfc8")
+		(property "Reference" "Q4"
+			(at 100.33 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N3906"
+			(at 100.33 41.656 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+			(at 100.33 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PNP transistor, base/emitter/collector"
+			(at 95.25 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4709e89a-9a18-4caf-9d65-27e2478b3b36")
+		)
+		(pin "2"
+			(uuid "9728db72-a9de-472e-a71c-0381fd3ce24d")
+		)
+		(pin "3"
+			(uuid "a557f552-8d57-4ad8-9208-16f2362f8242")
+		)
+		(instances
+			(project "Acorn-A3010"
+				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/21031065-42cd-49d4-b299-d2e76b62bbd8"
+					(reference "Q4")
 					(unit 1)
 				)
 			)
