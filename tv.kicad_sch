@@ -7547,7 +7547,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "81c56e9f-9814-4f23-a86b-397ae7e7b6c9")
 		(property "Reference" "R7"
 			(at 182.118 86.36 90)
@@ -10416,7 +10416,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "f6f00ce0-82e9-42c6-84b6-4eec97a8bdaa")
 		(property "Reference" "C27"
 			(at 190.754 72.644 0)
@@ -10436,7 +10436,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D6.0mm_P5.00mm"
 			(at 191.77 74.93 0)
 			(effects
 				(font
@@ -10574,7 +10574,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Acorn:Trim_Capacitor"
 			(at 69.85 58.42 0)
 			(effects
 				(font

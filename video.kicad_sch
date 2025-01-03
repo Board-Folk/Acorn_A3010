@@ -1417,7 +1417,7 @@
 				)
 			)
 		)
-		(symbol "Device:D_Dual_Series_KAC"
+		(symbol "Device:D_Dual_Series_AKC"
 			(pin_names
 				(offset 0.762) hide)
 			(exclude_from_sim no)
@@ -1431,7 +1431,7 @@
 					)
 				)
 			)
-			(property "Value" "D_Dual_Series_KAC"
+			(property "Value" "D_Dual_Series_AKC"
 				(at 0 2.54 0)
 				(effects
 					(font
@@ -1457,7 +1457,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Dual diode, cathode/anode/center"
+			(property "Description" "Dual diode, anode/cathode/center"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1475,7 +1475,19 @@
 					(hide yes)
 				)
 			)
-			(symbol "D_Dual_Series_KAC_0_1"
+			(symbol "D_Dual_Series_AKC_0_1"
+				(polyline
+					(pts
+						(xy -3.81 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
 						(xy 0 0) (xy 0 -2.54)
@@ -1490,7 +1502,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.81 0) (xy -3.81 0)
+						(xy 6.35 0) (xy 7.62 0)
 					)
 					(stroke
 						(width 0)
@@ -1560,9 +1572,9 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 0 180)
+					(at -7.62 0 0)
 					(length 3.81)
-					(name "K"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1578,9 +1590,9 @@
 					)
 				)
 				(pin passive line
-					(at -7.62 0 0)
+					(at 7.62 0 180)
 					(length 3.81)
-					(name "A"
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3044,8 +3056,24 @@
 		(uuid "fc1358d5-fd40-4349-9f4a-2f828d85d1a3")
 	)
 	(no_connect
+		(at 280.67 33.02)
+		(uuid "1612f4ec-b362-4a28-9219-d2be5450e33a")
+	)
+	(no_connect
+		(at 280.67 20.32)
+		(uuid "6c5e1498-935d-4c5d-8873-662afd0f4ff7")
+	)
+	(no_connect
 		(at 31.75 22.86)
 		(uuid "9ccc7d76-9800-4fae-b139-0387f963ec42")
+	)
+	(no_connect
+		(at 280.67 15.24)
+		(uuid "ca512c2f-57bd-46cd-8e6b-885080b12483")
+	)
+	(no_connect
+		(at 280.67 26.67)
+		(uuid "d13147ca-ab1e-4b8d-b3fc-5fe4f6ef2d1b")
 	)
 	(wire
 		(pts
@@ -5639,6 +5667,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Dual_CommonAnode_AKK_Split")
+		(at 276.86 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0441096d-9eb3-46b7-a3bd-7bb08413a701")
+		(property "Reference" "D12"
+			(at 271.526 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT"
+			(at 281.178 17.272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+			(at 274.32 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 274.32 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual diode, common anode on pin 1"
+			(at 276.86 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f37afc4-87e4-4590-a11b-f658100e61af")
+		)
+		(pin "2"
+			(uuid "9636b2f4-8760-4794-917a-1acfe085af11")
+		)
+		(pin "3"
+			(uuid "abae539f-1fe6-451f-8473-6356b8325e43")
+		)
+		(instances
+			(project "Acorn-A3010"
+				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/21031065-42cd-49d4-b299-d2e76b62bbd8"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 207.01 119.38 180)
 		(unit 1)
@@ -5847,7 +5945,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Dual_Series_KAC")
+		(lib_id "Device:D_Dual_Series_AKC")
 		(at 196.85 59.69 270)
 		(mirror x)
 		(unit 1)
@@ -5892,7 +5990,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual diode, cathode/anode/center"
+		(property "Description" "Dual diode, anode/cathode/center"
 			(at 196.85 59.69 0)
 			(effects
 				(font
@@ -6149,7 +6247,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "BAT"
 			(at 199.644 106.68 0)
 			(effects
 				(font
@@ -6230,7 +6328,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D9.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D4.5mm_P5.00mm"
 			(at 31.75 45.72 0)
 			(effects
 				(font
@@ -6749,7 +6847,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Dual_Series_KAC")
+		(lib_id "Device:D_Dual_Series_AKC")
 		(at 181.61 52.07 270)
 		(mirror x)
 		(unit 1)
@@ -6794,7 +6892,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual diode, cathode/anode/center"
+		(property "Description" "Dual diode, anode/cathode/center"
 			(at 181.61 52.07 0)
 			(effects
 				(font
@@ -7225,7 +7323,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Dual_Series_KAC")
+		(lib_id "Device:D_Dual_Series_AKC")
 		(at 189.23 55.88 270)
 		(mirror x)
 		(unit 1)
@@ -7270,7 +7368,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual diode, cathode/anode/center"
+		(property "Description" "Dual diode, anode/cathode/center"
 			(at 189.23 55.88 0)
 			(effects
 				(font
@@ -8226,6 +8324,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Dual_CommonAnode_AKK_Split")
+		(at 276.86 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6c33be58-3e75-4a6e-afdc-0f9327580312")
+		(property "Reference" "D16"
+			(at 271.526 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT"
+			(at 281.178 29.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+			(at 274.32 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 274.32 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual diode, common anode on pin 1"
+			(at 276.86 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c2fedd3-7742-4691-86a5-d44567311076")
+		)
+		(pin "2"
+			(uuid "15e8c454-de30-49ec-bfd0-7bca9e79b1d9")
+		)
+		(pin "3"
+			(uuid "abae539f-1fe6-451f-8473-6356b8325e43")
+		)
+		(instances
+			(project "Acorn-A3010"
+				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/21031065-42cd-49d4-b299-d2e76b62bbd8"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 54.61 45.72 180)
 		(unit 1)
@@ -8964,6 +9132,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Dual_CommonAnode_AKK_Split")
+		(at 276.86 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "81c0fe6c-8010-496f-a87f-7d8717fa6b2a")
+		(property "Reference" "D13"
+			(at 271.526 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT"
+			(at 281.178 23.622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+			(at 274.32 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 274.32 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual diode, common anode on pin 1"
+			(at 276.86 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "43c41737-8662-40a9-b898-ba18db8849c2")
+		)
+		(pin "2"
+			(uuid "394e9ffc-67cf-47d9-864a-48b5be419ddb")
+		)
+		(pin "3"
+			(uuid "abae539f-1fe6-451f-8473-6356b8325e43")
+		)
+		(instances
+			(project "Acorn-A3010"
+				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/21031065-42cd-49d4-b299-d2e76b62bbd8"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 222.25 90.17 180)
 		(unit 1)
@@ -9169,6 +9407,7 @@
 	(symbol
 		(lib_id "Device:D_Dual_CommonCathode_AAK")
 		(at 31.75 30.48 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9176,7 +9415,7 @@
 		(dnp no)
 		(uuid "9171155b-0d56-484b-b489-ea7924e70a2c")
 		(property "Reference" "D18"
-			(at 27.178 32.512 90)
+			(at 28.448 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9184,7 +9423,7 @@
 			)
 		)
 		(property "Value" "BAT"
-			(at 28.448 26.162 0)
+			(at 34.798 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12411,6 +12650,76 @@
 			(project "Acorn-A3010"
 				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/21031065-42cd-49d4-b299-d2e76b62bbd8"
 					(reference "#PWR0224")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Dual_CommonAnode_AKK_Split")
+		(at 276.86 15.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fd2c72f5-b61c-409d-b063-95043ed797a7")
+		(property "Reference" "D10"
+			(at 271.526 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT"
+			(at 281.178 12.192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+			(at 274.32 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 274.32 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual diode, common anode on pin 1"
+			(at 276.86 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34924452-5252-435f-bb8c-4666f8a2bb35")
+		)
+		(pin "2"
+			(uuid "fa247b6f-17c8-4191-8e74-2e023a898aa9")
+		)
+		(pin "3"
+			(uuid "abae539f-1fe6-451f-8473-6356b8325e43")
+		)
+		(instances
+			(project "Acorn-A3010"
+				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/21031065-42cd-49d4-b299-d2e76b62bbd8"
+					(reference "D10")
 					(unit 1)
 				)
 			)

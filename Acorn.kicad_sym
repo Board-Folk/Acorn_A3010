@@ -12226,6 +12226,24 @@
 					)
 				)
 			)
+			(pin no_connect non_logic
+				(at -10.16 -8.89 0)
+				(length 2.54)
+				(name "MH"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "MH1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
 		(symbol "RPT-60B_1_1"
 			(rectangle

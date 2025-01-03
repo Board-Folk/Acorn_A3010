@@ -3797,7 +3797,7 @@
 		(uuid "d396195c-9176-4ce7-9b5d-2e89eb4a14a1")
 	)
 	(label "Bias"
-		(at 116.84 90.17 270)
+		(at 115.57 90.17 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5263,7 +5263,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D4.5mm_P5.00mm"
 			(at 69.85 106.68 0)
 			(effects
 				(font
@@ -5468,7 +5468,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D4.5mm_P5.00mm"
 			(at 104.14 95.25 0)
 			(effects
 				(font
@@ -6553,7 +6553,8 @@
 	)
 	(symbol
 		(lib_id "Device:D_Dual_CommonCathode_AAK")
-		(at 77.47 99.06 180)
+		(at 77.47 99.06 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6781,7 +6782,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D4.5mm_P5.00mm"
 			(at 104.14 105.41 0)
 			(effects
 				(font
