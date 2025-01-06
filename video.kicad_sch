@@ -6559,7 +6559,7 @@
 			(uuid "e65550e3-2d3f-4925-a7cd-0a85cb3e2588")
 		)
 		(pin "2"
-			(uuid "9636b2f4-8760-4794-917a-1acfe085af11")
+			(uuid "9636b2f4-8760-4794-917a-1acfe085af12")
 		)
 		(pin "3"
 			(uuid "8b457c98-453f-4f19-8060-b57bdbbdcf75")
@@ -8382,7 +8382,7 @@
 			(uuid "15e8c454-de30-49ec-bfd0-7bca9e79b1d9")
 		)
 		(pin "3"
-			(uuid "abae539f-1fe6-451f-8473-6356b8325e43")
+			(uuid "abae539f-1fe6-451f-8473-6356b8325e44")
 		)
 		(instances
 			(project "Acorn-A3010"
@@ -9190,7 +9190,7 @@
 			(uuid "394e9ffc-67cf-47d9-864a-48b5be419ddb")
 		)
 		(pin "3"
-			(uuid "abae539f-1fe6-451f-8473-6356b8325e43")
+			(uuid "abae539f-1fe6-451f-8473-6356b8325e45")
 		)
 		(instances
 			(project "Acorn-A3010"
@@ -12714,7 +12714,7 @@
 			(uuid "fa247b6f-17c8-4191-8e74-2e023a898aa9")
 		)
 		(pin "3"
-			(uuid "abae539f-1fe6-451f-8473-6356b8325e43")
+			(uuid "abae539f-1fe6-451f-8473-6356b8325e46")
 		)
 		(instances
 			(project "Acorn-A3010"

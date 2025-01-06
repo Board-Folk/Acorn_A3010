@@ -2255,7 +2255,7 @@
 		(uuid "1f5d9d06-6ac9-41c1-8e2b-2a23c8981013")
 	)
 	(junction
-		(at 266.7 29.21)
+		(at 274.32 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "23be80fe-4f66-41ba-afc0-e7dc8a4eb4c5")
@@ -2339,6 +2339,12 @@
 		(uuid "7b896cf9-3ed1-4c83-b4c3-0e72478ce354")
 	)
 	(junction
+		(at 248.92 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7cff21d0-462e-4eef-9981-5e573602089b")
+	)
+	(junction
 		(at 142.24 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2369,7 +2375,7 @@
 		(uuid "88473a46-82e8-4ae5-a4f8-239d234e136d")
 	)
 	(junction
-		(at 257.81 21.59)
+		(at 265.43 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8c2646f9-a808-49b6-9904-290eec74b5ae")
@@ -2381,19 +2387,25 @@
 		(uuid "8fa7f62e-8465-49e9-a86b-8728e74125c3")
 	)
 	(junction
+		(at 248.92 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97ab94a0-d4ae-410a-ac8e-1616a162ea4f")
+	)
+	(junction
 		(at 231.14 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "980f1dbb-f6c4-4d87-b04c-bb8da3776cec")
 	)
 	(junction
-		(at 257.81 29.21)
+		(at 265.43 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9be5497e-1700-4d26-ba76-35f521e0d7fc")
 	)
 	(junction
-		(at 248.92 21.59)
+		(at 256.54 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ad8610b7-5a16-4e1c-a6ab-1c50cbc3c54e")
@@ -2465,7 +2477,7 @@
 		(uuid "e8d3ce12-ba77-41eb-8548-6b7bff7a2aca")
 	)
 	(junction
-		(at 248.92 29.21)
+		(at 256.54 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f162b0c5-7182-4536-8613-663b0fc5f6d8")
@@ -2494,6 +2506,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 29.21) (xy 240.03 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00782380-4ec5-4bee-a8f6-c868f9a94d5f")
+	)
+	(wire
+		(pts
 			(xy 160.02 27.94) (xy 160.02 29.21)
 		)
 		(stroke
@@ -2504,7 +2526,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 29.21) (xy 257.81 29.21)
+			(xy 274.32 29.21) (xy 265.43 29.21)
 		)
 		(stroke
 			(width 0)
@@ -2584,7 +2606,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 27.94) (xy 248.92 29.21)
+			(xy 256.54 27.94) (xy 256.54 29.21)
 		)
 		(stroke
 			(width 0)
@@ -2874,7 +2896,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 21.59) (xy 257.81 21.59)
+			(xy 256.54 21.59) (xy 265.43 21.59)
 		)
 		(stroke
 			(width 0)
@@ -2954,7 +2976,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 27.94) (xy 257.81 29.21)
+			(xy 265.43 27.94) (xy 265.43 29.21)
 		)
 		(stroke
 			(width 0)
@@ -3014,7 +3036,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 29.21) (xy 240.03 29.21)
+			(xy 256.54 29.21) (xy 248.92 29.21)
 		)
 		(stroke
 			(width 0)
@@ -3054,7 +3076,17 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 22.86) (xy 248.92 21.59)
+			(xy 248.92 21.59) (xy 248.92 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8672c964-93f4-4201-8ec2-b31ab60e79da")
+	)
+	(wire
+		(pts
+			(xy 256.54 22.86) (xy 256.54 21.59)
 		)
 		(stroke
 			(width 0)
@@ -3124,7 +3156,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 22.86) (xy 257.81 21.59)
+			(xy 265.43 22.86) (xy 265.43 21.59)
 		)
 		(stroke
 			(width 0)
@@ -3284,6 +3316,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 27.94) (xy 248.92 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8451b10-795d-4401-a7b2-3a7ef4746177")
+	)
+	(wire
+		(pts
 			(xy 168.91 22.86) (xy 168.91 21.59)
 		)
 		(stroke
@@ -3404,7 +3446,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 27.94) (xy 266.7 29.21)
+			(xy 274.32 27.94) (xy 274.32 29.21)
 		)
 		(stroke
 			(width 0)
@@ -3444,7 +3486,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 21.59) (xy 266.7 22.86)
+			(xy 274.32 21.59) (xy 274.32 22.86)
 		)
 		(stroke
 			(width 0)
@@ -3604,7 +3646,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 29.21) (xy 248.92 29.21)
+			(xy 265.43 29.21) (xy 256.54 29.21)
 		)
 		(stroke
 			(width 0)
@@ -3634,7 +3676,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 21.59) (xy 266.7 21.59)
+			(xy 265.43 21.59) (xy 274.32 21.59)
 		)
 		(stroke
 			(width 0)
@@ -3691,6 +3733,16 @@
 			(type default)
 		)
 		(uuid "f4e5e260-fbed-4082-ae4f-c9a99e13f8d5")
+	)
+	(wire
+		(pts
+			(xy 248.92 21.59) (xy 256.54 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7234c6f-69f4-43fb-bb8c-953eb0d80b3e")
 	)
 	(wire
 		(pts
@@ -4083,6 +4135,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 148.59 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "23221136-b7ec-4a19-aff5-0e80dc3c261d")
+		(property "Reference" "C39"
+			(at 149.86 37.084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220uF"
+			(at 149.86 41.656 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D8.0mm_P5.00mm"
+			(at 148.59 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 148.59 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b283313-4aa0-48a3-92c8-5f68a0804d29")
+		)
+		(pin "1"
+			(uuid "58245374-887d-47b9-a21d-0f40373ae1e1")
+		)
+		(instances
+			(project "Acorn-A3010"
+				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/5e8722fb-7afe-44d4-8a36-2936df1b76c5"
+					(reference "C39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 140.97 36.83 0)
 		(unit 1)
@@ -4219,7 +4340,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 248.92 25.4 180)
+		(at 256.54 25.4 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4227,7 +4348,7 @@
 		(dnp no)
 		(uuid "385620b6-bc86-4893-86ae-062e52d0f61e")
 		(property "Reference" "C138"
-			(at 250.444 23.622 0)
+			(at 258.064 23.622 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4236,7 +4357,7 @@
 			)
 		)
 		(property "Value" "33nF"
-			(at 250.698 27.432 0)
+			(at 258.318 27.432 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4245,7 +4366,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 248.92 25.4 0)
+			(at 256.54 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4254,7 +4375,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 248.92 25.4 0)
+			(at 256.54 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4263,7 +4384,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 248.92 25.4 0)
+			(at 256.54 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4696,7 +4817,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 257.81 25.4 180)
+		(at 265.43 25.4 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4704,7 +4825,7 @@
 		(dnp no)
 		(uuid "4c635ae0-4462-4cd0-ac87-acd77c18759f")
 		(property "Reference" "C151"
-			(at 259.334 23.622 0)
+			(at 266.954 23.622 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4713,7 +4834,7 @@
 			)
 		)
 		(property "Value" "33nF"
-			(at 259.588 27.432 0)
+			(at 267.208 27.432 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4722,7 +4843,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 257.81 25.4 0)
+			(at 265.43 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4731,7 +4852,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 257.81 25.4 0)
+			(at 265.43 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4740,7 +4861,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 257.81 25.4 0)
+			(at 265.43 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4758,6 +4879,72 @@
 			(project "Acorn-A3010"
 				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/5e8722fb-7afe-44d4-8a36-2936df1b76c5"
 					(reference "C151")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 148.59 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c6ee0da-216f-4693-a2aa-ba9c013e5030")
+		(property "Reference" "#PWR0291"
+			(at 148.59 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 148.59 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 148.59 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a77cbbb5-62f5-43d6-9e79-b9620bdb5a2f")
+		)
+		(instances
+			(project "Acorn-A3010"
+				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/5e8722fb-7afe-44d4-8a36-2936df1b76c5"
+					(reference "#PWR0291")
 					(unit 1)
 				)
 			)
@@ -5553,7 +5740,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "10uF"
 			(at 142.24 41.656 0)
 			(effects
 				(font
@@ -6696,7 +6883,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 266.7 29.21 0)
+		(at 274.32 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6705,7 +6892,7 @@
 		(fields_autoplaced yes)
 		(uuid "afa9a985-e3b5-4f0f-b101-ed855eb71bc6")
 		(property "Reference" "#PWR0215"
-			(at 266.7 35.56 0)
+			(at 274.32 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6714,7 +6901,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 266.7 34.29 0)
+			(at 274.32 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6722,7 +6909,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 266.7 29.21 0)
+			(at 274.32 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6731,7 +6918,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 266.7 29.21 0)
+			(at 274.32 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6740,7 +6927,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 266.7 29.21 0)
+			(at 274.32 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7164,6 +7351,75 @@
 			(project "Acorn-A3010"
 				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/5e8722fb-7afe-44d4-8a36-2936df1b76c5"
 					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 248.92 25.4 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c3d5d7ae-bc49-4071-8f64-3f3bce9266f0")
+		(property "Reference" "C103"
+			(at 250.444 23.622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "33nF"
+			(at 250.698 27.432 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 248.92 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 248.92 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 248.92 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c55ed236-53e3-4b31-9abb-925e2309465c")
+		)
+		(pin "2"
+			(uuid "7db5303d-119a-4286-882a-a47d38b0bf91")
+		)
+		(instances
+			(project "Acorn-A3010"
+				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/5e8722fb-7afe-44d4-8a36-2936df1b76c5"
+					(reference "C103")
 					(unit 1)
 				)
 			)
@@ -8044,8 +8300,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 148.59 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6845114-4d63-4a40-a17b-a751f76fd2eb")
+		(property "Reference" "#PWR0290"
+			(at 148.59 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 148.59 32.4587 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 148.59 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "211c8303-2a3d-4e23-a3ae-07594d12beb6")
+		)
+		(instances
+			(project "Acorn-A3010"
+				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/5e8722fb-7afe-44d4-8a36-2936df1b76c5"
+					(reference "#PWR0290")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
-		(at 266.7 25.4 180)
+		(at 274.32 25.4 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8053,7 +8375,7 @@
 		(dnp no)
 		(uuid "e8ab87b0-9e52-4aee-8a70-4014956ba1fc")
 		(property "Reference" "C227"
-			(at 268.224 23.622 0)
+			(at 275.844 23.622 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8062,7 +8384,7 @@
 			)
 		)
 		(property "Value" "33nF"
-			(at 268.478 27.432 0)
+			(at 276.098 27.432 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8071,7 +8393,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 266.7 25.4 0)
+			(at 274.32 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8080,7 +8402,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 266.7 25.4 0)
+			(at 274.32 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8089,7 +8411,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 266.7 25.4 0)
+			(at 274.32 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
