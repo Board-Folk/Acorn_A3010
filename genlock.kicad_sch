@@ -1023,7 +1023,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "3ed71c7b-aed1-4471-8c95-c3a6fc6f854a")
+		(uuid "86601bf3-2e01-456a-9f43-cbcc54b85b40")
 	)
 	(wire
 		(pts
@@ -1201,14 +1201,12 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x04_Odd_Even")
-		(at 128.27 82.55 0)
-		(mirror y)
+		(at 125.73 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0dcb8d84-e453-43ae-98b2-81a69e374e9e")
 		(property "Reference" "LK6"
 			(at 127 73.66 0)
@@ -1227,7 +1225,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical"
-			(at 128.27 82.55 0)
+			(at 125.73 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1236,7 +1234,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 128.27 82.55 0)
+			(at 125.73 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1245,7 +1243,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 128.27 82.55 0)
+			(at 125.73 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
