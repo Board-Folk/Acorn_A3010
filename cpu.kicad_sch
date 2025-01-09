@@ -16555,7 +16555,6 @@
 	(symbol
 		(lib_id "Device:D_Dual_CommonCathode_AAK")
 		(at 106.68 62.23 90)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)

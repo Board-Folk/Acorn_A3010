@@ -5170,6 +5170,12 @@
 		(uuid "44a73e46-1f04-43fe-b6dc-3bc00ec0b2ac")
 	)
 	(junction
+		(at 151.13 243.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ccfee69-23df-4101-8cdd-9beff23de401")
+	)
+	(junction
 		(at 115.57 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6066,7 +6072,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 243.84) (xy 166.37 243.84)
+			(xy 144.78 243.84) (xy 151.13 243.84)
 		)
 		(stroke
 			(width 0)
@@ -6866,6 +6872,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 240.03) (xy 151.13 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a373401-2fcd-4773-a023-b0ec17a7008d")
+	)
+	(wire
+		(pts
 			(xy 156.21 92.71) (xy 163.83 92.71)
 		)
 		(stroke
@@ -7213,6 +7229,16 @@
 			(type default)
 		)
 		(uuid "7aaf6889-2bfa-4955-a40d-9fc8a72cc855")
+	)
+	(wire
+		(pts
+			(xy 151.13 243.84) (xy 166.37 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b7908fd-d571-4cfd-9945-d25b3dd3dad7")
 	)
 	(bus
 		(pts
@@ -9903,6 +9929,28 @@
 			)
 		)
 	)
+	(global_label "Kbkin"
+		(shape input)
+		(at 64.77 224.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7accf30e-48d6-40e1-bee9-31782997bcb1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 56.5839 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "~{Sel0}"
 		(shape input)
 		(at 80.01 274.32 180)
@@ -9916,28 +9964,6 @@
 		(uuid "88e48674-669e-4356-b6cb-fe3bd4577d04")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 72.852 274.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Kin"
-		(shape output)
-		(at 64.77 224.79 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c42776da-e9f0-40fd-9f4b-9d69520af3bc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 58.761 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10686,6 +10712,72 @@
 			(project "Acorn-A3010"
 				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/20613dd3-c886-4190-96bd-e62e2e571bea"
 					(reference "R72")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 151.13 234.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23a37169-b7d1-4e36-aa7c-b25029f42809")
+		(property "Reference" "#PWR0297"
+			(at 151.13 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 151.13 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 151.13 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e514cb6a-02ac-4802-bddc-8ab737fbb2e8")
+		)
+		(instances
+			(project "Acorn-A3010"
+				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/20613dd3-c886-4190-96bd-e62e2e571bea"
+					(reference "#PWR0297")
 					(unit 1)
 				)
 			)
@@ -15944,6 +16036,76 @@
 			(project "Acorn-A3010"
 				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/20613dd3-c886-4190-96bd-e62e2e571bea"
 					(reference "#PWR0161")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 151.13 237.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e09065f4-5555-4e90-bce9-835c010374c3")
+		(property "Reference" "RX2"
+			(at 153.67 236.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4k7"
+			(at 153.67 238.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+			(at 151.13 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 151.13 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a76ffb4-4b34-4974-8036-dcf730d4401b")
+		)
+		(pin "2"
+			(uuid "a7f56e8c-a5bc-48da-b16c-2005d32dbd3a")
+		)
+		(instances
+			(project ""
+				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/20613dd3-c886-4190-96bd-e62e2e571bea"
+					(reference "RX2")
 					(unit 1)
 				)
 			)

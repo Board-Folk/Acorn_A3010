@@ -8193,6 +8193,7 @@
 	(symbol
 		(lib_id "Device:C_Polarized_Small")
 		(at 218.44 38.1 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8200,7 +8201,7 @@
 		(dnp no)
 		(uuid "a7996665-96c4-4a78-a0f4-b7503a8ce2bc")
 		(property "Reference" "C220"
-			(at 220.726 37.084 0)
+			(at 220.726 39.116 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8209,7 +8210,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 220.472 39.116 0)
+			(at 220.472 37.084 0)
 			(effects
 				(font
 					(size 1.27 1.27)

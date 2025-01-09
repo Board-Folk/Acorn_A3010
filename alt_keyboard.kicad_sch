@@ -1754,7 +1754,7 @@
 			)
 		)
 	)
-	(global_label "Kbin"
+	(global_label "Kbkin"
 		(shape input)
 		(at 102.87 90.17 0)
 		(fields_autoplaced yes)
@@ -1766,7 +1766,7 @@
 		)
 		(uuid "d043efd6-17ad-4baa-bb40-d20d4fb1911b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.028 90.17 0)
+			(at 111.0561 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
