@@ -1423,6 +1423,12 @@
 		)
 	)
 	(junction
+		(at 157.48 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43ab4589-bc39-43c3-a666-ea89d141775a")
+	)
+	(junction
 		(at 121.92 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1476,7 +1482,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 95.25) (xy 166.37 102.87)
+			(xy 171.45 95.25) (xy 171.45 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1556,6 +1562,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 77.47) (xy 162.56 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c271dc7-5eaa-4f49-babc-d61584d9c0ef")
+	)
+	(wire
+		(pts
 			(xy 85.09 100.33) (xy 85.09 101.6)
 		)
 		(stroke
@@ -1576,7 +1592,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 102.87) (xy 166.37 102.87)
+			(xy 147.32 102.87) (xy 171.45 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1703,6 +1719,16 @@
 			(type default)
 		)
 		(uuid "e7444815-f5a2-417a-874f-4a4e72c1cee7")
+	)
+	(wire
+		(pts
+			(xy 162.56 77.47) (xy 162.56 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3d7e299-92a1-4b14-b874-99a1cb7d2c2b")
 	)
 	(wire
 		(pts
@@ -2351,7 +2377,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 166.37 92.71 180)
+		(at 171.45 92.71 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2360,7 +2386,7 @@
 		(fields_autoplaced yes)
 		(uuid "928b8c36-3a56-43ea-be38-e1521cd771e3")
 		(property "Reference" "R74"
-			(at 168.91 91.4399 0)
+			(at 173.99 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2369,7 +2395,7 @@
 			)
 		)
 		(property "Value" "4K7"
-			(at 168.91 93.9799 0)
+			(at 173.99 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2378,7 +2404,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 166.37 92.71 0)
+			(at 171.45 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2387,7 +2413,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 166.37 92.71 0)
+			(at 171.45 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2396,7 +2422,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 166.37 92.71 0)
+			(at 171.45 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2638,6 +2664,75 @@
 			(project ""
 				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/5761f794-f1af-4994-bf81-f78b8447d32c"
 					(reference "IC5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 162.56 87.63 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a21ce004-f9a1-4b4a-968b-715121ad3820")
+		(property "Reference" "C229"
+			(at 164.084 85.852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "33nF"
+			(at 164.338 89.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 162.56 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 162.56 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d496653-c48a-4aaa-b5e6-a9fbd45f0808")
+		)
+		(pin "2"
+			(uuid "0b70b61d-f36e-4f72-b1aa-b6db4d0d8c7b")
+		)
+		(instances
+			(project "Acorn-A3010"
+				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/5761f794-f1af-4994-bf81-f78b8447d32c"
+					(reference "C229")
 					(unit 1)
 				)
 			)
@@ -2909,7 +3004,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 166.37 90.17 0)
+		(at 171.45 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2918,7 +3013,7 @@
 		(fields_autoplaced yes)
 		(uuid "dd6d1097-835f-4e81-b960-3023d19f0810")
 		(property "Reference" "#PWR044"
-			(at 166.37 93.98 0)
+			(at 171.45 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2927,7 +3022,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 166.37 85.09 0)
+			(at 171.45 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2935,7 +3030,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 90.17 0)
+			(at 171.45 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2944,7 +3039,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 90.17 0)
+			(at 171.45 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2953,7 +3048,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 166.37 90.17 0)
+			(at 171.45 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2968,6 +3063,72 @@
 			(project ""
 				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/5761f794-f1af-4994-bf81-f78b8447d32c"
 					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 162.56 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef3b5727-742e-4f1e-93ec-11e50838c24c")
+		(property "Reference" "#PWR0300"
+			(at 162.56 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.56 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 162.56 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e59689c4-8aa3-45e7-ada9-970e352df0b2")
+		)
+		(instances
+			(project "Acorn-A3010"
+				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/5761f794-f1af-4994-bf81-f78b8447d32c"
+					(reference "#PWR0300")
 					(unit 1)
 				)
 			)

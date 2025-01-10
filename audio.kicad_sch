@@ -4258,6 +4258,17 @@
 		(uuid "01762533-aa1c-4605-b989-226424ca99ce")
 	)
 	(label "Left"
+		(at 213.36 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8b4e1069-d84a-4588-9a5a-9034a52702db")
+	)
+	(label "Right"
 		(at 213.36 91.44 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4266,7 +4277,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "0f105c38-cc28-4afd-8a47-bf642ffbd462")
+		(uuid "c7118d64-5a76-417a-8a28-3a32a1b886d1")
 	)
 	(label "Right"
 		(at 170.18 99.06 0)
@@ -4289,17 +4300,6 @@
 			(justify right bottom)
 		)
 		(uuid "eb3a7c33-94ff-469a-9d52-3bb85492fbe9")
-	)
-	(label "Right"
-		(at 213.36 86.36 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f3db77bc-f922-423a-a93d-a0ce9ca23412")
 	)
 	(global_label "Right-"
 		(shape input)

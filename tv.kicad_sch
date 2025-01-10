@@ -3835,6 +3835,12 @@
 		(uuid "075cbbb8-5cfd-4134-ae8f-cc7e840289a9")
 	)
 	(junction
+		(at 264.16 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0824f2a8-700b-43a7-abdc-0e0472dc98ba")
+	)
+	(junction
 		(at 149.86 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3869,6 +3875,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3a1994b0-c304-42cc-83b5-a1a6e5821734")
+	)
+	(junction
+		(at 264.16 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46c00739-611a-4a7f-9ff0-0a432be6c837")
 	)
 	(junction
 		(at 135.89 88.9)
@@ -4091,6 +4103,16 @@
 			(type default)
 		)
 		(uuid "063ea0d8-08fe-4815-a30a-21e417a10071")
+	)
+	(wire
+		(pts
+			(xy 264.16 157.48) (xy 264.16 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09898bbb-907f-447d-8345-6bdca2e537f7")
 	)
 	(wire
 		(pts
@@ -4874,6 +4896,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 160.02) (xy 265.43 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f2fe92f-44ba-45d4-bae0-9d18f4df1b69")
+	)
+	(wire
+		(pts
 			(xy 50.8 54.61) (xy 50.8 48.26)
 		)
 		(stroke
@@ -4931,6 +4963,16 @@
 			(type default)
 		)
 		(uuid "99384004-a145-4b0a-8b38-faed23a02bb0")
+	)
+	(wire
+		(pts
+			(xy 264.16 160.02) (xy 264.16 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9991dbb6-614d-4eb7-8abb-5d5e2f0f360a")
 	)
 	(wire
 		(pts
@@ -5154,6 +5196,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 154.94) (xy 264.16 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5acf228-5d33-47d1-a514-779ec7617415")
+	)
+	(wire
+		(pts
 			(xy 154.94 39.37) (xy 154.94 36.83)
 		)
 		(stroke
@@ -5171,6 +5223,16 @@
 			(type default)
 		)
 		(uuid "ce3c0f86-47ca-4170-a0b5-c76729f6030f")
+	)
+	(wire
+		(pts
+			(xy 264.16 157.48) (xy 265.43 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d54a9db3-4639-4ca4-a30c-c3a47ce57d5a")
 	)
 	(wire
 		(pts
@@ -5341,6 +5403,16 @@
 			(type default)
 		)
 		(uuid "fc392d84-bfae-4a2e-9e76-c1ec6a91e04d")
+	)
+	(wire
+		(pts
+			(xy 265.43 154.94) (xy 264.16 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd15b569-1ce5-47db-85a0-cfacf94e7eb4")
 	)
 	(global_label "IV{slash}CS"
 		(shape input)
@@ -5696,6 +5768,72 @@
 			(project "Acorn-A3010"
 				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/2103e154-4875-4945-af52-f4b17646bf0d"
 					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 274.32 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2188b8f8-aa82-4bcd-86df-d2eafbc380f9")
+		(property "Reference" "#PWR0301"
+			(at 274.32 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 274.32 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 274.32 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 274.32 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "86e8f9c3-e76a-4851-a360-f7f08952b959")
+		)
+		(instances
+			(project "Acorn-A3010"
+				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/2103e154-4875-4945-af52-f4b17646bf0d"
+					(reference "#PWR0301")
 					(unit 1)
 				)
 			)
@@ -8262,7 +8400,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS10")
-		(at 274.32 129.54 0)
+		(at 274.32 127 0)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8271,7 +8409,7 @@
 		(fields_autoplaced yes)
 		(uuid "abb81dd7-d2b7-47ec-ab7f-33e0ccce00f3")
 		(property "Reference" "IC30"
-			(at 274.3117 120.65 0)
+			(at 274.3117 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8279,7 +8417,7 @@
 			)
 		)
 		(property "Value" "74HC10"
-			(at 274.3117 123.19 0)
+			(at 274.3117 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8287,7 +8425,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 274.32 129.54 0)
+			(at 274.32 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8296,7 +8434,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS10"
-			(at 274.32 129.54 0)
+			(at 274.32 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8305,7 +8443,7 @@
 			)
 		)
 		(property "Description" "Triple 3-input NAND"
-			(at 274.32 129.54 0)
+			(at 274.32 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8841,6 +8979,72 @@
 			(project "Acorn-A3010"
 				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/2103e154-4875-4945-af52-f4b17646bf0d"
 					(reference "X1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 274.32 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb905a0f-8abd-4b4d-83bd-d2c5a4c10342")
+		(property "Reference" "#PWR0302"
+			(at 274.32 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 274.32 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 274.32 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 274.32 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e7f0adf-abcf-4b18-963d-b73b71dfe96d")
+		)
+		(instances
+			(project "Acorn-A3010"
+				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/2103e154-4875-4945-af52-f4b17646bf0d"
+					(reference "#PWR0302")
 					(unit 1)
 				)
 			)
@@ -9715,6 +9919,72 @@
 			(project ""
 				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/2103e154-4875-4945-af52-f4b17646bf0d"
 					(reference "#PWR0271")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 264.16 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dffce037-00c1-41ac-bfc4-f0c4050d1014")
+		(property "Reference" "#PWR0303"
+			(at 264.16 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 264.16 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 264.16 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba4fce63-7b2b-4f7c-ad23-11d82ac77730")
+		)
+		(instances
+			(project "Acorn-A3010"
+				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/2103e154-4875-4945-af52-f4b17646bf0d"
+					(reference "#PWR0303")
 					(unit 1)
 				)
 			)
