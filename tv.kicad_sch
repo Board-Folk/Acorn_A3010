@@ -3873,6 +3873,12 @@
 		(uuid "9e4c2244-3d78-4dc9-9b56-0be801340be6")
 	)
 	(junction
+		(at 171.45 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7705ee9-fd7f-4dfa-9812-c0996a4e64b4")
+	)
+	(junction
 		(at 120.65 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4025,6 +4031,16 @@
 			(type default)
 		)
 		(uuid "025a7aa6-8ac5-4ce1-bf66-befba7c1a73c")
+	)
+	(wire
+		(pts
+			(xy 171.45 44.45) (xy 180.34 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05182d96-bcbb-4238-8482-c976b1d908b8")
 	)
 	(wire
 		(pts
@@ -4238,7 +4254,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 54.61) (xy 173.99 66.04)
+			(xy 171.45 54.61) (xy 171.45 66.04)
 		)
 		(stroke
 			(width 0)
@@ -4408,6 +4424,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 54.61) (xy 180.34 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38342b7a-e2be-40b3-a729-3326c527d395")
+	)
+	(wire
+		(pts
 			(xy 194.31 74.93) (xy 198.12 74.93)
 		)
 		(stroke
@@ -4428,7 +4454,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 44.45) (xy 167.64 44.45)
+			(xy 171.45 44.45) (xy 167.64 44.45)
 		)
 		(stroke
 			(width 0)
@@ -4538,7 +4564,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 49.53) (xy 173.99 44.45)
+			(xy 171.45 49.53) (xy 171.45 44.45)
 		)
 		(stroke
 			(width 0)
@@ -4778,7 +4804,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 66.04) (xy 173.99 66.04)
+			(xy 134.62 66.04) (xy 171.45 66.04)
 		)
 		(stroke
 			(width 0)
@@ -5315,6 +5341,16 @@
 			(type default)
 		)
 		(uuid "f479f716-ab16-433c-a35b-06d0bb6eabee")
+	)
+	(wire
+		(pts
+			(xy 180.34 44.45) (xy 180.34 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6bdad6e-3d4a-4c7e-8cc4-ecef2342a9de")
 	)
 	(wire
 		(pts
@@ -6138,7 +6174,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Acorn:LPF180nS"
 			(at 154.94 80.01 0)
 			(effects
 				(font
@@ -6787,6 +6823,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 180.34 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58ab6109-0883-4d2c-a41d-b2cf9541a94b")
+		(property "Reference" "#PWR0266"
+			(at 180.34 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 180.34 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 180.34 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33afccee-7c4f-4f32-8a59-a4b579dd02e2")
+		)
+		(instances
+			(project "Acorn-A3010"
+				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/2103e154-4875-4945-af52-f4b17646bf0d"
+					(reference "#PWR0266")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 120.65 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7177,7 +7279,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOJ-24_7.62x15.875mm_P1.27mm"
 			(at 105.41 67.31 0)
 			(effects
 				(font
@@ -7690,6 +7792,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 180.34 52.07 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "88056e5b-612b-42d2-a941-6eb34e54a1a3")
+		(property "Reference" "R14"
+			(at 182.118 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 183.896 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 180.34 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 180.34 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b98fa5c7-e4da-4b6d-83ee-9a980166d666")
+		)
+		(pin "2"
+			(uuid "10b78828-7e02-4b31-a8d8-662621fef035")
+		)
+		(instances
+			(project "Acorn-A3010"
+				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/2103e154-4875-4945-af52-f4b17646bf0d"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized_Small")
 		(at 127 92.71 0)
 		(unit 1)
@@ -7716,7 +7886,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D4.5mm_P5.00mm"
 			(at 127 92.71 0)
 			(effects
 				(font
@@ -8382,7 +8552,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 173.99 52.07 0)
+		(at 171.45 52.07 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8391,7 +8561,7 @@
 		(dnp no)
 		(uuid "b34c029c-993a-4f0a-9015-2122ccafc6d7")
 		(property "Reference" "C34"
-			(at 175.514 52.07 0)
+			(at 172.974 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8400,7 +8570,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 175.26 54.102 0)
+			(at 172.72 54.102 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8409,7 +8579,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 173.99 52.07 0)
+			(at 171.45 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8418,7 +8588,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 173.99 52.07 0)
+			(at 171.45 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8427,7 +8597,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 173.99 52.07 0)
+			(at 171.45 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10623,6 +10793,7 @@
 	(symbol
 		(lib_id "Device:C_Variable")
 		(at 69.85 58.42 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10630,7 +10801,7 @@
 		(dnp no)
 		(uuid "fe0b355b-d0f4-4964-9972-70790c6785bc")
 		(property "Reference" "C25"
-			(at 72.644 57.15 0)
+			(at 72.644 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10639,7 +10810,7 @@
 			)
 		)
 		(property "Value" "5-55pF"
-			(at 72.644 59.69 0)
+			(at 72.644 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
