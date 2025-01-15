@@ -2632,16 +2632,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 71.12) (xy 35.56 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13ee7760-be91-4465-86d8-10194ed32573")
-	)
-	(wire
-		(pts
 			(xy 231.14 27.94) (xy 231.14 29.21)
 		)
 		(stroke
@@ -3019,6 +3009,16 @@
 			(type default)
 		)
 		(uuid "72cbb88f-d651-4631-9b07-089cb29646db")
+	)
+	(wire
+		(pts
+			(xy 35.56 71.12) (xy 35.56 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "762c0577-41bb-4d1d-bc94-fa5956b6e002")
 	)
 	(wire
 		(pts
@@ -5423,17 +5423,15 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 40.64 71.12 0)
-		(mirror x)
+		(at 40.64 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "558e6d00-2baf-4301-a211-b902fb1414da")
 		(property "Reference" "PL1"
-			(at 40.64 62.23 0)
+			(at 40.64 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5441,15 +5439,15 @@
 			)
 		)
 		(property "Value" "Mains Input"
-			(at 40.64 64.77 0)
+			(at 40.64 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_KK-396_A-41792-0002_1x02_P3.96mm_Horizontal"
-			(at 40.64 71.12 0)
+		(property "Footprint" "Acorn:AC_Power_Header"
+			(at 40.64 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5458,7 +5456,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 40.64 71.12 0)
+			(at 40.64 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5467,7 +5465,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 40.64 71.12 0)
+			(at 40.64 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6855,7 +6853,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a0d0844b-893a-45fd-b3f3-d6f177ef4d5e")
@@ -6875,7 +6873,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_Push_2P1T_Toggle_CK_PVA1xxH1xxxxxxV2"
+		(property "Footprint" "Acorn:Power_Switch"
 			(at 48.26 82.55 0)
 			(effects
 				(font
@@ -7769,7 +7767,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Acorn:Molex_19708-4003"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 118.11 69.85 0)
 			(effects
 				(font
@@ -8847,7 +8845,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Acorn:Molex_19708-4003"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 109.22 69.85 0)
 			(effects
 				(font

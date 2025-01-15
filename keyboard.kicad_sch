@@ -1284,24 +1284,6 @@
 				)
 			)
 			(symbol "80C51_0_0"
-				(pin passive line
-					(at 3.81 -55.88 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -12.7 -16.51 0)
 					(length 2.54)
@@ -1331,24 +1313,6 @@
 						)
 					)
 					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 1.27 -55.88 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1529,42 +1493,6 @@
 						)
 					)
 					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -1.27 55.88 270)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -1.27 -55.88 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1763,24 +1691,6 @@
 						)
 					)
 					(number "33"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -55.88 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "34"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2087,6 +1997,98 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(symbol "80C51_1_0"
+				(pin no_connect line
+					(at -8.89 -55.88 90)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -6.35 -55.88 90)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 -55.88 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -3.81 -55.88 90)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -1.27 -55.88 90)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -5116,12 +5118,6 @@
 		(uuid "035eb5d7-980b-4df7-a0dd-f224d1481df1")
 	)
 	(junction
-		(at 76.2 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0420ebf7-eece-48a5-b521-9e0ddc3920c4")
-	)
-	(junction
 		(at 71.12 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5156,18 +5152,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2ff80d3d-6693-496b-b397-ae2a3e6a0d4e")
-	)
-	(junction
-		(at 81.28 251.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "407eff0b-fb74-47f1-8182-d47749c20973")
-	)
-	(junction
-		(at 76.2 251.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "44a73e46-1f04-43fe-b6dc-3bc00ec0b2ac")
 	)
 	(junction
 		(at 151.13 243.84)
@@ -5234,12 +5218,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7d601314-0c2b-4722-b1ec-f30ce748957e")
-	)
-	(junction
-		(at 78.74 251.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "857bda7f-555e-491c-a461-db990bc008f0")
 	)
 	(junction
 		(at 171.45 92.71)
@@ -7162,16 +7140,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 139.7) (xy 78.74 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "760209ef-db9d-47fe-a729-80dccbd20d11")
-	)
-	(wire
-		(pts
 			(xy 100.33 175.26) (xy 100.33 180.34)
 		)
 		(stroke
@@ -7292,16 +7260,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 251.46) (xy 81.28 251.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7fdb6fe4-ac3c-42a2-97f9-568b52d98d6f")
-	)
-	(wire
-		(pts
 			(xy 90.17 163.83) (xy 102.87 163.83)
 		)
 		(stroke
@@ -7362,16 +7320,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 251.46) (xy 76.2 251.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88ed377e-8abf-4967-a86a-69d923e3bfc3")
-	)
-	(wire
-		(pts
 			(xy 179.07 91.44) (xy 179.07 92.71)
 		)
 		(stroke
@@ -7409,16 +7357,6 @@
 			(type default)
 		)
 		(uuid "8cc16307-c457-405e-862f-5d56bd786a9a")
-	)
-	(wire
-		(pts
-			(xy 76.2 251.46) (xy 78.74 251.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f54d628-77b6-4baf-9443-227eb230dcee")
 	)
 	(bus
 		(pts
@@ -15706,7 +15644,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 76.2 139.7 0)
+		(at 78.74 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15715,7 +15653,7 @@
 		(fields_autoplaced yes)
 		(uuid "d609f3fd-3a5a-4fed-9aa9-7011e752e31f")
 		(property "Reference" "#PWR0163"
-			(at 76.2 143.51 0)
+			(at 78.74 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15724,7 +15662,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 76.2 134.62 0)
+			(at 78.74 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15732,7 +15670,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 139.7 0)
+			(at 78.74 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15741,7 +15679,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 139.7 0)
+			(at 78.74 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15750,7 +15688,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 76.2 139.7 0)
+			(at 78.74 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15976,72 +15914,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 81.28 251.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "de7f36b8-c65b-4c1c-bff5-111b886190b1")
-		(property "Reference" "#PWR0161"
-			(at 81.28 257.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 81.28 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 81.28 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 81.28 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9077c89c-e93f-45f6-aa75-72973972734c")
-		)
-		(instances
-			(project "Acorn-A3010"
-				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/20613dd3-c886-4190-96bd-e62e2e571bea"
-					(reference "#PWR0161")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 151.13 237.49 0)
 		(unit 1)
@@ -16106,6 +15978,72 @@
 			(project ""
 				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/20613dd3-c886-4190-96bd-e62e2e571bea"
 					(reference "RX2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 82.55 251.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3edc3d3-2014-4ab5-8744-df5441196614")
+		(property "Reference" "#PWR0161"
+			(at 82.55 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 82.55 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 82.55 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f89e0d81-5faf-4277-95e7-9a8bf4779380")
+		)
+		(instances
+			(project "Acorn-A3010"
+				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/20613dd3-c886-4190-96bd-e62e2e571bea"
+					(reference "#PWR0161")
 					(unit 1)
 				)
 			)
