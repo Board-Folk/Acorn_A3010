@@ -2257,26 +2257,27 @@
 				)
 			)
 		)
-		(symbol "Connector_Generic:Conn_01x05"
+		(symbol "Connector_Generic_MountingPin:Conn_01x07_MountingPin"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 7.62 0)
+				(at 0 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_01x05"
-				(at 0 -7.62 0)
+			(property "Value" "Conn_01x07_MountingPin"
+				(at 1.27 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -2297,7 +2298,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connectable mounting pin connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2315,7 +2316,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(property "ki_fp_filters" "Connector*:*_1x??-1MP*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2324,7 +2325,18 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x05_1_1"
+			(symbol "Conn_01x07_MountingPin_1_1"
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(rectangle
 					(start -1.27 -4.953)
 					(end 0 -5.207)
@@ -2381,8 +2393,19 @@
 					)
 				)
 				(rectangle
-					(start -1.27 6.35)
-					(end 1.27 -6.35)
+					(start -1.27 7.747)
+					(end 0 7.493)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 8.89)
+					(end 1.27 -8.89)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -2391,8 +2414,28 @@
 						(type background)
 					)
 				)
+				(polyline
+					(pts
+						(xy -1.016 -9.652) (xy 1.016 -9.652)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Mounting"
+					(at 0 -9.271 0)
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
 				(pin passive line
-					(at -5.08 5.08 0)
+					(at -5.08 7.62 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -2410,7 +2453,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 5.08 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -2428,7 +2471,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -2446,7 +2489,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -2464,7 +2507,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_5"
 						(effects
@@ -2474,6 +2517,60 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 90)
+					(length 3.048)
+					(name "MountPin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3427,6 +3524,88 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "power:+5C"
 			(power)
 			(pin_numbers hide)
@@ -4164,7 +4343,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 44.45) (xy 245.11 67.31)
+			(xy 243.84 44.45) (xy 243.84 67.31)
 		)
 		(stroke
 			(width 0)
@@ -4574,6 +4753,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 69.85) (xy 256.54 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56309981-a6da-4fd1-938f-792fdf316783")
+	)
+	(wire
+		(pts
 			(xy 189.23 80.01) (xy 184.15 80.01)
 		)
 		(stroke
@@ -4634,7 +4823,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 62.23) (xy 254 62.23)
+			(xy 205.74 62.23) (xy 256.54 62.23)
 		)
 		(stroke
 			(width 0)
@@ -4644,7 +4833,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 44.45) (xy 233.68 44.45)
+			(xy 243.84 44.45) (xy 233.68 44.45)
 		)
 		(stroke
 			(width 0)
@@ -4711,6 +4900,16 @@
 			(type default)
 		)
 		(uuid "6e6a3b3e-16be-4164-92ce-c76812c43b7d")
+	)
+	(wire
+		(pts
+			(xy 243.84 67.31) (xy 256.54 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f777ed2-0bd9-4d2c-add8-a9a1ac78e0fe")
 	)
 	(wire
 		(pts
@@ -5194,16 +5393,6 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 67.31) (xy 254 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d84e775a-6b48-437d-848f-892e89116e0c")
-	)
-	(wire
-		(pts
 			(xy 168.91 77.47) (xy 167.64 77.47)
 		)
 		(stroke
@@ -5314,7 +5503,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 64.77) (xy 254 64.77)
+			(xy 220.98 64.77) (xy 256.54 64.77)
 		)
 		(stroke
 			(width 0)
@@ -5392,6 +5581,39 @@
 		)
 		(uuid "fd15b569-1ce5-47db-85a0-cfacf94e7eb4")
 	)
+	(label "V_Filtered"
+		(at 232.41 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7330faf9-8684-4271-b4a8-43dcb9427079")
+	)
+	(label "Composite"
+		(at 232.41 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a57d8855-1199-47dc-931c-b17a03106dba")
+	)
+	(label "Audio"
+		(at 245.11 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aff6bd4d-6740-421e-8841-5975e6a95425")
+	)
 	(global_label "IV{slash}CS"
 		(shape input)
 		(at 69.85 78.74 180)
@@ -5405,6 +5627,50 @@
 		(uuid "207b6d87-1463-46b3-bf65-f3aa00155a7e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 61.3614 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CompB"
+		(shape input)
+		(at 256.54 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5f33a93e-1acb-48c7-8b02-65ea8246f15d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 247.0235 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CompG"
+		(shape input)
+		(at 256.54 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5fb1722e-10b7-4afc-82ca-cc9a7908dc60")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 247.0235 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5493,6 +5759,28 @@
 		(uuid "f27082d8-2a62-4b15-acb2-fdc0d3845af7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 84.4635 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CompR"
+		(shape input)
+		(at 256.54 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f29c036d-d7d3-4e17-b636-2e790c271fe4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 247.0235 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7047,7 +7335,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Acorn:BPF4_43M"
 			(at 154.94 46.99 0)
 			(effects
 				(font
@@ -8164,73 +8452,6 @@
 			(project "Acorn-A3010"
 				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/2103e154-4875-4945-af52-f4b17646bf0d"
 					(reference "C35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 254 72.39 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a2d87f6f-35ce-485e-82ff-ae308d39d600")
-		(property "Reference" "#PWR0265"
-			(at 257.81 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 250.19 72.3899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 254 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 254 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 254 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4edd40cb-2fea-4f9c-88a7-92dc7ac391ef")
-		)
-		(instances
-			(project "Acorn-A3010"
-				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/2103e154-4875-4945-af52-f4b17646bf0d"
-					(reference "#PWR0265")
 					(unit 1)
 				)
 			)
@@ -9902,8 +10123,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x05")
-		(at 259.08 67.31 0)
+		(lib_id "Connector_Generic_MountingPin:Conn_01x07_MountingPin")
+		(at 261.62 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9912,7 +10133,7 @@
 		(fields_autoplaced yes)
 		(uuid "e49d7ef4-8b36-4dff-8801-35d77cfc25f8")
 		(property "Reference" "U1"
-			(at 261.62 66.0399 0)
+			(at 264.16 68.9355 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9920,8 +10141,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x07"
-			(at 261.62 68.5799 0)
+		(property "Value" "Analog Video breakout"
+			(at 264.16 71.4755 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9929,8 +10150,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical"
-			(at 259.08 67.31 0)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical"
+			(at 261.62 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9939,7 +10160,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 259.08 67.31 0)
+			(at 261.62 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9947,8 +10168,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 259.08 67.31 0)
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 261.62 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9970,6 +10191,15 @@
 		)
 		(pin "1"
 			(uuid "21a8154a-8a29-4941-ad50-663a288a932a")
+		)
+		(pin "6"
+			(uuid "b7da815b-a3ea-496e-9c1f-20c3770328e8")
+		)
+		(pin "7"
+			(uuid "930be3e1-25a2-4df4-960b-807c97dbb051")
+		)
+		(pin "MP"
+			(uuid "c55caf64-2138-4561-9167-01f6fcb7dc25")
 		)
 		(instances
 			(project ""
@@ -10245,6 +10475,70 @@
 			(project "Acorn-A3010"
 				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/2103e154-4875-4945-af52-f4b17646bf0d"
 					(reference "L5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 34.29 128.27 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e902114f-202f-4f3e-84ef-5d919e02fc5b")
+		(property "Reference" "RF1"
+			(at 36.83 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RF Modulator mounting"
+			(at 36.83 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Acorn:Rf Modulator"
+			(at 34.29 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 34.29 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/2103e154-4875-4945-af52-f4b17646bf0d"
+					(reference "RF1")
 					(unit 1)
 				)
 			)

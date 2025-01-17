@@ -7242,6 +7242,12 @@
 		(uuid "e104b904-cfb4-460f-b07b-957bc3d9fd03")
 	)
 	(junction
+		(at 71.12 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1dae5b2-cb0b-472b-a3b9-beae017909ea")
+	)
+	(junction
 		(at 187.96 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9914,7 +9920,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 88.9) (xy 78.74 88.9)
+			(xy 63.5 88.9) (xy 71.12 88.9)
 		)
 		(stroke
 			(width 0)
@@ -9991,6 +9997,16 @@
 			(type default)
 		)
 		(uuid "9ad06388-c05f-4770-b38b-339cd70cdd2c")
+	)
+	(wire
+		(pts
+			(xy 71.12 88.9) (xy 71.12 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ad07c15-f19d-42ef-94e3-6e1acb3d67df")
 	)
 	(wire
 		(pts
@@ -10111,6 +10127,16 @@
 			(type default)
 		)
 		(uuid "a5e077d8-0583-4db8-800b-32168fa25fb5")
+	)
+	(wire
+		(pts
+			(xy 71.12 96.52) (xy 71.12 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6c5a588-4868-4d80-be79-4ae33207c8eb")
 	)
 	(bus
 		(pts
@@ -10261,6 +10287,16 @@
 			(type default)
 		)
 		(uuid "b2fe4cf0-aae0-43e3-bf71-533c440dc453")
+	)
+	(wire
+		(pts
+			(xy 71.12 88.9) (xy 78.74 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4de9923-a530-4723-a466-4b0c4e4e7ef4")
 	)
 	(wire
 		(pts
@@ -12775,6 +12811,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "~{Rst}"
+		(shape input)
+		(at 71.12 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "70eb2bc2-3fe5-4fc4-80dc-bcd526248d5e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 77.129 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -18671,6 +18729,76 @@
 				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/5f74aac3-9761-4bed-8486-119acb837e61"
 					(reference "IC27")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 71.12 92.71 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ee9f24fe-9412-436a-a350-e791d68aac69")
+		(property "Reference" "CX1"
+			(at 73.66 93.9865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47pF"
+			(at 73.66 91.4465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P12.50mm_Horizontal"
+			(at 71.12 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 71.12 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "804001f1-e957-4c36-b6fa-5f1c7cc3a52d")
+		)
+		(pin "2"
+			(uuid "4cabfa9c-73fc-474c-a458-6c15283ff048")
+		)
+		(instances
+			(project "Acorn-A3010"
+				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/5f74aac3-9761-4bed-8486-119acb837e61"
+					(reference "CX1")
+					(unit 1)
 				)
 			)
 		)
