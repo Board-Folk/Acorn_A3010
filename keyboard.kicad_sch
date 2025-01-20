@@ -10091,7 +10091,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Acorn:Link"
 			(at 153.67 101.6 0)
 			(effects
 				(font
@@ -10546,7 +10546,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Acorn:Link"
 			(at 168.91 101.6 0)
 			(effects
 				(font
@@ -11919,7 +11919,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Acorn:Link"
 			(at 161.29 101.6 0)
 			(effects
 				(font
@@ -12165,7 +12165,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Acorn:Link"
 			(at 176.53 101.6 0)
 			(effects
 				(font
@@ -12520,7 +12520,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Acorn:Link"
 			(at 184.15 101.6 0)
 			(effects
 				(font
@@ -16559,7 +16559,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Acorn:Link"
 			(at 146.05 101.6 0)
 			(effects
 				(font
