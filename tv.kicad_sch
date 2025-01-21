@@ -5583,7 +5583,6 @@
 	)
 	(label "V_Filtered"
 		(at 232.41 64.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5594,7 +5593,6 @@
 	)
 	(label "Composite"
 		(at 232.41 62.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5605,7 +5603,6 @@
 	)
 	(label "Audio"
 		(at 245.11 67.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

@@ -2178,7 +2178,6 @@
 	)
 	(label "La11"
 		(at 86.36 81.28 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2189,7 +2188,6 @@
 	)
 	(label "La9"
 		(at 86.36 76.2 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2200,7 +2198,6 @@
 	)
 	(label "La13"
 		(at 86.36 86.36 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2211,7 +2208,6 @@
 	)
 	(label "La3"
 		(at 86.36 109.22 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2222,7 +2218,6 @@
 	)
 	(label "Bd6"
 		(at 86.36 127 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2233,7 +2228,6 @@
 	)
 	(label "Bd1"
 		(at 86.36 114.3 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2244,7 +2238,6 @@
 	)
 	(label "Bd5"
 		(at 86.36 124.46 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2255,7 +2248,6 @@
 	)
 	(label "La6"
 		(at 86.36 66.04 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2266,7 +2258,6 @@
 	)
 	(label "La4"
 		(at 86.36 60.96 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2277,7 +2268,6 @@
 	)
 	(label "Bd4"
 		(at 86.36 121.92 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2288,7 +2278,6 @@
 	)
 	(label "Bd3"
 		(at 86.36 119.38 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2299,7 +2288,6 @@
 	)
 	(label "La7"
 		(at 86.36 68.58 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2310,7 +2298,6 @@
 	)
 	(label "Bd0"
 		(at 86.36 111.76 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2321,7 +2308,6 @@
 	)
 	(label "La5"
 		(at 86.36 63.5 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2332,7 +2318,6 @@
 	)
 	(label "La12"
 		(at 86.36 83.82 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2343,7 +2328,6 @@
 	)
 	(label "Bd2"
 		(at 86.36 116.84 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2354,7 +2338,6 @@
 	)
 	(label "La2"
 		(at 86.36 106.68 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2365,7 +2348,6 @@
 	)
 	(label "La8"
 		(at 86.36 73.66 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2376,7 +2358,6 @@
 	)
 	(label "La10"
 		(at 86.36 78.74 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2387,7 +2368,6 @@
 	)
 	(label "Bd7"
 		(at 86.36 129.54 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2729,7 +2709,6 @@
 	(hierarchical_label "La[2..21]"
 		(shape input)
 		(at 78.74 34.29 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2741,7 +2720,6 @@
 	(hierarchical_label "Bd[0..7]"
 		(shape bidirectional)
 		(at 78.74 144.78 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

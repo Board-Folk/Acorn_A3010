@@ -8560,7 +8560,6 @@
 	)
 	(label "P33"
 		(at 119.38 251.46 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8571,7 +8570,6 @@
 	)
 	(label "Id2"
 		(at 163.83 107.95 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8582,7 +8580,6 @@
 	)
 	(label "Sw2"
 		(at 114.3 102.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8593,7 +8590,6 @@
 	)
 	(label "P22"
 		(at 166.37 189.23 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8604,7 +8600,6 @@
 	)
 	(label "P17"
 		(at 259.08 118.11 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8615,7 +8610,6 @@
 	)
 	(label "Y10"
 		(at 191.77 241.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8626,7 +8620,6 @@
 	)
 	(label "Y5"
 		(at 254 171.45 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8637,7 +8630,6 @@
 	)
 	(label "Y9"
 		(at 241.3 171.45 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8648,7 +8640,6 @@
 	)
 	(label "Id3"
 		(at 191.77 254 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8659,7 +8650,6 @@
 	)
 	(label "~{Capsled}"
 		(at 269.24 171.45 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8670,7 +8660,6 @@
 	)
 	(label "P10"
 		(at 90.17 146.05 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8681,7 +8670,6 @@
 	)
 	(label "~{Nkeycom}"
 		(at 251.46 171.45 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8692,7 +8680,6 @@
 	)
 	(label "P07"
 		(at 248.92 118.11 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8703,7 +8690,6 @@
 	)
 	(label "P23"
 		(at 90.17 207.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8714,7 +8700,6 @@
 	)
 	(label "P20"
 		(at 166.37 236.22 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8725,7 +8710,6 @@
 	)
 	(label "P01"
 		(at 90.17 180.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8736,7 +8720,6 @@
 	)
 	(label "P34"
 		(at 119.38 246.38 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8747,7 +8730,6 @@
 	)
 	(label "Y1"
 		(at 264.16 171.45 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8758,7 +8740,6 @@
 	)
 	(label "Y7"
 		(at 191.77 201.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8769,7 +8750,6 @@
 	)
 	(label "~{Poweronled}"
 		(at 85.09 265.43 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8780,7 +8760,6 @@
 	)
 	(label "Y4"
 		(at 191.77 194.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8791,7 +8770,6 @@
 	)
 	(label "Id5"
 		(at 140.97 107.95 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8802,7 +8780,6 @@
 	)
 	(label "P14"
 		(at 90.17 156.21 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8813,7 +8790,6 @@
 	)
 	(label "Sw3"
 		(at 114.3 90.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8824,7 +8800,6 @@
 	)
 	(label "P11"
 		(at 236.22 118.11 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8835,7 +8810,6 @@
 	)
 	(label "Y3"
 		(at 191.77 191.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8846,7 +8820,6 @@
 	)
 	(label "Y10"
 		(at 238.76 171.45 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8857,7 +8830,6 @@
 	)
 	(label "Id1"
 		(at 171.45 107.95 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8868,7 +8840,6 @@
 	)
 	(label "Id4"
 		(at 148.59 107.95 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8879,7 +8850,6 @@
 	)
 	(label "Yr"
 		(at 64.77 153.67 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8890,7 +8860,6 @@
 	)
 	(label "P15"
 		(at 90.17 158.75 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8901,7 +8870,6 @@
 	)
 	(label "Xr"
 		(at 64.77 148.59 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8912,7 +8880,6 @@
 	)
 	(label "P33"
 		(at 90.17 234.95 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8923,7 +8890,6 @@
 	)
 	(label "P05"
 		(at 241.3 118.11 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8934,7 +8900,6 @@
 	)
 	(label "Y6"
 		(at 248.92 171.45 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8945,7 +8910,6 @@
 	)
 	(label "P20"
 		(at 90.17 214.63 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8956,7 +8920,6 @@
 	)
 	(label "Y11"
 		(at 191.77 243.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8967,7 +8930,6 @@
 	)
 	(label "Yd"
 		(at 114.3 92.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8978,7 +8940,6 @@
 	)
 	(label "P34"
 		(at 90.17 242.57 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8989,7 +8950,6 @@
 	)
 	(label "P03"
 		(at 231.14 118.11 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9000,7 +8960,6 @@
 	)
 	(label "Y0"
 		(at 266.7 171.45 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9011,7 +8970,6 @@
 	)
 	(label "Yr"
 		(at 114.3 105.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9022,7 +8980,6 @@
 	)
 	(label "Id0"
 		(at 179.07 107.95 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9033,7 +8990,6 @@
 	)
 	(label "~{Numled}"
 		(at 226.06 171.45 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9044,7 +9000,6 @@
 	)
 	(label "~{Scrollled}"
 		(at 154.94 251.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9055,7 +9010,6 @@
 	)
 	(label "Id5"
 		(at 191.77 259.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9066,7 +9020,6 @@
 	)
 	(label "Id3"
 		(at 156.21 107.95 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9077,7 +9030,6 @@
 	)
 	(label "P12"
 		(at 238.76 118.11 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9088,7 +9040,6 @@
 	)
 	(label "P32"
 		(at 119.38 254 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9099,7 +9050,6 @@
 	)
 	(label "P07"
 		(at 90.17 195.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9110,7 +9060,6 @@
 	)
 	(label "P00"
 		(at 90.17 177.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9121,7 +9070,6 @@
 	)
 	(label "P06"
 		(at 90.17 193.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9132,7 +9080,6 @@
 	)
 	(label "Id4"
 		(at 191.77 256.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9143,7 +9090,6 @@
 	)
 	(label "~{Scrollled}"
 		(at 228.6 171.45 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9154,7 +9100,6 @@
 	)
 	(label "Y2"
 		(at 191.77 189.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9165,7 +9110,6 @@
 	)
 	(label "P11"
 		(at 90.17 148.59 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9176,7 +9120,6 @@
 	)
 	(label "Y6"
 		(at 191.77 199.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9187,7 +9130,6 @@
 	)
 	(label "Y4"
 		(at 256.54 171.45 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9198,7 +9140,6 @@
 	)
 	(label "P06"
 		(at 246.38 118.11 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9209,7 +9150,6 @@
 	)
 	(label "P14"
 		(at 251.46 118.11 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9220,7 +9160,6 @@
 	)
 	(label "~{Inuseled}"
 		(at 85.09 274.32 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9231,7 +9170,6 @@
 	)
 	(label "Y9"
 		(at 191.77 238.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9242,7 +9180,6 @@
 	)
 	(label "P04"
 		(at 90.17 187.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9253,7 +9190,6 @@
 	)
 	(label "~{Numled}"
 		(at 154.94 246.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9264,7 +9200,6 @@
 	)
 	(label "Id0"
 		(at 191.77 204.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9275,7 +9210,6 @@
 	)
 	(label "Sw1"
 		(at 114.3 97.79 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9286,7 +9220,6 @@
 	)
 	(label "Xr"
 		(at 114.3 100.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9297,7 +9230,6 @@
 	)
 	(label "Yd"
 		(at 64.77 156.21 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9308,7 +9240,6 @@
 	)
 	(label "P23"
 		(at 119.38 243.84 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9319,7 +9250,6 @@
 	)
 	(label "P02"
 		(at 228.6 118.11 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9330,7 +9260,6 @@
 	)
 	(label "P21"
 		(at 166.37 186.69 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9341,7 +9270,6 @@
 	)
 	(label "Y7"
 		(at 246.38 171.45 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9352,7 +9280,6 @@
 	)
 	(label "P13"
 		(at 243.84 118.11 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9363,7 +9290,6 @@
 	)
 	(label "Xd"
 		(at 114.3 95.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9374,7 +9300,6 @@
 	)
 	(label "Y2"
 		(at 261.62 171.45 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9385,7 +9310,6 @@
 	)
 	(label "P20"
 		(at 166.37 184.15 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9396,7 +9320,6 @@
 	)
 	(label "Y12"
 		(at 233.68 171.45 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9407,7 +9330,6 @@
 	)
 	(label "P03"
 		(at 90.17 185.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9418,7 +9340,6 @@
 	)
 	(label "P21"
 		(at 90.17 212.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9429,7 +9350,6 @@
 	)
 	(label "P01"
 		(at 226.06 118.11 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9440,7 +9360,6 @@
 	)
 	(label "P21"
 		(at 166.37 238.76 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9451,7 +9370,6 @@
 	)
 	(label "Y8"
 		(at 191.77 236.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9462,7 +9380,6 @@
 	)
 	(label "P17"
 		(at 90.17 163.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9473,7 +9390,6 @@
 	)
 	(label "~{Inuseled}"
 		(at 223.52 171.45 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9484,7 +9400,6 @@
 	)
 	(label "P13"
 		(at 90.17 153.67 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9495,7 +9410,6 @@
 	)
 	(label "~{Capsled}"
 		(at 154.94 254 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9506,7 +9420,6 @@
 	)
 	(label "P22"
 		(at 166.37 241.3 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9517,7 +9430,6 @@
 	)
 	(label "P00"
 		(at 220.98 118.11 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9528,7 +9440,6 @@
 	)
 	(label "P02"
 		(at 90.17 182.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9539,7 +9450,6 @@
 	)
 	(label "P04"
 		(at 233.68 118.11 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9550,7 +9460,6 @@
 	)
 	(label "Sw3"
 		(at 64.77 173.99 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9561,7 +9470,6 @@
 	)
 	(label "Y11"
 		(at 236.22 171.45 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9572,7 +9480,6 @@
 	)
 	(label "Y5"
 		(at 191.77 196.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9583,7 +9490,6 @@
 	)
 	(label "P22"
 		(at 90.17 209.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9594,7 +9500,6 @@
 	)
 	(label "P05"
 		(at 90.17 190.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9605,7 +9510,6 @@
 	)
 	(label "Y0"
 		(at 191.77 184.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9616,7 +9520,6 @@
 	)
 	(label "Y12"
 		(at 191.77 246.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9627,7 +9530,6 @@
 	)
 	(label "P10"
 		(at 223.52 118.11 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9638,7 +9540,6 @@
 	)
 	(label "P16"
 		(at 90.17 161.29 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9649,7 +9550,6 @@
 	)
 	(label "P15"
 		(at 254 118.11 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9660,7 +9560,6 @@
 	)
 	(label "~{Nkeycom}"
 		(at 191.77 248.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9671,7 +9570,6 @@
 	)
 	(label "Y1"
 		(at 191.77 186.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9682,7 +9580,6 @@
 	)
 	(label "Y8"
 		(at 243.84 171.45 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9693,7 +9590,6 @@
 	)
 	(label "Id2"
 		(at 191.77 251.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9704,7 +9600,6 @@
 	)
 	(label "Sw2"
 		(at 64.77 171.45 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9715,7 +9610,6 @@
 	)
 	(label "P10"
 		(at 179.07 92.71 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9726,7 +9620,6 @@
 	)
 	(label "Xd"
 		(at 64.77 151.13 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9737,7 +9630,6 @@
 	)
 	(label "~{Poweronled}"
 		(at 220.98 171.45 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9748,7 +9640,6 @@
 	)
 	(label "Y3"
 		(at 259.08 171.45 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9759,7 +9650,6 @@
 	)
 	(label "Id1"
 		(at 191.77 207.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9770,7 +9660,6 @@
 	)
 	(label "P32"
 		(at 90.17 227.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9781,7 +9670,6 @@
 	)
 	(label "P12"
 		(at 90.17 151.13 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9792,7 +9680,6 @@
 	)
 	(label "P16"
 		(at 256.54 118.11 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9803,7 +9690,6 @@
 	)
 	(label "Sw1"
 		(at 64.77 168.91 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9814,7 +9700,6 @@
 	)
 	(label "P23"
 		(at 166.37 191.77 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9936,7 +9821,6 @@
 	(hierarchical_label "Id[0..5]"
 		(shape input)
 		(at 137.16 113.03 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9948,7 +9832,6 @@
 	(hierarchical_label "Id[0..5]"
 		(shape input)
 		(at 203.2 210.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9960,7 +9843,6 @@
 	(hierarchical_label "P0[0..7]"
 		(shape bidirectional)
 		(at 217.17 95.25 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9972,7 +9854,6 @@
 	(hierarchical_label "Y[0..12]"
 		(shape input)
 		(at 203.2 180.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9984,7 +9865,6 @@
 	(hierarchical_label "Y[0..12]"
 		(shape input)
 		(at 203.2 232.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9996,7 +9876,6 @@
 	(hierarchical_label "Y[0..12]"
 		(shape input)
 		(at 229.87 148.59 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10008,7 +9887,6 @@
 	(hierarchical_label "P1[0..7]"
 		(shape bidirectional)
 		(at 105.41 142.24 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10020,7 +9898,6 @@
 	(hierarchical_label "P1[0..7]"
 		(shape bidirectional)
 		(at 273.05 95.25 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10032,7 +9909,6 @@
 	(hierarchical_label "P1[0..7]"
 		(shape bidirectional)
 		(at 184.15 88.9 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10044,7 +9920,6 @@
 	(hierarchical_label "P0[0..7]"
 		(shape bidirectional)
 		(at 132.08 173.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10056,7 +9931,6 @@
 	(hierarchical_label "Id[0..5]"
 		(shape input)
 		(at 203.2 262.89 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

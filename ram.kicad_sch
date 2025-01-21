@@ -9485,7 +9485,6 @@
 	)
 	(label "Rd10"
 		(at 76.2 118.11 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9496,7 +9495,6 @@
 	)
 	(label "Ra7"
 		(at 45.72 207.01 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9507,7 +9505,6 @@
 	)
 	(label "D23"
 		(at 195.58 156.21 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9518,7 +9515,6 @@
 	)
 	(label "Ra7"
 		(at 129.54 111.76 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9529,7 +9525,6 @@
 	)
 	(label "Rd21"
 		(at 76.2 201.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9540,7 +9535,6 @@
 	)
 	(label "Rd7"
 		(at 160.02 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9551,7 +9545,6 @@
 	)
 	(label "D1"
 		(at 195.58 85.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9562,7 +9555,6 @@
 	)
 	(label "Rd7"
 		(at 76.2 110.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9573,7 +9565,6 @@
 	)
 	(label "Rd3"
 		(at 160.02 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9584,7 +9575,6 @@
 	)
 	(label "Cas3"
 		(at 101.6 113.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9595,7 +9585,6 @@
 	)
 	(label "Ra3"
 		(at 45.72 196.85 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9606,7 +9595,6 @@
 	)
 	(label "Ra4"
 		(at 129.54 104.14 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9617,7 +9605,6 @@
 	)
 	(label "Rd22"
 		(at 76.2 204.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9628,7 +9615,6 @@
 	)
 	(label "Cas1"
 		(at 101.6 107.95 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9639,7 +9625,6 @@
 	)
 	(label "Rd24"
 		(at 160.02 209.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9650,7 +9635,6 @@
 	)
 	(label "Rd12"
 		(at 160.02 124.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9661,7 +9645,6 @@
 	)
 	(label "Tcas3"
 		(at 119.38 166.37 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9672,7 +9655,6 @@
 	)
 	(label "Rd3"
 		(at 185.42 90.17 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9683,7 +9665,6 @@
 	)
 	(label "D24"
 		(at 195.58 166.37 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9694,7 +9675,6 @@
 	)
 	(label "Rd12"
 		(at 185.42 120.65 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9705,7 +9685,6 @@
 	)
 	(label "D7"
 		(at 195.58 100.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9716,7 +9695,6 @@
 	)
 	(label "Rd19"
 		(at 185.42 146.05 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9727,7 +9705,6 @@
 	)
 	(label "~{OE2}"
 		(at 45.72 81.28 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9738,7 +9715,6 @@
 	)
 	(label "Ra1"
 		(at 129.54 96.52 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9749,7 +9725,6 @@
 	)
 	(label "Ra1"
 		(at 45.72 95.25 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9760,7 +9735,6 @@
 	)
 	(label "Rd13"
 		(at 76.2 125.73 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9771,7 +9745,6 @@
 	)
 	(label "D17"
 		(at 195.58 140.97 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9782,7 +9755,6 @@
 	)
 	(label "Rd30"
 		(at 160.02 224.79 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9793,7 +9765,6 @@
 	)
 	(label "Rd25"
 		(at 185.42 168.91 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9804,7 +9775,6 @@
 	)
 	(label "D9"
 		(at 195.58 113.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9815,7 +9785,6 @@
 	)
 	(label "Rd4"
 		(at 160.02 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9826,7 +9795,6 @@
 	)
 	(label "Rd18"
 		(at 76.2 194.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9837,7 +9805,6 @@
 	)
 	(label "Rd0"
 		(at 185.42 82.55 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9848,7 +9815,6 @@
 	)
 	(label "Rd15"
 		(at 160.02 132.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9859,7 +9825,6 @@
 	)
 	(label "Ra94m"
 		(at 45.72 120.65 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9870,7 +9835,6 @@
 	)
 	(label "Rd17"
 		(at 160.02 191.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9881,7 +9845,6 @@
 	)
 	(label "Tcas1"
 		(at 45.72 69.85 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9892,7 +9855,6 @@
 	)
 	(label "Rd30"
 		(at 76.2 224.79 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9903,7 +9865,6 @@
 	)
 	(label "D13"
 		(at 195.58 123.19 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9914,7 +9875,6 @@
 	)
 	(label "D14"
 		(at 195.58 125.73 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9925,7 +9885,6 @@
 	)
 	(label "Ra0"
 		(at 129.54 189.23 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9936,7 +9895,6 @@
 	)
 	(label "D8"
 		(at 195.58 110.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9947,7 +9905,6 @@
 	)
 	(label "Rd9"
 		(at 76.2 115.57 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9958,7 +9915,6 @@
 	)
 	(label "Ra5"
 		(at 45.72 201.93 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9969,7 +9925,6 @@
 	)
 	(label "~{WR2}"
 		(at 45.72 181.61 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9980,7 +9935,6 @@
 	)
 	(label "Ra6"
 		(at 45.72 204.47 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9991,7 +9945,6 @@
 	)
 	(label "~{OE1}"
 		(at 236.22 265.43 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10002,7 +9955,6 @@
 	)
 	(label "Rd0"
 		(at 76.2 92.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10013,7 +9965,6 @@
 	)
 	(label "Rd31"
 		(at 160.02 227.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10024,7 +9975,6 @@
 	)
 	(label "~{WR1}"
 		(at 129.54 86.36 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10035,7 +9985,6 @@
 	)
 	(label "Rd10"
 		(at 160.02 119.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10046,7 +9995,6 @@
 	)
 	(label "Rd2"
 		(at 185.42 87.63 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10057,7 +10005,6 @@
 	)
 	(label "Rd0"
 		(at 160.02 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10068,7 +10015,6 @@
 	)
 	(label "Ra4"
 		(at 129.54 199.39 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10079,7 +10025,6 @@
 	)
 	(label "Tcas0"
 		(at 118.11 74.93 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10090,7 +10035,6 @@
 	)
 	(label "~{OE1}"
 		(at 129.54 82.55 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10101,7 +10045,6 @@
 	)
 	(label "Rd1"
 		(at 76.2 95.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10112,7 +10055,6 @@
 	)
 	(label "D18"
 		(at 195.58 143.51 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10123,7 +10065,6 @@
 	)
 	(label "Ra4"
 		(at 45.72 199.39 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10134,7 +10075,6 @@
 	)
 	(label "Rd28"
 		(at 76.2 219.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10145,7 +10085,6 @@
 	)
 	(label "D26"
 		(at 195.58 171.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10156,7 +10095,6 @@
 	)
 	(label "Ra5"
 		(at 129.54 201.93 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10167,7 +10105,6 @@
 	)
 	(label "D6"
 		(at 195.58 97.79 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10178,7 +10115,6 @@
 	)
 	(label "Ra0"
 		(at 129.54 93.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10189,7 +10125,6 @@
 	)
 	(label "Rd26"
 		(at 160.02 214.63 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10200,7 +10135,6 @@
 	)
 	(label "Rd11"
 		(at 76.2 120.65 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10211,7 +10145,6 @@
 	)
 	(label "Rd20"
 		(at 160.02 199.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10222,7 +10155,6 @@
 	)
 	(label "D5"
 		(at 195.58 95.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10233,7 +10165,6 @@
 	)
 	(label "Rd17"
 		(at 76.2 191.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10244,7 +10175,6 @@
 	)
 	(label "Ra8"
 		(at 45.72 113.03 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10255,7 +10185,6 @@
 	)
 	(label "Rd18"
 		(at 185.42 143.51 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10266,7 +10195,6 @@
 	)
 	(label "D10"
 		(at 195.58 115.57 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10277,7 +10205,6 @@
 	)
 	(label "Ra8"
 		(at 129.54 209.55 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10288,7 +10215,6 @@
 	)
 	(label "Ra7"
 		(at 129.54 207.01 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10299,7 +10225,6 @@
 	)
 	(label "Rd26"
 		(at 76.2 214.63 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10310,7 +10235,6 @@
 	)
 	(label "Rd31"
 		(at 76.2 227.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10321,7 +10245,6 @@
 	)
 	(label "Ra6"
 		(at 45.72 107.95 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10332,7 +10255,6 @@
 	)
 	(label "Tcas2"
 		(at 45.72 170.18 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10343,7 +10265,6 @@
 	)
 	(label "Rd4"
 		(at 185.42 92.71 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10354,7 +10275,6 @@
 	)
 	(label "D22"
 		(at 195.58 153.67 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10365,7 +10285,6 @@
 	)
 	(label "Rd26"
 		(at 185.42 171.45 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10376,7 +10295,6 @@
 	)
 	(label "Rd8"
 		(at 160.02 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10387,7 +10305,6 @@
 	)
 	(label "Rd29"
 		(at 76.2 222.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10398,7 +10315,6 @@
 	)
 	(label "Tcas0"
 		(at 45.72 73.66 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10409,7 +10325,6 @@
 	)
 	(label "Rd1"
 		(at 160.02 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10420,7 +10335,6 @@
 	)
 	(label "Rd19"
 		(at 76.2 196.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10431,7 +10345,6 @@
 	)
 	(label "Rd2"
 		(at 160.02 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10442,7 +10355,6 @@
 	)
 	(label "D0"
 		(at 195.58 82.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10453,7 +10365,6 @@
 	)
 	(label "D12"
 		(at 195.58 120.65 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10464,7 +10375,6 @@
 	)
 	(label "Cas2"
 		(at 101.6 115.57 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10475,7 +10385,6 @@
 	)
 	(label "Rd15"
 		(at 76.2 130.81 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10486,7 +10395,6 @@
 	)
 	(label "~{OE2}"
 		(at 45.72 177.8 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10497,7 +10405,6 @@
 	)
 	(label "Rd4"
 		(at 76.2 102.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10508,7 +10415,6 @@
 	)
 	(label "Ra94m"
 		(at 191.77 248.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10519,7 +10425,6 @@
 	)
 	(label "Rd16"
 		(at 185.42 138.43 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10530,7 +10435,6 @@
 	)
 	(label "Rd23"
 		(at 185.42 156.21 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10541,7 +10445,6 @@
 	)
 	(label "D25"
 		(at 195.58 168.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10552,7 +10455,6 @@
 	)
 	(label "D2"
 		(at 195.58 87.63 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10563,7 +10465,6 @@
 	)
 	(label "Ra3"
 		(at 45.72 100.33 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10574,7 +10475,6 @@
 	)
 	(label "~{WR1}"
 		(at 236.22 267.97 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10585,7 +10485,6 @@
 	)
 	(label "Ra4"
 		(at 45.72 102.87 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10596,7 +10495,6 @@
 	)
 	(label "Rd2"
 		(at 76.2 97.79 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10607,7 +10505,6 @@
 	)
 	(label "Rd6"
 		(at 185.42 97.79 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10618,7 +10515,6 @@
 	)
 	(label "Ra2"
 		(at 45.72 194.31 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10629,7 +10525,6 @@
 	)
 	(label "Rd28"
 		(at 185.42 176.53 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10640,7 +10535,6 @@
 	)
 	(label "Ra3"
 		(at 129.54 196.85 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10651,7 +10545,6 @@
 	)
 	(label "Rd16"
 		(at 76.2 189.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10662,7 +10555,6 @@
 	)
 	(label "D31"
 		(at 195.58 184.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10673,7 +10565,6 @@
 	)
 	(label "Rd19"
 		(at 160.02 196.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10684,7 +10575,6 @@
 	)
 	(label "Rd8"
 		(at 76.2 113.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10695,7 +10585,6 @@
 	)
 	(label "Rd16"
 		(at 160.02 189.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10706,7 +10595,6 @@
 	)
 	(label "Ra3"
 		(at 129.54 101.6 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10717,7 +10605,6 @@
 	)
 	(label "Ra1"
 		(at 45.72 191.77 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10728,7 +10615,6 @@
 	)
 	(label "Rd13"
 		(at 185.42 123.19 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10739,7 +10625,6 @@
 	)
 	(label "Rd9"
 		(at 160.02 116.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10750,7 +10635,6 @@
 	)
 	(label "Tcas2"
 		(at 119.38 170.18 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10761,7 +10645,6 @@
 	)
 	(label "Rd5"
 		(at 185.42 95.25 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10772,7 +10655,6 @@
 	)
 	(label "Rd13"
 		(at 160.02 127 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10783,7 +10665,6 @@
 	)
 	(label "Rd3"
 		(at 76.2 100.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10794,7 +10675,6 @@
 	)
 	(label "Rd25"
 		(at 160.02 212.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10805,7 +10685,6 @@
 	)
 	(label "Rd5"
 		(at 160.02 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10816,7 +10695,6 @@
 	)
 	(label "Ra5"
 		(at 45.72 105.41 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10827,7 +10705,6 @@
 	)
 	(label "Rd24"
 		(at 76.2 209.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10838,7 +10715,6 @@
 	)
 	(label "Rd12"
 		(at 76.2 123.19 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10849,7 +10725,6 @@
 	)
 	(label "Rd7"
 		(at 185.42 100.33 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10860,7 +10735,6 @@
 	)
 	(label "Rd22"
 		(at 185.42 153.67 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10871,7 +10745,6 @@
 	)
 	(label "Rd23"
 		(at 76.2 207.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10882,7 +10755,6 @@
 	)
 	(label "D15"
 		(at 195.58 128.27 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10893,7 +10765,6 @@
 	)
 	(label "Rd10"
 		(at 185.42 115.57 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10904,7 +10775,6 @@
 	)
 	(label "Ra2"
 		(at 129.54 194.31 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10915,7 +10785,6 @@
 	)
 	(label "~{OE1}"
 		(at 129.54 177.8 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10926,7 +10795,6 @@
 	)
 	(label "Ra1"
 		(at 129.54 191.77 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10937,7 +10805,6 @@
 	)
 	(label "Rd6"
 		(at 160.02 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10948,7 +10815,6 @@
 	)
 	(label "Rd21"
 		(at 160.02 201.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10959,7 +10825,6 @@
 	)
 	(label "Rd20"
 		(at 185.42 148.59 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10970,7 +10835,6 @@
 	)
 	(label "Rd11"
 		(at 160.02 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10981,7 +10845,6 @@
 	)
 	(label "D21"
 		(at 195.58 151.13 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10992,7 +10855,6 @@
 	)
 	(label "Rd14"
 		(at 160.02 129.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11003,7 +10865,6 @@
 	)
 	(label "D27"
 		(at 195.58 173.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11014,7 +10875,6 @@
 	)
 	(label "Ra9"
 		(at 191.77 251.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11025,7 +10885,6 @@
 	)
 	(label "Rd23"
 		(at 160.02 207.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11036,7 +10895,6 @@
 	)
 	(label "Ra0"
 		(at 45.72 189.23 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11047,7 +10905,6 @@
 	)
 	(label "Ra2"
 		(at 45.72 97.79 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11058,7 +10915,6 @@
 	)
 	(label "Rd27"
 		(at 185.42 173.99 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11069,7 +10925,6 @@
 	)
 	(label "D28"
 		(at 195.58 176.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11080,7 +10935,6 @@
 	)
 	(label "D19"
 		(at 195.58 146.05 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11091,7 +10945,6 @@
 	)
 	(label "Rd14"
 		(at 185.42 125.73 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11102,7 +10955,6 @@
 	)
 	(label "Rd5"
 		(at 76.2 105.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11113,7 +10965,6 @@
 	)
 	(label "Ra8"
 		(at 45.72 209.55 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11124,7 +10975,6 @@
 	)
 	(label "Rd21"
 		(at 185.42 151.13 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11135,7 +10985,6 @@
 	)
 	(label "D29"
 		(at 195.58 179.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11146,7 +10995,6 @@
 	)
 	(label "Rd22"
 		(at 160.02 204.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11157,7 +11005,6 @@
 	)
 	(label "Rd8"
 		(at 185.42 110.49 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11168,7 +11015,6 @@
 	)
 	(label "Tcas1"
 		(at 118.11 71.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11179,7 +11025,6 @@
 	)
 	(label "D11"
 		(at 195.58 118.11 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11190,7 +11035,6 @@
 	)
 	(label "Ra94m"
 		(at 45.72 217.17 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11201,7 +11045,6 @@
 	)
 	(label "Ra8"
 		(at 129.54 114.3 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11212,7 +11055,6 @@
 	)
 	(label "Rd28"
 		(at 160.02 219.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11223,7 +11065,6 @@
 	)
 	(label "Rd17"
 		(at 185.42 140.97 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11234,7 +11075,6 @@
 	)
 	(label "Rd6"
 		(at 76.2 107.95 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11245,7 +11085,6 @@
 	)
 	(label "Ra7"
 		(at 45.72 110.49 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11256,7 +11095,6 @@
 	)
 	(label "Rd29"
 		(at 185.42 179.07 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11267,7 +11105,6 @@
 	)
 	(label "Rd31"
 		(at 185.42 184.15 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11278,7 +11115,6 @@
 	)
 	(label "Tcas3"
 		(at 45.72 166.37 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11289,7 +11125,6 @@
 	)
 	(label "Rd27"
 		(at 160.02 217.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11300,7 +11135,6 @@
 	)
 	(label "Ra6"
 		(at 129.54 109.22 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11311,7 +11145,6 @@
 	)
 	(label "Rd27"
 		(at 76.2 217.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11322,7 +11155,6 @@
 	)
 	(label "D3"
 		(at 195.58 90.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11333,7 +11165,6 @@
 	)
 	(label "Rd29"
 		(at 160.02 222.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11344,7 +11175,6 @@
 	)
 	(label "Rd30"
 		(at 185.42 181.61 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11355,7 +11185,6 @@
 	)
 	(label "Rd25"
 		(at 76.2 212.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11366,7 +11195,6 @@
 	)
 	(label "D30"
 		(at 195.58 181.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11377,7 +11205,6 @@
 	)
 	(label "~{WR2}"
 		(at 45.72 85.09 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11388,7 +11215,6 @@
 	)
 	(label "~{OE2}"
 		(at 236.22 270.51 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11399,7 +11225,6 @@
 	)
 	(label "~{WR1}"
 		(at 129.54 181.61 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11410,7 +11235,6 @@
 	)
 	(label "D16"
 		(at 195.58 138.43 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11421,7 +11245,6 @@
 	)
 	(label "Rd18"
 		(at 160.02 194.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11432,7 +11255,6 @@
 	)
 	(label "~{WR2}"
 		(at 236.22 273.05 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11443,7 +11265,6 @@
 	)
 	(label "Rd20"
 		(at 76.2 199.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11454,7 +11275,6 @@
 	)
 	(label "Rd1"
 		(at 185.42 85.09 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11465,7 +11285,6 @@
 	)
 	(label "Cas0"
 		(at 101.6 110.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11476,7 +11295,6 @@
 	)
 	(label "Rd9"
 		(at 185.42 113.03 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11487,7 +11305,6 @@
 	)
 	(label "D20"
 		(at 195.58 148.59 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11498,7 +11315,6 @@
 	)
 	(label "D4"
 		(at 195.58 92.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11509,7 +11325,6 @@
 	)
 	(label "Ra5"
 		(at 129.54 106.68 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11520,7 +11335,6 @@
 	)
 	(label "Rd14"
 		(at 76.2 128.27 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11531,7 +11345,6 @@
 	)
 	(label "Ra0"
 		(at 45.72 92.71 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11542,7 +11355,6 @@
 	)
 	(label "Rd24"
 		(at 185.42 166.37 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11553,7 +11365,6 @@
 	)
 	(label "Rd11"
 		(at 185.42 118.11 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11564,7 +11375,6 @@
 	)
 	(label "Rd15"
 		(at 185.42 128.27 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11575,7 +11385,6 @@
 	)
 	(label "Ra2"
 		(at 129.54 99.06 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11586,7 +11395,6 @@
 	)
 	(label "Ra6"
 		(at 129.54 204.47 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11686,7 +11494,6 @@
 	(hierarchical_label "Cas[0..3]"
 		(shape input)
 		(at 205.74 36.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11698,7 +11505,6 @@
 	(hierarchical_label "D[0..31]"
 		(shape bidirectional)
 		(at 205.74 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11710,7 +11516,6 @@
 	(hierarchical_label "Ra[0..9]"
 		(shape input)
 		(at 203.2 241.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11722,7 +11527,6 @@
 	(hierarchical_label "Ra[0..9]"
 		(shape input)
 		(at 205.74 39.37 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

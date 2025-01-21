@@ -4546,7 +4546,6 @@
 	)
 	(label "Bd0"
 		(at 29.21 48.26 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4557,7 +4556,6 @@
 	)
 	(label "Bd1"
 		(at 29.21 50.8 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4568,7 +4566,6 @@
 	)
 	(label "Bd5"
 		(at 29.21 60.96 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4579,7 +4576,6 @@
 	)
 	(label "Bd2"
 		(at 29.21 53.34 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4590,7 +4586,6 @@
 	)
 	(label "Bd6"
 		(at 29.21 63.5 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4601,7 +4596,6 @@
 	)
 	(label "Bd4"
 		(at 29.21 58.42 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4612,7 +4606,6 @@
 	)
 	(label "Bd7"
 		(at 29.21 66.04 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4623,7 +4616,6 @@
 	)
 	(label "Bd3"
 		(at 29.21 55.88 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4679,7 +4671,6 @@
 	(hierarchical_label "Bd[0..7]"
 		(shape bidirectional)
 		(at 21.59 26.67 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

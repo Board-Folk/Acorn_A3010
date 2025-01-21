@@ -4248,7 +4248,6 @@
 	)
 	(label "Left"
 		(at 170.18 92.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4259,7 +4258,6 @@
 	)
 	(label "Left"
 		(at 213.36 86.36 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4270,7 +4268,6 @@
 	)
 	(label "Right"
 		(at 213.36 91.44 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4281,7 +4278,6 @@
 	)
 	(label "Right"
 		(at 170.18 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4292,7 +4288,6 @@
 	)
 	(label "Bias"
 		(at 116.84 90.17 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
