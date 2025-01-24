@@ -3002,6 +3002,12 @@
 		(uuid "df2623bf-c5fb-4282-96a8-37184597c70c")
 	)
 	(junction
+		(at 196.85 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1042af5-45ab-4604-b646-d924761747a2")
+	)
+	(junction
 		(at 207.01 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3967,7 +3973,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 85.09) (xy 199.39 85.09)
+			(xy 190.5 85.09) (xy 196.85 85.09)
 		)
 		(stroke
 			(width 0)
@@ -4697,6 +4703,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 85.09) (xy 196.85 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c247f2bb-e085-496e-a604-7d923269084d")
+	)
+	(wire
+		(pts
 			(xy 191.77 59.69) (xy 191.77 58.42)
 		)
 		(stroke
@@ -4824,6 +4840,16 @@
 			(type default)
 		)
 		(uuid "d5ecd800-e794-4f5e-b90a-480bc2be6191")
+	)
+	(wire
+		(pts
+			(xy 196.85 85.09) (xy 199.39 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5f98828-aeed-4b9b-b90a-c1c73ff36cfa")
 	)
 	(wire
 		(pts
@@ -6207,6 +6233,75 @@
 			(project "Acorn-A3010"
 				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/21031065-42cd-49d4-b299-d2e76b62bbd8"
 					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 196.85 90.17 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1e27dbc1-821c-4717-a40b-f9342c174b3f")
+		(property "Reference" "C44"
+			(at 191.77 88.646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "33nF"
+			(at 191.77 91.694 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 196.85 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 196.85 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0bf1338-6f75-4436-bff2-1c99d469f50e")
+		)
+		(pin "2"
+			(uuid "46fc0af3-f4ff-4f7f-b62d-3ca9c944a33e")
+		)
+		(instances
+			(project "Acorn-A3010"
+				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/21031065-42cd-49d4-b299-d2e76b62bbd8"
+					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -8188,7 +8283,7 @@
 				)
 			)
 		)
-		(property "Value" "Internal Speaker"
+		(property "Value" "Bridge VidVss to Gnd"
 			(at 58.674 70.612 90)
 			(effects
 				(font
@@ -12030,6 +12125,72 @@
 			(project "Acorn-A3010"
 				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/21031065-42cd-49d4-b299-d2e76b62bbd8"
 					(reference "#PWR0238")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 196.85 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e498787b-26bd-428d-8cb8-c5f1e3f7e8c0")
+		(property "Reference" "#PWR0265"
+			(at 196.85 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 196.85 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 196.85 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "083ef59d-6030-4135-9595-6b19f4597714")
+		)
+		(instances
+			(project "Acorn-A3010"
+				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/21031065-42cd-49d4-b299-d2e76b62bbd8"
+					(reference "#PWR0265")
 					(unit 1)
 				)
 			)
