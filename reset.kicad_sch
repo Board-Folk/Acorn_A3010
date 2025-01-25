@@ -2646,7 +2646,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bf478f1c-1403-42de-8fe9-0810a920a791")
 		(property "Reference" "SW1"
 			(at 107.95 93.98 0)
@@ -2664,7 +2663,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_Push_2P2T_Toggle_CK_PVA2OAH5xxxxxxV2"
+		(property "Footprint" "Acorn:Reset_Switch"
 			(at 107.95 102.87 0)
 			(effects
 				(font
