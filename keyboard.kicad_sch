@@ -16239,7 +16239,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_LCC:PLCC-44_16.6x16.6mm_P1.27mm"
+		(property "Footprint" "Acorn:PLCC-44"
 			(at 77.47 165.1 0)
 			(effects
 				(font
