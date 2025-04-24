@@ -16,8 +16,24 @@ traces.
 
 ## Progress ##
 
-The schematics and PCB design are both complete but unverified with a physical 
-build.
+The schematics and PCB design are both complete. An initial fabrication run has
+been completed and in the process of being tested. The first board is populated
+and while it appears to be working over the post port, there is no apparent video
+output
+
+### Changes from first test build ###
+
+The AC inputs to the Mean Well psu were reversed. This should not technically
+Be a problem for the psi so can be considered cosmetic.
+
+Footprint pad sizes have been enlarged for the LQFP and J-leg components to aid
+With hand assembly.
+
+### Known issues ###
+
+The specified fuse rating for the AC input is inadequate for the Mean Well psu.
+The initial power-up produces a spike in current that blows the fuse immediately,
+it may prove more appropriate to remove the fuse and add protection to the outputs 
 
 ## Factory Fixes ##
 
