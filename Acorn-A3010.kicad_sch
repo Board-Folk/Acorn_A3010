@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "999882f3-94f8-4a89-9093-27a47d0cb289")
 	(paper "A4")
 	(lib_symbols
@@ -86,6 +86,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(junction
@@ -95,16 +96,34 @@
 		(uuid "0e14c213-548d-452a-b7b4-e1fca888c2aa")
 	)
 	(junction
+		(at 170.18 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f7c60a4-8f6e-4fc8-bf99-0a272fc7f765")
+	)
+	(junction
+		(at 170.18 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b1432c6-9188-405b-a5bf-33df6aaa9755")
+	)
+	(junction
 		(at 162.56 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8fc96088-1aaf-4f04-8a71-e679a7868168")
 	)
 	(junction
-		(at 168.91 91.44)
+		(at 162.56 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c10d8dcc-c053-4dae-803c-39b02690e04c")
+		(uuid "a6e23877-14af-4b67-9185-800fae26a1d0")
+	)
+	(junction
+		(at 166.37 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c94a841f-c8ca-4591-9a4b-8d367a324acd")
 	)
 	(junction
 		(at 166.37 81.28)
@@ -160,16 +179,6 @@
 	)
 	(bus
 		(pts
-			(xy 168.91 85.09) (xy 186.69 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15b87a2c-ab40-4edd-8fc6-f2a618d0478a")
-	)
-	(bus
-		(pts
 			(xy 158.75 99.06) (xy 163.83 99.06)
 		)
 		(stroke
@@ -187,6 +196,26 @@
 			(type default)
 		)
 		(uuid "1dc7d7d3-9e03-4b6a-aa87-824570119688")
+	)
+	(bus
+		(pts
+			(xy 162.56 40.64) (xy 162.56 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29c67701-9dfe-4384-9820-cec3a1fa5269")
+	)
+	(bus
+		(pts
+			(xy 170.18 85.09) (xy 186.69 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a3acfe8-f137-4667-9b46-5b7f69237813")
 	)
 	(bus
 		(pts
@@ -220,7 +249,7 @@
 	)
 	(bus
 		(pts
-			(xy 166.37 50.8) (xy 166.37 62.23)
+			(xy 166.37 34.29) (xy 166.37 43.18)
 		)
 		(stroke
 			(width 0)
@@ -260,13 +289,23 @@
 	)
 	(bus
 		(pts
-			(xy 158.75 91.44) (xy 168.91 91.44)
+			(xy 158.75 91.44) (xy 170.18 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9c11879d-7a6d-4554-8dca-5f9ae67fcca6")
+	)
+	(bus
+		(pts
+			(xy 158.75 40.64) (xy 162.56 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e5312d4-a575-42b3-884b-b1289dbbd61e")
 	)
 	(bus
 		(pts
@@ -280,7 +319,7 @@
 	)
 	(bus
 		(pts
-			(xy 168.91 104.14) (xy 186.69 104.14)
+			(xy 170.18 104.14) (xy 186.69 104.14)
 		)
 		(stroke
 			(width 0)
@@ -290,7 +329,7 @@
 	)
 	(bus
 		(pts
-			(xy 168.91 85.09) (xy 168.91 91.44)
+			(xy 170.18 38.1) (xy 170.18 85.09)
 		)
 		(stroke
 			(width 0)
@@ -300,7 +339,7 @@
 	)
 	(bus
 		(pts
-			(xy 168.91 91.44) (xy 168.91 104.14)
+			(xy 170.18 91.44) (xy 170.18 104.14)
 		)
 		(stroke
 			(width 0)
@@ -310,7 +349,7 @@
 	)
 	(bus
 		(pts
-			(xy 162.56 50.8) (xy 162.56 58.42)
+			(xy 162.56 34.29) (xy 162.56 40.64)
 		)
 		(stroke
 			(width 0)
@@ -340,6 +379,26 @@
 	)
 	(bus
 		(pts
+			(xy 158.75 38.1) (xy 170.18 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8829973-4fbc-41f2-93c5-0ed1aa3c5014")
+	)
+	(bus
+		(pts
+			(xy 166.37 43.18) (xy 166.37 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d430d3fd-f11e-4ab1-9cc0-d6bb0d823a83")
+	)
+	(bus
+		(pts
 			(xy 162.56 58.42) (xy 186.69 58.42)
 		)
 		(stroke
@@ -347,6 +406,26 @@
 			(type default)
 		)
 		(uuid "e7136332-336f-4bc7-880d-eed83fe525f0")
+	)
+	(bus
+		(pts
+			(xy 158.75 43.18) (xy 166.37 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4299842-ee64-41a0-932b-3de220a5288e")
+	)
+	(bus
+		(pts
+			(xy 170.18 85.09) (xy 170.18 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7a311c0-8da4-4f98-a723-7718e81d3209")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
@@ -660,7 +739,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "Acorn-A3010"
 				(path "/999882f3-94f8-4a89-9093-27a47d0cb289"
 					(reference "H1")
 					(unit 1)
@@ -863,6 +942,10 @@
 	(sheet
 		(at 109.22 82.55)
 		(size 21.59 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -901,6 +984,10 @@
 	(sheet
 		(at 137.16 49.53)
 		(size 21.59 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -930,13 +1017,13 @@
 		)
 		(pin "Bd[0..7]" bidirectional
 			(at 158.75 64.77 0)
+			(uuid "a7aa8286-f15e-47cb-8d97-f1498a36ee55")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a7aa8286-f15e-47cb-8d97-f1498a36ee55")
 		)
 		(instances
 			(project "Acorn-A3010"
@@ -949,6 +1036,10 @@
 	(sheet
 		(at 133.35 127)
 		(size 21.59 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -987,6 +1078,10 @@
 	(sheet
 		(at 109.22 60.96)
 		(size 21.59 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1025,6 +1120,10 @@
 	(sheet
 		(at 85.09 60.96)
 		(size 21.59 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1063,6 +1162,10 @@
 	(sheet
 		(at 186.69 95.25)
 		(size 22.225 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1092,33 +1195,33 @@
 		)
 		(pin "Ra[0..9]" input
 			(at 186.69 111.76 180)
+			(uuid "b825fc5d-7647-43f5-a532-a2e5a88bae11")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b825fc5d-7647-43f5-a532-a2e5a88bae11")
 		)
 		(pin "Cas[0..3]" input
 			(at 186.69 107.95 180)
+			(uuid "fe1e2329-3b69-4ac1-a52e-5d756b9b336e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "fe1e2329-3b69-4ac1-a52e-5d756b9b336e")
 		)
 		(pin "D[0..31]" bidirectional
 			(at 186.69 104.14 180)
+			(uuid "6e15a725-7a32-4c23-b38c-f3455c9644e0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "6e15a725-7a32-4c23-b38c-f3455c9644e0")
 		)
 		(instances
 			(project "Acorn-A3010"
@@ -1129,8 +1232,84 @@
 		)
 	)
 	(sheet
+		(at 137.16 26.67)
+		(size 21.59 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2aed7838-bdf6-4044-b180-3186fd9c26bc")
+		(property "Sheetname" "IDE Hard Disk"
+			(at 137.16 25.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "harddisk.kicad_sch"
+			(at 137.16 45.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "D[0..31]" input
+			(at 158.75 38.1 0)
+			(uuid "ec76c2a4-16e0-456c-a20c-41b4b539d6eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Bd[0..7]" bidirectional
+			(at 158.75 40.64 0)
+			(uuid "9537273b-5fe7-4aa2-b495-659299d1720b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LA[2..21]" input
+			(at 158.75 43.18 0)
+			(uuid "0461f6ca-da2d-400d-85da-0a552a0a7860")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Acorn-A3010"
+				(path "/999882f3-94f8-4a89-9093-27a47d0cb289"
+					(page "17")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 85.09 127)
 		(size 21.59 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1169,6 +1348,10 @@
 	(sheet
 		(at 109.22 105.41)
 		(size 21.59 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1207,6 +1390,10 @@
 	(sheet
 		(at 85.09 82.55)
 		(size 21.59 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1245,6 +1432,10 @@
 	(sheet
 		(at 137.16 81.28)
 		(size 21.59 20.955)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1274,53 +1465,53 @@
 		)
 		(pin "Ra[0..9]" output
 			(at 158.75 99.06 0)
+			(uuid "6b58acbb-89e4-4386-a4b2-5a166addf320")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "6b58acbb-89e4-4386-a4b2-5a166addf320")
 		)
 		(pin "Cas[0..3]" output
 			(at 158.75 95.25 0)
+			(uuid "2c41d3ca-f3fd-4de0-a14f-1ec0fda621f5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "2c41d3ca-f3fd-4de0-a14f-1ec0fda621f5")
 		)
 		(pin "D[0..31]" bidirectional
 			(at 158.75 91.44 0)
+			(uuid "cc55cf75-5795-46c5-81ef-d2dcb0ae7b26")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "cc55cf75-5795-46c5-81ef-d2dcb0ae7b26")
 		)
 		(pin "La[2..21]" output
 			(at 158.75 87.63 0)
+			(uuid "cbe599df-5c53-40d2-a3d6-ee0ae69dd916")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "cbe599df-5c53-40d2-a3d6-ee0ae69dd916")
 		)
 		(pin "Bd[0..7]" output
 			(at 158.75 83.82 0)
+			(uuid "9f142df3-edda-4963-980a-56602fc88fde")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "9f142df3-edda-4963-980a-56602fc88fde")
 		)
 		(instances
 			(project "Acorn-A3010"
@@ -1333,6 +1524,10 @@
 	(sheet
 		(at 186.69 69.85)
 		(size 22.86 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1362,23 +1557,23 @@
 		)
 		(pin "D[0..31]" input
 			(at 186.69 85.09 180)
+			(uuid "d6642668-3524-4619-8ade-df66779de1a5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d6642668-3524-4619-8ade-df66779de1a5")
 		)
 		(pin "La[2..21]" input
 			(at 186.69 81.28 180)
+			(uuid "0ea80f4f-5a7a-47c2-9dd3-cc356156ccd9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "0ea80f4f-5a7a-47c2-9dd3-cc356156ccd9")
 		)
 		(instances
 			(project "Acorn-A3010"
@@ -1391,6 +1586,10 @@
 	(sheet
 		(at 85.09 105.41)
 		(size 21.59 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1427,8 +1626,12 @@
 		)
 	)
 	(sheet
-		(at 161.29 33.02)
+		(at 161.29 16.51)
 		(size 21.59 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1439,7 +1642,7 @@
 		)
 		(uuid "a81e918c-e432-436c-a2d0-ede42e8b201e")
 		(property "Sheetname" "Expansion"
-			(at 161.29 32.3084 0)
+			(at 161.29 15.7984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1448,7 +1651,7 @@
 			)
 		)
 		(property "Sheetfile" "expansion.kicad_sch"
-			(at 161.29 51.3846 0)
+			(at 161.29 34.8746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1457,24 +1660,24 @@
 			)
 		)
 		(pin "Bd[0..7]" bidirectional
-			(at 162.56 50.8 270)
+			(at 162.56 34.29 270)
+			(uuid "a38791f0-65d5-40e6-bc64-d8ec03724b92")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a38791f0-65d5-40e6-bc64-d8ec03724b92")
 		)
 		(pin "La[2..21]" input
-			(at 166.37 50.8 270)
+			(at 166.37 34.29 270)
+			(uuid "87f69422-aac8-45d1-93e4-e66736e7f789")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "87f69422-aac8-45d1-93e4-e66736e7f789")
 		)
 		(instances
 			(project "Acorn-A3010"
@@ -1487,6 +1690,10 @@
 	(sheet
 		(at 186.69 46.99)
 		(size 22.86 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1516,23 +1723,23 @@
 		)
 		(pin "La[2..21]" input
 			(at 186.69 62.23 180)
+			(uuid "a45603d0-4ed8-4930-85f4-7d7bfc9cb17a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a45603d0-4ed8-4930-85f4-7d7bfc9cb17a")
 		)
 		(pin "Bd[0..7]" bidirectional
 			(at 186.69 58.42 180)
+			(uuid "647f1465-74f8-4cad-bca1-61319acd6ba4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "647f1465-74f8-4cad-bca1-61319acd6ba4")
 		)
 		(instances
 			(project "Acorn-A3010"
@@ -1545,6 +1752,10 @@
 	(sheet
 		(at 109.22 127)
 		(size 21.59 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1585,4 +1796,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
