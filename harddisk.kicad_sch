@@ -3427,6 +3427,10 @@
 		(uuid "8b85722d-898e-4c26-a17c-fc0f09f08849")
 	)
 	(no_connect
+		(at 74.93 66.04)
+		(uuid "9499e7ae-78a2-4226-b48f-8d550c8ac735")
+	)
+	(no_connect
 		(at 74.93 60.96)
 		(uuid "b82cf2ae-22d4-4170-a795-d3b2d5be069a")
 	)
@@ -7660,7 +7664,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_IDC:IDC-Header_2x22_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_2x22_P2.00mm_Vertical"
 			(at 80.01 53.34 0)
 			(effects
 				(font

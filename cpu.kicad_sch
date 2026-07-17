@@ -14929,7 +14929,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "2e475b70-3950-4164-83e2-3f8d59867ecc")
 		(property "Reference" "X100"
 			(at 59.69 49.53 0)
