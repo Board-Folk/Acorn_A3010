@@ -7445,7 +7445,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7fd26673-b013-4a89-bec8-2159dcddd16f")
@@ -7525,7 +7525,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "8169e629-aa27-41d7-af02-2101259edfd8")
 		(property "Reference" "C21"
@@ -8029,7 +8029,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "9872fd6f-faa1-47ae-8d7c-df35f51fbc93")
 		(property "Reference" "C20"

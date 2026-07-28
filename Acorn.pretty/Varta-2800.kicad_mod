@@ -1,7 +1,7 @@
 (footprint "Varta-2800"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -10.3124 1.016 0)
@@ -20,19 +20,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "5d601b01-3e90-4ac7-9176-0bca67b494e9")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 -4.6736 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "181bbe2b-8cff-42b9-89d6-a30bbcc816da")
 		(effects
 			(font
 				(size 1 1)
@@ -176,7 +163,7 @@
 	(pad "1" thru_hole circle
 		(at -5.3594 0.0508)
 		(size 1.524 1.524)
-		(drill 0.762)
+		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "4d676b11-caa5-4215-ae9f-d4e560e25fcc")
@@ -184,7 +171,7 @@
 	(pad "1" thru_hole circle
 		(at 5.3594 0.0508)
 		(size 1.524 1.524)
-		(drill 0.762)
+		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "e19d188e-ccb3-4ff8-a6d5-8598bc638462")
@@ -192,7 +179,7 @@
 	(pad "2" thru_hole circle
 		(at 0 -10.668)
 		(size 1.524 1.524)
-		(drill 0.762)
+		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "db97b637-77fb-4e6b-8188-7240c9bafad6")
@@ -200,9 +187,10 @@
 	(pad "2" thru_hole circle
 		(at 0.0254 -22.6314)
 		(size 1.524 1.524)
-		(drill 0.762)
+		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "de278fbb-c90f-4cfb-bf59-8a24b883074b")
 	)
+	(embedded_fonts no)
 )
