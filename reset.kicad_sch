@@ -2345,6 +2345,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C6769"
+			(at 140.97 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C6769"
+			(at 140.97 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "e360b4d9-6ce4-4fb4-8512-640ba2f5a69a")
 		)
@@ -2449,6 +2467,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17520"
+			(at 154.94 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C17520"
+			(at 154.94 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "714f370a-8e90-4204-8e01-3e476dac177a")
 		)
@@ -2509,6 +2545,24 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 129.54 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17560"
+			(at 129.54 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C17560"
+			(at 129.54 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2649,6 +2703,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2933293"
+			(at 170.18 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2933293"
+			(at 170.18 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "06d64b1c-58d5-4d76-8c0e-eba2fc5e8ac8")
 		)
@@ -2775,6 +2847,24 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 161.29 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17520"
+			(at 161.29 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C17520"
+			(at 161.29 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3001,6 +3091,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C49238181"
+			(at 167.64 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C49238181"
+			(at 167.64 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "a94144a2-b12b-4ba4-9dc3-ceb0d41c5db0")
 		)
@@ -3026,7 +3134,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e8792c42-6caa-41a0-9fee-5f36cb4fcb98")
 		(property "Reference" "TP7"
@@ -3130,6 +3238,24 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 124.46 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17408"
+			(at 124.46 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C17408"
+			(at 124.46 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)

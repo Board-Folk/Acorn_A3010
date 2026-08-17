@@ -1414,6 +1414,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C6769"
+			(at 102.87 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C6769"
+			(at 102.87 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "e360b4d9-6ce4-4fb4-8512-640ba2f5a69c")
 		)
@@ -1510,6 +1528,24 @@
 			)
 		)
 		(property "Description" "Hex inverter schmitt trigger"
+			(at 152.4 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6769"
+			(at 152.4 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C6769"
 			(at 152.4 80.01 0)
 			(effects
 				(font

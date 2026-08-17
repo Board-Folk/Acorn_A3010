@@ -5124,6 +5124,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C83170"
+			(at 237.49 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C83170"
+			(at 237.49 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6053a370-92e8-4b9f-b49a-550241222eb8")
 		)
@@ -5323,6 +5341,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17560"
+			(at 96.52 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C17560"
+			(at 96.52 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "aa3897bf-c4a5-42ea-8b93-8862b201775c")
 		)
@@ -5458,6 +5494,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C107154"
+			(at 232.41 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C107154"
+			(at 232.41 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "394050ed-7d94-4228-bd8b-e14313292f27")
 		)
@@ -5519,6 +5573,24 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 101.6 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17408"
+			(at 101.6 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C17408"
+			(at 101.6 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5663,6 +5735,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2907326"
+			(at 203.2 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2907326"
+			(at 203.2 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cee9cc4e-0fd5-4003-9407-3923a88355bd")
 		)
@@ -5792,6 +5882,24 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 195.58 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2907326"
+			(at 195.58 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2907326"
 			(at 195.58 64.77 0)
 			(effects
 				(font
@@ -5993,6 +6101,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 214.63 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C344201"
+			(at 214.63 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C344201"
 			(at 214.63 48.26 0)
 			(effects
 				(font
@@ -6253,6 +6379,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2907250"
+			(at 217.17 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2907250"
+			(at 217.17 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "930e47c7-349f-4c3e-8e42-7381e4cf7424")
 		)
@@ -6381,6 +6525,24 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 189.23 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17630"
+			(at 189.23 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C17630"
 			(at 189.23 58.42 0)
 			(effects
 				(font
@@ -6727,6 +6889,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2930266"
+			(at 121.92 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2930266"
+			(at 121.92 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "525ebce9-3f14-4ef0-b499-eb90aa84ddd3")
 		)
@@ -6786,6 +6966,24 @@
 			)
 		)
 		(property "Description" "Low Voltage Audio Power Amplifier, DIP-8/SOIC-8/SSOP-8"
+			(at 223.52 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C201575"
+			(at 223.52 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C201575"
 			(at 223.52 57.15 0)
 			(effects
 				(font
@@ -7553,6 +7751,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C344201"
+			(at 96.52 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C344201"
+			(at 96.52 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d2b18620-8b5e-4697-a0d8-7b88728a3fc4")
 		)
@@ -7622,6 +7838,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C344201"
+			(at 172.72 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C344201"
+			(at 172.72 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dcd6e725-3485-497f-be14-e371deafd38a")
 		)
@@ -7644,7 +7878,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "d37b3a3a-0356-458c-8a37-e024695e71c9")
 		(property "Reference" "TP15"
@@ -7973,6 +8207,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C96347"
+			(at 232.41 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C96347"
+			(at 232.41 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "770c3938-fd7a-4130-ba86-76eaf6d6cd5c")
 		)
@@ -8178,6 +8430,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2907250"
+			(at 217.17 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2907250"
+			(at 217.17 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e21c881c-1e5f-4370-b604-774124012d57")
 		)
@@ -8313,6 +8583,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C83170"
+			(at 223.52 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C83170"
+			(at 223.52 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3d3a343c-e85c-41fa-8379-52d4cb86c77e")
 		)
@@ -8372,6 +8660,24 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 212.09 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2907326"
+			(at 212.09 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2907326"
 			(at 212.09 64.77 0)
 			(effects
 				(font
