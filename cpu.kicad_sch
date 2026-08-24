@@ -7338,12 +7338,6 @@
 		(uuid "e104b904-cfb4-460f-b07b-957bc3d9fd03")
 	)
 	(junction
-		(at 71.12 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e1dae5b2-cb0b-472b-a3b9-beae017909ea")
-	)
-	(junction
 		(at 187.96 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7366,6 +7360,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fac9ac56-0621-49b2-ae62-eca9ddad23a8")
+	)
+	(junction
+		(at 71.12 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe5895f4-5565-4cb4-8a55-82892a62763c")
 	)
 	(no_connect
 		(at 382.27 57.15)
@@ -9856,7 +9856,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 81.28) (xy 78.74 81.28)
+			(xy 74.93 81.28) (xy 78.74 81.28)
 		)
 		(stroke
 			(width 0)
@@ -10286,16 +10286,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 88.9) (xy 71.12 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ad07c15-f19d-42ef-94e3-6e1acb3d67df")
-	)
-	(wire
-		(pts
 			(xy 68.58 137.16) (xy 73.66 137.16)
 		)
 		(stroke
@@ -10413,16 +10403,6 @@
 			(type default)
 		)
 		(uuid "a5e077d8-0583-4db8-800b-32168fa25fb5")
-	)
-	(wire
-		(pts
-			(xy 71.12 96.52) (xy 71.12 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6c5a588-4868-4d80-be79-4ae33207c8eb")
 	)
 	(bus
 		(pts
@@ -10573,16 +10553,6 @@
 			(type default)
 		)
 		(uuid "b2fe4cf0-aae0-43e3-bf71-533c440dc453")
-	)
-	(wire
-		(pts
-			(xy 71.12 88.9) (xy 78.74 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4de9923-a530-4723-a466-4b0c4e4e7ef4")
 	)
 	(wire
 		(pts
@@ -11166,6 +11136,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 88.9) (xy 71.12 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e078080b-3072-48a3-b7f0-48b42e5d88f4")
+	)
+	(wire
+		(pts
 			(xy 193.04 86.36) (xy 195.58 86.36)
 		)
 		(stroke
@@ -11203,6 +11183,16 @@
 			(type default)
 		)
 		(uuid "e73fa0cd-facd-47e1-9598-b6a1b158c536")
+	)
+	(wire
+		(pts
+			(xy 71.12 88.9) (xy 78.74 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e82721b8-dddb-44d6-aa17-f142e90570cd")
 	)
 	(wire
 		(pts
@@ -11296,7 +11286,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 81.28) (xy 63.5 81.28)
+			(xy 67.31 81.28) (xy 63.5 81.28)
 		)
 		(stroke
 			(width 0)
@@ -13118,28 +13108,6 @@
 			)
 		)
 	)
-	(global_label "~{Rst}"
-		(shape input)
-		(at 71.12 96.52 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "70eb2bc2-3fe5-4fc4-80dc-bcd526248d5e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 77.129 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SndVSS"
 		(shape passive)
 		(at 92.71 180.34 180)
@@ -14524,7 +14492,7 @@
 	)
 	(symbol
 		(lib_id "Device:Crystal")
-		(at 72.39 81.28 0)
+		(at 71.12 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14533,7 +14501,7 @@
 		(fields_autoplaced yes)
 		(uuid "2795eb5e-eba0-4ab8-b705-c10b0e00ab50")
 		(property "Reference" "X5"
-			(at 72.39 73.66 0)
+			(at 71.12 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14541,7 +14509,7 @@
 			)
 		)
 		(property "Value" "25.175MHz"
-			(at 72.39 76.2 0)
+			(at 71.12 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14549,7 +14517,7 @@
 			)
 		)
 		(property "Footprint" "Crystal:Crystal_HC49-4H_Vertical"
-			(at 72.39 81.28 0)
+			(at 71.12 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14558,7 +14526,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 72.39 81.28 0)
+			(at 71.12 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14567,7 +14535,7 @@
 			)
 		)
 		(property "Description" "Two pin crystal"
-			(at 72.39 81.28 0)
+			(at 71.12 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20785,76 +20753,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 71.12 92.71 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ee9f24fe-9412-436a-a350-e791d68aac69")
-		(property "Reference" "CX1"
-			(at 73.66 93.9865 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "47pF"
-			(at 73.66 91.4465 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P12.50mm_Horizontal"
-			(at 71.12 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 71.12 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 71.12 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "804001f1-e957-4c36-b6fa-5f1c7cc3a52d")
-		)
-		(pin "2"
-			(uuid "4cabfa9c-73fc-474c-a458-6c15283ff048")
-		)
-		(instances
-			(project "Acorn-A3010"
-				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/5f74aac3-9761-4bed-8486-119acb837e61"
-					(reference "CX1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 54.61 106.68 0)
 		(unit 1)
@@ -21202,6 +21100,72 @@
 			(project "Acorn-A3010"
 				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/5f74aac3-9761-4bed-8486-119acb837e61"
 					(reference "#PWR0304")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 71.12 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fda17009-4cbd-4175-9ef7-5d427b6a0928")
+		(property "Reference" "#PWR063"
+			(at 71.12 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 71.12 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 71.12 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fba35c85-d2c1-42f9-a719-dbd2c33d1387")
+		)
+		(instances
+			(project "Acorn-A3010"
+				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/5f74aac3-9761-4bed-8486-119acb837e61"
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)

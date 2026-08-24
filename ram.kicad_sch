@@ -4223,12 +4223,6 @@
 		(uuid "33f46335-6eb5-45bc-9ee0-9aef5c81ec7c")
 	)
 	(junction
-		(at 84.8234 238.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3b85ae27-ff5d-4bde-9090-4f692a7504ba")
-	)
-	(junction
 		(at 256.54 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8246,7 +8240,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 238.76) (xy 84.8234 238.76)
+			(xy 81.28 238.76) (xy 85.09 238.76)
 		)
 		(stroke
 			(width 0)
@@ -11123,16 +11117,6 @@
 			(type default)
 		)
 		(uuid "f33a4ae1-2ea5-46ec-8980-3af50ce3bb4b")
-	)
-	(wire
-		(pts
-			(xy 84.8234 238.76) (xy 85.09 238.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f374d263-0920-48e1-a215-d3317b9e3c68")
 	)
 	(wire
 		(pts
@@ -14539,9 +14523,9 @@
 		(at 49.53 266.7 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(uuid "019cf730-713a-479e-9a0d-69defe09387a")
 		(property "Reference" "C4"
 			(at 48.26 261.874 90)
@@ -15180,9 +15164,9 @@
 		(at 325.12 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0b89c185-a6dc-44b3-a4b9-4260c8b5bb46")
 		(property "Reference" "U7"
@@ -15578,9 +15562,9 @@
 		(at 49.53 242.57 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(uuid "1226d426-86b1-454e-8239-27fcc5c011dc")
 		(property "Reference" "C5"
 			(at 48.26 237.744 90)
@@ -15884,9 +15868,9 @@
 		(at 81.28 266.7 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(uuid "2c809b90-d608-412d-9805-52dc34d8351c")
 		(property "Reference" "C152"
 			(at 80.264 261.62 90)
@@ -16165,9 +16149,9 @@
 		(at 81.28 242.57 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(uuid "3864b8b5-62f4-483a-a42b-36c0a2517a3f")
 		(property "Reference" "C10"
 			(at 80.264 237.49 90)
@@ -16574,9 +16558,9 @@
 		(at 55.88 242.57 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(uuid "428861cd-c5aa-4a28-b35d-a01929620ed8")
 		(property "Reference" "C6"
 			(at 54.61 237.744 90)
@@ -16661,9 +16645,9 @@
 		(at 68.58 266.7 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(uuid "4288a0ca-1e89-4efe-a29f-e2e2fd957a66")
 		(property "Reference" "C163"
 			(at 67.564 261.62 90)
@@ -16749,9 +16733,9 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "46cf1c5f-45b5-4fe9-a797-cf1d8e865f05")
 		(property "Reference" "U8"
@@ -17798,9 +17782,9 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "753774f4-e77f-4510-87d8-1d97aa03046e")
 		(property "Reference" "U9"
@@ -17940,9 +17924,9 @@
 		(at 256.54 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "75d09210-c0da-4268-b382-db2fb5744393")
 		(property "Reference" "U6"
@@ -18330,9 +18314,9 @@
 		(at 257.81 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "86b31e81-48da-4cc9-aab1-4ae46568a02f")
 		(property "Reference" "U3"
@@ -18738,9 +18722,9 @@
 		(at 62.23 266.7 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(uuid "90aa848d-3ede-4f88-90c4-c00c933ee4c1")
 		(property "Reference" "C160"
 			(at 60.96 261.874 90)
@@ -19279,9 +19263,9 @@
 		(at 74.93 266.7 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(uuid "9ade4535-c20e-4b77-81d9-a495f8d3783c")
 		(property "Reference" "C166"
 			(at 73.66 261.874 90)
@@ -19366,9 +19350,9 @@
 		(at 326.39 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "9d923d9b-199e-44bc-a865-e36cc06ad81a")
 		(property "Reference" "U5"
@@ -19706,9 +19690,9 @@
 		(at 257.81 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a5fc5eac-8279-4c85-9ac3-76aef80e60e8")
 		(property "Reference" "U2"
@@ -20046,9 +20030,9 @@
 		(at 326.39 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b3ff1b8a-fb47-4950-9683-5dc08b450e5e")
 		(property "Reference" "U4"
@@ -20188,9 +20172,9 @@
 		(at 55.88 266.7 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(uuid "b4e96e05-f96b-42f5-aecf-e41135130312")
 		(property "Reference" "C2"
 			(at 54.61 261.874 90)
@@ -20772,7 +20756,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 84.8234 238.76 0)
+		(at 85.09 238.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20781,7 +20765,7 @@
 		(fields_autoplaced yes)
 		(uuid "c6769883-fc9a-4f2a-8530-8b61db913e2d")
 		(property "Reference" "#PWR019"
-			(at 84.8234 242.57 0)
+			(at 85.09 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20790,7 +20774,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 84.8234 233.68 0)
+			(at 85.09 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20798,7 +20782,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 84.8234 238.76 0)
+			(at 85.09 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20807,7 +20791,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 84.8234 238.76 0)
+			(at 85.09 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20816,7 +20800,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 84.8234 238.76 0)
+			(at 85.09 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21324,9 +21308,9 @@
 		(at 68.58 242.57 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(uuid "d5697160-9a18-4e15-bfc0-c4e185fc1b9d")
 		(property "Reference" "C8"
 			(at 67.564 237.49 90)
@@ -21830,9 +21814,9 @@
 		(at 74.93 242.57 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(uuid "e486d588-06a5-4cb0-a477-0d9c12158c10")
 		(property "Reference" "C9"
 			(at 73.66 237.744 90)
@@ -22112,9 +22096,9 @@
 		(at 62.23 242.57 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(uuid "e91fcf30-86e4-431a-9148-05c935658126")
 		(property "Reference" "C7"
 			(at 60.96 237.744 90)
