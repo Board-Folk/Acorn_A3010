@@ -4181,7 +4181,7 @@
 		(uuid "1e28a7c1-82e2-4330-b731-1ceec380a343")
 	)
 	(junction
-		(at 265.43 266.7)
+		(at 270.51 266.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "20b4381d-87e7-49bc-9845-a76bf6f76582")
@@ -4205,7 +4205,7 @@
 		(uuid "247e9e60-52ca-498a-bfdc-04457212905e")
 	)
 	(junction
-		(at 265.43 269.24)
+		(at 270.51 269.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2a6e1596-ff5c-41ab-96a9-c58e6596ceb8")
@@ -4451,19 +4451,19 @@
 		(uuid "fe57f2f5-53b5-4c8b-a65e-fdf19fdfdc81")
 	)
 	(no_connect
-		(at 290.83 269.24)
+		(at 295.91 269.24)
 		(uuid "1c57329e-1e52-4506-87df-578f0a47bc89")
 	)
 	(no_connect
-		(at 290.83 271.78)
+		(at 295.91 271.78)
 		(uuid "3b22b122-7d9b-4afe-b7b9-0a0500d19c44")
 	)
 	(no_connect
-		(at 290.83 274.32)
+		(at 295.91 274.32)
 		(uuid "cac58863-1914-4f64-8366-ca3a76519f6e")
 	)
 	(no_connect
-		(at 290.83 266.7)
+		(at 295.91 266.7)
 		(uuid "dbabc7fe-e61a-416d-891a-f502285dc0bb")
 	)
 	(bus_entry
@@ -10660,7 +10660,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 266.7) (xy 265.43 269.24)
+			(xy 270.51 266.7) (xy 270.51 269.24)
 		)
 		(stroke
 			(width 0)
@@ -11300,7 +11300,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 269.24) (xy 265.43 274.32)
+			(xy 270.51 269.24) (xy 270.51 274.32)
 		)
 		(stroke
 			(width 0)
@@ -15084,7 +15084,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C7494"
 			(at 223.52 267.97 0)
 			(effects
 				(font
@@ -15093,7 +15093,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" ""
+		(property "LCSC Part" "C7494"
 			(at 223.52 267.97 0)
 			(effects
 				(font
@@ -18642,7 +18642,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C7494"
 			(at 251.46 260.35 0)
 			(effects
 				(font
@@ -18651,7 +18651,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" ""
+		(property "LCSC Part" "C7494"
 			(at 251.46 260.35 0)
 			(effects
 				(font
@@ -20384,7 +20384,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 265.43 266.7 0)
+		(at 270.51 266.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20393,7 +20393,7 @@
 		(fields_autoplaced yes)
 		(uuid "b985fc18-1af1-45a3-b8e5-2ea32dd7dd72")
 		(property "Reference" "#PWR014"
-			(at 265.43 270.51 0)
+			(at 270.51 270.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20402,7 +20402,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 265.43 261.62 0)
+			(at 270.51 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20410,7 +20410,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 265.43 266.7 0)
+			(at 270.51 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20419,7 +20419,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 265.43 266.7 0)
+			(at 270.51 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20428,7 +20428,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 265.43 266.7 0)
+			(at 270.51 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21965,7 +21965,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS139")
-		(at 278.13 269.24 0)
+		(at 283.21 269.24 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21974,7 +21974,7 @@
 		(fields_autoplaced yes)
 		(uuid "e6df0c75-1348-426e-8661-2d79dd381b0b")
 		(property "Reference" "IC25"
-			(at 278.13 259.08 0)
+			(at 283.21 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21982,7 +21982,7 @@
 			)
 		)
 		(property "Value" "74ALS139"
-			(at 278.13 261.62 0)
+			(at 283.21 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21990,7 +21990,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
-			(at 278.13 269.24 0)
+			(at 283.21 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21999,7 +21999,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf"
-			(at 278.13 269.24 0)
+			(at 283.21 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22008,7 +22008,7 @@
 			)
 		)
 		(property "Description" "Dual Decoder 1 of 4, Active low outputs"
-			(at 278.13 269.24 0)
+			(at 283.21 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22016,8 +22016,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 278.13 269.24 0)
+		(property "LCSC" "C7494"
+			(at 283.21 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22025,8 +22025,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" ""
-			(at 278.13 269.24 0)
+		(property "LCSC Part" "C7494"
+			(at 283.21 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
