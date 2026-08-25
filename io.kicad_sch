@@ -25424,7 +25424,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_HC50_Horizontal_1EP_style2"
+		(property "Footprint" "Crystal:Crystal_HC49-U_Horizontal_1EP_style2"
 			(at 106.68 228.6 0)
 			(effects
 				(font

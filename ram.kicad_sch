@@ -15049,7 +15049,7 @@
 				)
 			)
 		)
-		(property "Value" "74LVC139"
+		(property "Value" "74ALS139"
 			(at 223.52 260.35 0)
 			(effects
 				(font
@@ -15057,7 +15057,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 223.52 267.97 0)
 			(effects
 				(font
@@ -15084,7 +15084,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C7662"
+		(property "LCSC" ""
 			(at 223.52 267.97 0)
 			(effects
 				(font
@@ -15093,7 +15093,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C7662"
+		(property "LCSC Part" ""
 			(at 223.52 267.97 0)
 			(effects
 				(font
@@ -18606,7 +18606,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74LVC139"
+		(property "Value" "74ALS139"
 			(at 257.81 261.6199 0)
 			(effects
 				(font
@@ -18615,7 +18615,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 251.46 260.35 0)
 			(effects
 				(font
@@ -18642,7 +18642,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C7662"
+		(property "LCSC" ""
 			(at 251.46 260.35 0)
 			(effects
 				(font
@@ -18651,7 +18651,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C7662"
+		(property "LCSC Part" ""
 			(at 251.46 260.35 0)
 			(effects
 				(font
@@ -21981,7 +21981,7 @@
 				)
 			)
 		)
-		(property "Value" "74LVC139"
+		(property "Value" "74ALS139"
 			(at 278.13 261.62 0)
 			(effects
 				(font
@@ -21989,7 +21989,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 278.13 269.24 0)
 			(effects
 				(font
@@ -22016,7 +22016,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C7662"
+		(property "LCSC" ""
 			(at 278.13 269.24 0)
 			(effects
 				(font
@@ -22025,7 +22025,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C7662"
+		(property "LCSC Part" ""
 			(at 278.13 269.24 0)
 			(effects
 				(font

@@ -1787,6 +1787,50 @@
 		)
 		(uuid "fc0b9dcd-a366-4df2-a807-89775bc30156")
 	)
+	(global_label "C1"
+		(shape input)
+		(at 180.34 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1b5753c0-18cf-422c-bd34-1ff1b60bf15f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 185.8047 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C0"
+		(shape input)
+		(at 171.45 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "37a12c01-874c-475b-96e5-8848aea8b3d5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 165.9853 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:C_Polarized_Small")
 		(at 157.48 87.63 0)
