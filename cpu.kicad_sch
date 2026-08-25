@@ -8542,7 +8542,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 105.41) (xy 220.98 109.22)
+			(xy 220.98 93.98) (xy 220.98 109.22)
 		)
 		(stroke
 			(width 0)
@@ -13052,6 +13052,28 @@
 			)
 		)
 	)
+	(global_label "~{I13}"
+		(shape input)
+		(at 220.98 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9be46734-0603-4e3f-af71-2825574160de")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 226.989 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Clkvid"
 		(shape output)
 		(at 92.71 110.49 180)
@@ -16624,7 +16646,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 220.98 105.41 0)
+		(at 220.98 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16633,7 +16655,7 @@
 		(fields_autoplaced yes)
 		(uuid "59daa017-1cce-45f7-be7f-c6e340ae4c3b")
 		(property "Reference" "TP35"
-			(at 223.52 100.8379 0)
+			(at 223.52 89.4079 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16642,7 +16664,7 @@
 			)
 		)
 		(property "Value" "I13"
-			(at 223.52 103.3779 0)
+			(at 223.52 91.9479 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16651,7 +16673,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 226.06 105.41 0)
+			(at 226.06 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16660,7 +16682,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 226.06 105.41 0)
+			(at 226.06 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16669,7 +16691,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 220.98 105.41 0)
+			(at 220.98 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
