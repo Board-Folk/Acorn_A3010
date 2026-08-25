@@ -6581,7 +6581,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "74HCT573"
+		(property "Value" "74HC573"
 			(at 137.8519 93.98 0)
 			(effects
 				(font
@@ -6617,7 +6617,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C52145555"
+		(property "LCSC" "C55388"
 			(at 140.97 111.76 0)
 			(effects
 				(font
@@ -6626,7 +6626,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C52145555"
+		(property "LCSC Part" "C55388"
 			(at 140.97 111.76 0)
 			(effects
 				(font
