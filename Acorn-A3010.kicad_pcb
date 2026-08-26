@@ -57320,7 +57320,7 @@
 				)
 			)
 		)
-		(property "Value" "2u2H"
+		(property "Value" "33uH"
 			(at 6.35 2.77 0)
 			(layer "F.Fab")
 			(uuid "13ae850c-4243-434b-b2eb-d077a0e72cac")

@@ -7285,7 +7285,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2u2H"
+		(property "Value" "33uH"
 			(at 81.28 96.5201 0)
 			(effects
 				(font
