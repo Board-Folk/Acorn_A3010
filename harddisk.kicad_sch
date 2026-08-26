@@ -6510,7 +6510,7 @@
 		)
 		(uuid "f7dda2d4-9cc2-4999-88ce-0b7cefb02ec8")
 	)
-	(hierarchical_label "LA[2..21]"
+	(hierarchical_label "La[2..21]"
 		(shape input)
 		(at 60.96 92.71 180)
 		(effects

@@ -1285,9 +1285,9 @@
 				(justify right)
 			)
 		)
-		(pin "LA[2..21]" input
+		(pin "La[2..21]" input
 			(at 158.75 43.18 0)
-			(uuid "0461f6ca-da2d-400d-85da-0a552a0a7860")
+			(uuid "8532a434-6de0-4372-ba98-3ee6473ff799")
 			(effects
 				(font
 					(size 1.27 1.27)
