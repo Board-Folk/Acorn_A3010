@@ -14482,7 +14482,7 @@
 				)
 			)
 		)
-		(property "Value" "34WAYBOXPLUG"
+		(property "Value" "IDC34 Box FDD"
 			(at 260.35 231.14 0)
 			(effects
 				(font
