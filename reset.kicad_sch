@@ -2357,7 +2357,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF 16V"
 			(at 132.08 108.6738 0)
 			(effects
 				(font
@@ -2614,7 +2614,7 @@
 				)
 			)
 		)
-		(property "Value" "2K2"
+		(property "Value" "2K2 5% 0.1W"
 			(at 154.94 104.902 90)
 			(effects
 				(font
@@ -2699,7 +2699,7 @@
 				)
 			)
 		)
-		(property "Value" "22K"
+		(property "Value" "22K 5% 0.1W"
 			(at 131.572 92.71 90)
 			(effects
 				(font
@@ -2850,7 +2850,7 @@
 				)
 			)
 		)
-		(property "Value" "1K2"
+		(property "Value" "1K2 5% 0.1W"
 			(at 172.212 92.71 90)
 			(effects
 				(font
@@ -3067,7 +3067,7 @@
 				)
 			)
 		)
-		(property "Value" "2K2"
+		(property "Value" "2K2 5% 0.1W"
 			(at 163.322 107.95 90)
 			(effects
 				(font
@@ -3458,7 +3458,7 @@
 				)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "100R 5% 0.1W"
 			(at 124.46 104.902 90)
 			(effects
 				(font

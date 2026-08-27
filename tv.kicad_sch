@@ -6865,7 +6865,7 @@
 				)
 			)
 		)
-		(property "Value" "LPF180nS"
+		(property "Value" "LPF 180nS"
 			(at 159.004 79.756 90)
 			(effects
 				(font
@@ -7029,7 +7029,7 @@
 				)
 			)
 		)
-		(property "Value" "1K82 1%"
+		(property "Value" "1K82 1% 0.25W"
 			(at 200.152 69.85 90)
 			(effects
 				(font
@@ -7115,7 +7115,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10K 5% 0.1W"
 			(at 211.582 38.1 90)
 			(effects
 				(font
@@ -7201,7 +7201,7 @@
 				)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "0R 0.1W"
 			(at 90.17 83.312 90)
 			(effects
 				(font
@@ -7287,7 +7287,7 @@
 				)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "0R 0.1W"
 			(at 191.77 82.042 90)
 			(effects
 				(font
@@ -7373,7 +7373,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1K 5% 0.1W"
 			(at 177.546 80.01 90)
 			(effects
 				(font
@@ -7845,7 +7845,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100uF"
+		(property "Value" "100uF 25V"
 			(at 90.932 94.996 0)
 			(effects
 				(font
@@ -7913,7 +7913,7 @@
 				)
 			)
 		)
-		(property "Value" "BPF4_43M"
+		(property "Value" "BPF 4.43MHz"
 			(at 154.94 43.434 90)
 			(effects
 				(font
@@ -8078,7 +8078,7 @@
 				)
 			)
 		)
-		(property "Value" "1K5 1%"
+		(property "Value" "1K50 1% 0.25W"
 			(at 186.182 69.85 90)
 			(effects
 				(font
@@ -8364,7 +8364,7 @@
 				)
 			)
 		)
-		(property "Value" "3K3"
+		(property "Value" "3K3 5% 0.1W"
 			(at 235.712 49.53 90)
 			(effects
 				(font
@@ -8668,7 +8668,7 @@
 				)
 			)
 		)
-		(property "Value" "1K18 1%"
+		(property "Value" "1K18 1% 0.25W"
 			(at 200.152 86.36 90)
 			(effects
 				(font
@@ -8754,7 +8754,7 @@
 				)
 			)
 		)
-		(property "Value" "27K4 1%"
+		(property "Value" "27K4 1% 0.25W"
 			(at 122.682 92.71 90)
 			(effects
 				(font
@@ -8762,7 +8762,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 120.65 92.71 0)
 			(effects
 				(font
@@ -8840,7 +8840,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1K 5% 0.1W"
 			(at 183.896 52.07 90)
 			(effects
 				(font
@@ -8926,7 +8926,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF 16V"
 			(at 129.032 93.726 0)
 			(effects
 				(font
@@ -9252,7 +9252,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF 20%"
 			(at 113.03 94.742 0)
 			(effects
 				(font
@@ -9340,7 +9340,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF 20%"
 			(at 133.35 52.832 0)
 			(effects
 				(font
@@ -9428,7 +9428,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF 16V"
 			(at 220.472 37.084 0)
 			(effects
 				(font
@@ -9754,7 +9754,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF 20%"
 			(at 137.16 94.742 0)
 			(effects
 				(font
@@ -9907,7 +9907,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF 20%"
 			(at 172.72 54.102 0)
 			(effects
 				(font
@@ -10148,7 +10148,7 @@
 				)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "0R 0.1W"
 			(at 82.55 88.392 90)
 			(effects
 				(font
@@ -10691,7 +10691,7 @@
 				)
 			)
 		)
-		(property "Value" "15K"
+		(property "Value" "15K 5% 0.1W"
 			(at 52.832 58.42 90)
 			(effects
 				(font
@@ -10899,7 +10899,7 @@
 				)
 			)
 		)
-		(property "Value" "1K8"
+		(property "Value" "1K8 5% 0.1W"
 			(at 235.712 38.1 90)
 			(effects
 				(font
@@ -11183,7 +11183,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1K 5% 0.1W"
 			(at 138.43 77.216 90)
 			(effects
 				(font
@@ -11621,7 +11621,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220uF"
+		(property "Value" "220uF 16V"
 			(at 223.012 70.866 0)
 			(effects
 				(font
@@ -11956,7 +11956,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1K 5% 0.1W"
 			(at 135.636 55.88 90)
 			(effects
 				(font
@@ -12310,7 +12310,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100uF"
+		(property "Value" "100uF 25V"
 			(at 192.786 72.898 0)
 			(effects
 				(font
@@ -12379,7 +12379,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "33pF"
+		(property "Value" "33pF 2%"
 			(at 55.88 51.816 90)
 			(effects
 				(font
@@ -12467,7 +12467,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5-55pF"
+		(property "Value" "5-65pF 250V"
 			(at 72.644 57.15 0)
 			(effects
 				(font

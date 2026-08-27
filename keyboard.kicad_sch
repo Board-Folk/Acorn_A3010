@@ -19177,7 +19177,7 @@
 				)
 			)
 		)
-		(property "Value" "4K7"
+		(property "Value" "4K7 5% 0.1W"
 			(at 57.658 184.912 90)
 			(effects
 				(font
@@ -19331,7 +19331,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47K"
+		(property "Value" "47Kx15 5%"
 			(at 203.2 313.69 0)
 			(effects
 				(font
@@ -19569,7 +19569,7 @@
 				)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "330R 5% 0.1W"
 			(at 84.328 276.352 90)
 			(effects
 				(font
@@ -19723,7 +19723,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47K"
+		(property "Value" "47Kx15 5%"
 			(at 191.77 313.69 0)
 			(effects
 				(font
@@ -19896,7 +19896,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47K"
+		(property "Value" "47Kx15 5%"
 			(at 160.02 313.69 0)
 			(effects
 				(font
@@ -20289,7 +20289,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47K"
+		(property "Value" "47Kx15 5%"
 			(at 170.18 313.69 0)
 			(effects
 				(font
@@ -20525,7 +20525,7 @@
 				)
 			)
 		)
-		(property "Value" "270R"
+		(property "Value" "270R 5% 0.1W"
 			(at 154.178 253.492 90)
 			(effects
 				(font
@@ -20613,7 +20613,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47K"
+		(property "Value" "47Kx15 5%"
 			(at 148.59 313.69 0)
 			(effects
 				(font
@@ -20853,7 +20853,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47K"
+		(property "Value" "47Kx15 5%"
 			(at 110.49 171.45 0)
 			(effects
 				(font
@@ -21474,7 +21474,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47K"
+		(property "Value" "47Kx15 5%"
 			(at 114.3 171.45 0)
 			(effects
 				(font
@@ -21912,7 +21912,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47K"
+		(property "Value" "47Kx15 5%"
 			(at 118.11 171.45 0)
 			(effects
 				(font
@@ -22215,7 +22215,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10K 5% 0.1W"
 			(at 113.538 243.332 90)
 			(effects
 				(font
@@ -22502,7 +22502,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47K"
+		(property "Value" "47Kx15 5%"
 			(at 121.92 171.45 0)
 			(effects
 				(font
@@ -22809,7 +22809,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47K"
+		(property "Value" "47Kx15 5%"
 			(at 99.06 171.45 0)
 			(effects
 				(font
@@ -22979,7 +22979,7 @@
 				)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "330R 5% 0.1W"
 			(at 84.328 267.462 90)
 			(effects
 				(font
@@ -23065,7 +23065,7 @@
 				)
 			)
 		)
-		(property "Value" "0A25"
+		(property "Value" "250MA 63VAC"
 			(at 34.29 66.04 90)
 			(effects
 				(font
@@ -23332,7 +23332,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47K"
+		(property "Value" "47Kx15 5%"
 			(at 180.34 313.69 0)
 			(effects
 				(font
@@ -23504,7 +23504,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47K"
+		(property "Value" "47Kx15 5%"
 			(at 213.36 313.69 0)
 			(effects
 				(font
@@ -23678,7 +23678,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47K"
+		(property "Value" "47Kx15 5%"
 			(at 106.68 171.45 0)
 			(effects
 				(font
@@ -23915,7 +23915,7 @@
 				)
 			)
 		)
-		(property "Value" "20WAYFLEX"
+		(property "Value" "0801,202 20 way flex"
 			(at 245.11 129.54 90)
 			(effects
 				(font
@@ -24393,7 +24393,7 @@
 				)
 			)
 		)
-		(property "Value" "270R"
+		(property "Value" "270R 5% 0.1W"
 			(at 154.178 248.412 90)
 			(effects
 				(font
@@ -24479,7 +24479,7 @@
 				)
 			)
 		)
-		(property "Value" "20WAYFLEX"
+		(property "Value" "0801,202 20 way flex"
 			(at 245.11 182.88 90)
 			(effects
 				(font
@@ -24809,7 +24809,7 @@
 				)
 			)
 		)
-		(property "Value" "220R"
+		(property "Value" "220R 5% 0.1W"
 			(at 154.178 256.032 90)
 			(effects
 				(font
@@ -24898,7 +24898,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47K"
+		(property "Value" "47Kx15 5%"
 			(at 125.73 171.45 0)
 			(effects
 				(font
@@ -25134,7 +25134,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10K 5% 0.1W"
 			(at 113.538 250.952 90)
 			(effects
 				(font
@@ -25286,7 +25286,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47uF"
+		(property "Value" "47uF 16V"
 			(at 108.458 76.2 0)
 			(effects
 				(font
@@ -25715,7 +25715,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47K"
+		(property "Value" "47Kx15 5%"
 			(at 102.87 171.45 0)
 			(effects
 				(font
@@ -26020,7 +26020,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "80C51"
+		(property "Value" "Intel 80C51"
 			(at 80.9341 139.7 0)
 			(effects
 				(font

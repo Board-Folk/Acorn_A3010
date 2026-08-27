@@ -5782,7 +5782,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "330R 5% 0.1W"
 			(at 71.12 110.4899 0)
 			(effects
 				(font
@@ -5935,7 +5935,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "33nF"
 			(at 95.2563 41.91 90)
 			(effects
 				(font
@@ -6021,7 +6021,7 @@
 				)
 			)
 		)
-		(property "Value" "22R"
+		(property "Value" "22R 5% 0.1W"
 			(at 144.78 128.27 90)
 			(effects
 				(font
@@ -6395,7 +6395,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0296061"
+		(property "Value" "0296,061"
 			(at 102.5241 49.53 0)
 			(effects
 				(font
@@ -6585,7 +6585,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0296062"
+		(property "Value" "0296,062"
 			(at 149.5141 49.53 0)
 			(effects
 				(font

@@ -6651,7 +6651,7 @@
 				)
 			)
 		)
-		(property "Value" "4K7"
+		(property "Value" "4K7 5% 0.1W"
 			(at 101.6 82.296 90)
 			(effects
 				(font
@@ -6736,7 +6736,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10K 5% 0.1W"
 			(at 116.586 59.69 90)
 			(effects
 				(font
@@ -7031,7 +7031,7 @@
 				)
 			)
 		)
-		(property "Value" "74LVC1G04"
+		(property "Value" "74LVC1G14"
 			(at 49.53 63.6268 0)
 			(effects
 				(font
@@ -7117,7 +7117,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF 20%"
 			(at 63.5 156.464 90)
 			(effects
 				(font
@@ -7558,7 +7558,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF 20%"
 			(at 70.104 156.21 90)
 			(effects
 				(font
@@ -7778,7 +7778,7 @@
 				)
 			)
 		)
-		(property "Value" "1K2"
+		(property "Value" "1K2 5% 0.1W"
 			(at 100.076 57.15 90)
 			(effects
 				(font
@@ -8524,7 +8524,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "25"
+		(property "Value" "1A 80R@100MHz"
 			(at 130.81 26.6699 0)
 			(effects
 				(font
@@ -8667,7 +8667,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10K 5% 0.1W"
 			(at 53.594 73.66 90)
 			(effects
 				(font

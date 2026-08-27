@@ -5121,7 +5121,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220uF"
+		(property "Value" "220uF 16V"
 			(at 149.86 41.656 0)
 			(effects
 				(font
@@ -5409,7 +5409,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47uF"
+		(property "Value" "220uF 16V"
 			(at 134.62 41.656 0)
 			(effects
 				(font
@@ -5785,7 +5785,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220uF"
+		(property "Value" "10uF 10V 20%"
 			(at 167.64 41.656 0)
 			(effects
 				(font
@@ -6008,7 +6008,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47uF"
+		(property "Value" "47uF 16V"
 			(at 83.82 41.656 0)
 			(effects
 				(font
@@ -7120,7 +7120,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF 10V 20%"
 			(at 142.24 41.656 0)
 			(effects
 				(font
@@ -7660,9 +7660,9 @@
 		(at 123.19 127 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "7fd26673-b013-4a89-bec8-2159dcddd16f")
 		(property "Reference" "U10"
@@ -7749,9 +7749,9 @@
 		(at 135.89 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(uuid "8169e629-aa27-41d7-af02-2101259edfd8")
 		(property "Reference" "C21"
 			(at 133.35 132.08 0)
@@ -8251,7 +8251,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "47uF 10V 20%"
 			(at 31.75 42.926 0)
 			(effects
 				(font
@@ -8307,9 +8307,9 @@
 		(at 110.49 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(uuid "9872fd6f-faa1-47ae-8d7c-df35f51fbc93")
 		(property "Reference" "C20"
 			(at 107.95 132.08 0)
@@ -8776,7 +8776,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2R2"
+		(property "Value" "1A 80R@100MHz"
 			(at 72.39 128.2699 0)
 			(effects
 				(font
@@ -9047,7 +9047,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47uF"
+		(property "Value" "47uF 16V"
 			(at 74.93 143.256 0)
 			(effects
 				(font
@@ -9203,7 +9203,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220uF"
+		(property "Value" "220uF 16V"
 			(at 158.75 41.656 0)
 			(effects
 				(font
@@ -10060,7 +10060,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2R2"
+		(property "Value" "1A 80R@100MHz"
 			(at 31.75 31.7501 0)
 			(effects
 				(font
@@ -10393,7 +10393,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47uF"
+		(property "Value" "47uF 16V"
 			(at 83.82 53.086 0)
 			(effects
 				(font

@@ -2834,7 +2834,7 @@
 				)
 			)
 		)
-		(property "Value" "33R"
+		(property "Value" "33R 5% 0.1W"
 			(at 83.82 91.44 90)
 			(effects
 				(font
@@ -2920,7 +2920,7 @@
 				)
 			)
 		)
-		(property "Value" "33R"
+		(property "Value" "33R 5% 0.1W"
 			(at 148.59 54.61 90)
 			(effects
 				(font
@@ -3006,7 +3006,7 @@
 				)
 			)
 		)
-		(property "Value" "1K2"
+		(property "Value" "1K2 5% 0.1W"
 			(at 154.94 53.34 90)
 			(effects
 				(font
@@ -3092,7 +3092,7 @@
 				)
 			)
 		)
-		(property "Value" "33R"
+		(property "Value" "33R 5% 0.1W"
 			(at 83.82 53.34 90)
 			(effects
 				(font
@@ -3426,7 +3426,7 @@
 				)
 			)
 		)
-		(property "Value" "47R"
+		(property "Value" "47R 5% 0.1W"
 			(at 83.82 99.06 90)
 			(effects
 				(font
@@ -3725,7 +3725,7 @@
 				)
 			)
 		)
-		(property "Value" "68R"
+		(property "Value" "68R 5% 0.1W"
 			(at 162.56 34.29 90)
 			(effects
 				(font
@@ -3878,7 +3878,7 @@
 				)
 			)
 		)
-		(property "Value" "1K2"
+		(property "Value" "1K2 5% 0.1W"
 			(at 168.91 64.77 90)
 			(effects
 				(font

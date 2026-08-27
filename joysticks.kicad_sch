@@ -13706,7 +13706,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10Kx8"
+		(property "Value" "10Kx15 5%"
 			(at 173.99 40.64 0)
 			(effects
 				(font
@@ -13946,7 +13946,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10Kx8"
+		(property "Value" "10Kx15 5%"
 			(at 166.37 104.14 0)
 			(effects
 				(font
@@ -14117,7 +14117,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "100K 5% 0.1W"
 			(at 30.734 35.56 0)
 			(effects
 				(font
@@ -14206,7 +14206,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10Kx8"
+		(property "Value" "10Kx15 5%"
 			(at 274.32 20.32 0)
 			(effects
 				(font
@@ -14444,7 +14444,7 @@
 				)
 			)
 		)
-		(property "Value" "4K7x8"
+		(property "Value" "4K7x8 5%"
 			(at 130.81 46.99 90)
 			(effects
 				(font
@@ -14575,7 +14575,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10Kx8"
+		(property "Value" "10Kx15 5%"
 			(at 168.91 40.64 0)
 			(effects
 				(font
@@ -14748,7 +14748,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10Kx8"
+		(property "Value" "10Kx15 5%"
 			(at 274.32 27.94 0)
 			(effects
 				(font
@@ -14922,7 +14922,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10Kx8"
+		(property "Value" "10Kx15 5%"
 			(at 161.29 104.14 0)
 			(effects
 				(font
@@ -15094,7 +15094,7 @@
 				)
 			)
 		)
-		(property "Value" "4K7x8"
+		(property "Value" "4K7x8 5%"
 			(at 118.11 110.49 90)
 			(effects
 				(font
@@ -15222,7 +15222,7 @@
 				)
 			)
 		)
-		(property "Value" "4K7"
+		(property "Value" "4K7 5% 0.1W"
 			(at 130.81 121.92 90)
 			(effects
 				(font
@@ -15451,7 +15451,7 @@
 				)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "33R 5% 0.1W"
 			(at 91.44 137.16 90)
 			(effects
 				(font
@@ -15540,7 +15540,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10Kx8"
+		(property "Value" "10Kx15 5%"
 			(at 153.67 40.64 0)
 			(effects
 				(font
@@ -15711,7 +15711,7 @@
 				)
 			)
 		)
-		(property "Value" "4K7x8"
+		(property "Value" "4K7x8 5%"
 			(at 130.81 57.15 90)
 			(effects
 				(font
@@ -15839,7 +15839,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10K 5% 0.1W"
 			(at 28.194 40.894 0)
 			(effects
 				(font
@@ -16128,7 +16128,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10Kx8"
+		(property "Value" "10Kx15 5%"
 			(at 176.53 104.14 0)
 			(effects
 				(font
@@ -16366,7 +16366,7 @@
 				)
 			)
 		)
-		(property "Value" "4K7x8"
+		(property "Value" "4K7x8 5%"
 			(at 130.81 107.95 90)
 			(effects
 				(font
@@ -16494,7 +16494,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "100K 5% 0.1W"
 			(at 38.354 35.56 0)
 			(effects
 				(font
@@ -16584,7 +16584,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10Kx8"
+		(property "Value" "10Kx15 5%"
 			(at 158.75 40.64 0)
 			(effects
 				(font
@@ -16888,7 +16888,7 @@
 				)
 			)
 		)
-		(property "Value" "4K7"
+		(property "Value" "4K7 5% 0.1W"
 			(at 118.11 116.84 90)
 			(effects
 				(font
@@ -17117,7 +17117,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "100K 5% 0.1W"
 			(at 25.908 45.72 0)
 			(effects
 				(font
@@ -17204,7 +17204,7 @@
 				)
 			)
 		)
-		(property "Value" "4K7x8"
+		(property "Value" "4K7x8 5%"
 			(at 118.11 49.53 90)
 			(effects
 				(font
@@ -17733,7 +17733,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "100K 5% 0.1W"
 			(at 44.196 40.64 0)
 			(effects
 				(font
@@ -17822,7 +17822,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10Kx8"
+		(property "Value" "10Kx15 5%"
 			(at 156.21 104.14 0)
 			(effects
 				(font
@@ -17996,7 +17996,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10Kx8"
+		(property "Value" "10Kx15 5%"
 			(at 171.45 104.14 0)
 			(effects
 				(font
@@ -18169,7 +18169,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10Kx8"
+		(property "Value" "10Kx15 5%"
 			(at 274.32 35.56 0)
 			(effects
 				(font
@@ -18342,7 +18342,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10Kx8"
+		(property "Value" "10Kx15 5%"
 			(at 274.32 43.18 0)
 			(effects
 				(font
@@ -18582,7 +18582,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10Kx8"
+		(property "Value" "10Kx15 5%"
 			(at 163.83 40.64 0)
 			(effects
 				(font
@@ -18753,7 +18753,7 @@
 				)
 			)
 		)
-		(property "Value" "4K7x8"
+		(property "Value" "4K7x8 5%"
 			(at 130.81 52.07 90)
 			(effects
 				(font
@@ -18947,7 +18947,7 @@
 				)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "33R 5% 0.1W"
 			(at 91.44 73.66 90)
 			(effects
 				(font
@@ -19100,7 +19100,7 @@
 				)
 			)
 		)
-		(property "Value" "4K7x8"
+		(property "Value" "4K7x8 5%"
 			(at 118.11 44.45 90)
 			(effects
 				(font
@@ -19228,7 +19228,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "100K 5% 0.1W"
 			(at 36.068 40.64 0)
 			(effects
 				(font
@@ -19316,7 +19316,7 @@
 				)
 			)
 		)
-		(property "Value" "4K7x8"
+		(property "Value" "4K7x8 5%"
 			(at 130.81 113.03 90)
 			(effects
 				(font
@@ -19446,7 +19446,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10Kx8"
+		(property "Value" "10Kx15 5%"
 			(at 274.32 50.8 0)
 			(effects
 				(font
@@ -19617,7 +19617,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "100K 5% 0.1W"
 			(at 33.528 45.72 0)
 			(effects
 				(font
@@ -19798,7 +19798,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "100K 5% 0.1W"
 			(at 41.91 45.72 0)
 			(effects
 				(font
