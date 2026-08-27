@@ -7015,16 +7015,16 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC1G04")
-		(at 35.56 66.04 180)
+		(at 35.56 66.04 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4fb8beab-c4f2-40a5-be17-b151ac0de9d3")
 		(property "Reference" "U11"
-			(at 49.53 61.0868 0)
+			(at 49.276 61.976 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7032,7 +7032,7 @@
 			)
 		)
 		(property "Value" "74LVC1G14"
-			(at 49.53 63.6268 0)
+			(at 49.276 59.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)

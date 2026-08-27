@@ -15339,7 +15339,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_QFP:PQFP-160_28x28mm_P0.65mm"
+		(property "Footprint" "Acorn:PQFP-160_28x28mm_P0.65mm"
 			(at 151.384 161.798 0)
 			(effects
 				(font
