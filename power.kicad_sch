@@ -3445,6 +3445,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 71.12) (xy 36.83 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20d5129c-7732-4887-9b40-b0527ce25f3f")
+	)
+	(wire
+		(pts
 			(xy 124.46 27.94) (xy 124.46 29.21)
 		)
 		(stroke
@@ -3865,7 +3875,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 68.58) (xy 33.02 68.58)
+			(xy 36.83 68.58) (xy 33.02 68.58)
 		)
 		(stroke
 			(width 0)
@@ -6718,7 +6728,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 40.64 68.58 0)
+		(at 41.91 71.12 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6726,7 +6737,7 @@
 		(dnp no)
 		(uuid "558e6d00-2baf-4301-a211-b902fb1414da")
 		(property "Reference" "PL1"
-			(at 40.64 77.47 0)
+			(at 41.91 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6734,7 +6745,7 @@
 			)
 		)
 		(property "Value" "Mains Input"
-			(at 40.64 74.93 0)
+			(at 41.91 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6742,7 +6753,7 @@
 			)
 		)
 		(property "Footprint" "Acorn:AC_Power_Header"
-			(at 40.64 68.58 0)
+			(at 41.91 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6751,7 +6762,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 40.64 68.58 0)
+			(at 41.91 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6760,7 +6771,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 40.64 68.58 0)
+			(at 41.91 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
