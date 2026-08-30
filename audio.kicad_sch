@@ -1386,7 +1386,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Audio:AudioJack3_Ground_SwitchTR"
+		(symbol "Connector_Audio:AudioJack3_SwitchTR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1398,7 +1398,7 @@
 					)
 				)
 			)
-			(property "Value" "AudioJack3_Ground_SwitchTR"
+			(property "Value" "AudioJack3_SwitchTR"
 				(at 0 6.35 0)
 				(effects
 					(font
@@ -1424,7 +1424,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Grounded Sleeve, Switched TR Poles (Normalling)"
+			(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1451,7 +1451,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "AudioJack3_Ground_SwitchTR_0_1"
+			(symbol "AudioJack3_SwitchTR_0_1"
 				(rectangle
 					(start -5.08 -5.08)
 					(end -6.35 -7.62)
@@ -1559,25 +1559,7 @@
 					)
 				)
 			)
-			(symbol "AudioJack3_Ground_SwitchTR_1_1"
-				(pin passive line
-					(at 0 -12.7 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
+			(symbol "AudioJack3_SwitchTR_1_1"
 				(pin passive line
 					(at 5.08 2.54 180)
 					(length 2.54)
@@ -3278,12 +3260,6 @@
 		(uuid "3a25929b-3135-4ada-aa1f-e1a08799428d")
 	)
 	(junction
-		(at 237.49 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3bb51686-a234-40bd-b8ea-44775d8ab4c9")
-	)
-	(junction
 		(at 172.72 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3338,12 +3314,6 @@
 		(uuid "74824046-59a3-4915-8f5d-c850631bda9b")
 	)
 	(junction
-		(at 233.68 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7de70df1-61bc-4083-9076-c6e282b5e7f6")
-	)
-	(junction
 		(at 232.41 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3378,6 +3348,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aca946a3-d2d1-4a79-aac6-2dcb22ac8f3a")
+	)
+	(junction
+		(at 233.68 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4d74d95-f4b2-49d2-a8ec-54875d9dcd06")
 	)
 	(junction
 		(at 128.27 121.92)
@@ -3657,7 +3633,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 95.25) (xy 237.49 86.36)
+			(xy 233.68 95.25) (xy 233.68 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3724,16 +3700,6 @@
 			(type default)
 		)
 		(uuid "4b751d4f-c5d7-4422-86a8-3189cf70230f")
-	)
-	(wire
-		(pts
-			(xy 237.49 86.36) (xy 242.57 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "511710e4-4112-4e73-921a-e8ad696f3a3e")
 	)
 	(wire
 		(pts
@@ -3977,7 +3943,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 93.98) (xy 233.68 93.98)
+			(xy 242.57 93.98) (xy 241.3 93.98)
 		)
 		(stroke
 			(width 0)
@@ -4227,16 +4193,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 77.47) (xy 247.65 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c216f8a9-b476-4f03-9dc4-0ac0627ad526")
-	)
-	(wire
-		(pts
 			(xy 147.32 85.09) (xy 147.32 81.28)
 		)
 		(stroke
@@ -4304,6 +4260,16 @@
 			(type default)
 		)
 		(uuid "cd146e86-08e8-4ee8-997d-0b3be537119e")
+	)
+	(wire
+		(pts
+			(xy 241.3 111.76) (xy 233.68 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce23f6f4-db3f-446a-86d6-3957ce08c3d9")
 	)
 	(wire
 		(pts
@@ -4407,13 +4373,13 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 77.47) (xy 247.65 78.74)
+			(xy 233.68 86.36) (xy 242.57 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ebdc95b1-0b16-4e03-b24a-c4041167f7a0")
+		(uuid "ebfd05c9-49ea-4ac6-abf5-0f75326b4e7b")
 	)
 	(wire
 		(pts
@@ -4427,7 +4393,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 93.98) (xy 233.68 111.76)
+			(xy 241.3 93.98) (xy 241.3 111.76)
 		)
 		(stroke
 			(width 0)
@@ -4487,16 +4453,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 93.98) (xy 233.68 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6c65519-2913-4c8a-8245-d831c60fe218")
-	)
-	(wire
-		(pts
 			(xy 195.58 54.61) (xy 203.2 54.61)
 		)
 		(stroke
@@ -4517,7 +4473,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 86.36) (xy 237.49 86.36)
+			(xy 219.71 86.36) (xy 233.68 86.36)
 		)
 		(stroke
 			(width 0)
@@ -5182,7 +5138,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 237.49 97.79 180)
+		(at 233.68 97.79 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5190,7 +5146,7 @@
 		(dnp yes)
 		(uuid "39ed8430-8d4f-4889-8b49-77ba20fd1963")
 		(property "Reference" "C225"
-			(at 239.014 96.012 0)
+			(at 235.204 96.012 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5199,7 +5155,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 239.268 99.822 0)
+			(at 235.458 99.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5208,7 +5164,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 237.49 97.79 0)
+			(at 233.68 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5217,7 +5173,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 237.49 97.79 0)
+			(at 233.68 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5226,7 +5182,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 237.49 97.79 0)
+			(at 233.68 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5235,7 +5191,7 @@
 			)
 		)
 		(property "LCSC" "C83170"
-			(at 237.49 97.79 0)
+			(at 233.68 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5244,7 +5200,7 @@
 			)
 		)
 		(property "LCSC Part" "C83170"
-			(at 237.49 97.79 0)
+			(at 233.68 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6594,7 +6550,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 237.49 100.33 0)
+		(at 233.68 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6603,7 +6559,7 @@
 		(fields_autoplaced yes)
 		(uuid "70fc96ba-d5ce-4ddb-9f33-f90e0382bdd9")
 		(property "Reference" "#PWR0339"
-			(at 237.49 106.68 0)
+			(at 233.68 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6612,7 +6568,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 237.49 105.41 0)
+			(at 233.68 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6620,7 +6576,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 237.49 100.33 0)
+			(at 233.68 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6629,7 +6585,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 100.33 0)
+			(at 233.68 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6638,7 +6594,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 237.49 100.33 0)
+			(at 233.68 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8045,7 +8001,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Audio:AudioJack3_Ground_SwitchTR")
+		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
 		(at 247.65 91.44 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8090,7 +8046,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Grounded Sleeve, Switched TR Poles (Normalling)"
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
 			(at 247.65 91.44 0)
 			(effects
 				(font
@@ -8107,9 +8063,6 @@
 		)
 		(pin "TN"
 			(uuid "a979c63f-36c6-40f5-ac58-804f4a80926c")
-		)
-		(pin "G"
-			(uuid "11d84538-5871-4275-b17b-51af916bb5ce")
 		)
 		(pin "S"
 			(uuid "2247383b-b3ad-485d-b87f-f24f4b721dfa")
