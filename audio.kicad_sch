@@ -3224,6 +3224,12 @@
 		(uuid "0317a73d-7bf3-4281-977e-b6dcdeac98b1")
 	)
 	(junction
+		(at 233.68 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "086e7217-5f5d-450f-be2a-d33e74aa50dc")
+	)
+	(junction
 		(at 116.84 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3305,7 +3311,7 @@
 		(at 233.68 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6006d309-7afd-4e40-8917-0a6e6a1d48ad")
+		(uuid "66809cb4-8212-4425-9077-715be7ff26b8")
 	)
 	(junction
 		(at 111.76 95.25)
@@ -3330,12 +3336,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "74824046-59a3-4915-8f5d-c850631bda9b")
-	)
-	(junction
-		(at 233.68 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7a2641cc-c629-41d3-b1ed-272b47543ed5")
 	)
 	(junction
 		(at 233.68 93.98)
@@ -4047,16 +4047,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 121.92) (xy 233.68 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98696545-e71e-43a7-9ae3-a4eb47dabf58")
-	)
-	(wire
-		(pts
 			(xy 78.74 107.95) (xy 78.74 110.49)
 		)
 		(stroke
@@ -4187,6 +4177,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 114.3) (xy 233.68 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bddfae7b-acf7-40f6-9dd6-f997ef7b75bd")
+	)
+	(wire
+		(pts
 			(xy 195.58 54.61) (xy 195.58 62.23)
 		)
 		(stroke
@@ -4277,6 +4277,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 121.92) (xy 236.22 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4058b52-50d4-477d-9e9b-73995acc5924")
+	)
+	(wire
+		(pts
 			(xy 154.94 81.28) (xy 154.94 92.71)
 		)
 		(stroke
@@ -4284,6 +4294,16 @@
 			(type default)
 		)
 		(uuid "c4ab70a9-cded-4739-a6dd-6d7239e92d3a")
+	)
+	(wire
+		(pts
+			(xy 233.68 119.38) (xy 233.68 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd146e86-08e8-4ee8-997d-0b3be537119e")
 	)
 	(wire
 		(pts
@@ -4354,16 +4374,6 @@
 			(type default)
 		)
 		(uuid "e0af8cc3-5715-4c1b-ae62-830294db4171")
-	)
-	(wire
-		(pts
-			(xy 233.68 121.92) (xy 236.22 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1cb7544-e316-4450-b2f7-c39abe335b40")
 	)
 	(wire
 		(pts
@@ -7594,74 +7604,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 228.6 114.3 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "cb1df9ab-e33b-4565-81f1-914bbb445b16")
-		(property "Reference" "LK30"
-			(at 224.536 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Filter Ground"
-			(at 226.568 109.728 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 228.6 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 228.6 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 228.6 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "07a246e0-eaa3-4b56-bcef-db5630ae0861")
-		)
-		(pin "1"
-			(uuid "51654738-0d0c-4d33-a6d3-37e8e2c22046")
-		)
-		(instances
-			(project "Acorn-A3010"
-				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/0f9e4e4c-7eae-43dc-ad37-0c70003f4236"
-					(reference "LK30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Polarized_Small")
 		(at 223.52 36.83 180)
 		(unit 1)
@@ -8118,6 +8060,76 @@
 			(project "Acorn-A3010"
 				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/0f9e4e4c-7eae-43dc-ad37-0c70003f4236"
 					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 233.68 116.84 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de69ef70-d83a-425a-b73c-8b7fdfec0d4f")
+		(property "Reference" "LK30"
+			(at 234.95 115.5699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Filter Ground"
+			(at 234.95 118.1099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Acorn:Link_Connected"
+			(at 233.68 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 233.68 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb67351a-5357-4837-ac1b-fd1f54eda44f")
+		)
+		(pin "2"
+			(uuid "2b7a6951-c86f-4fa0-a565-5de6248156bd")
+		)
+		(instances
+			(project "Acorn-A3010"
+				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/0f9e4e4c-7eae-43dc-ad37-0c70003f4236"
+					(reference "LK30")
 					(unit 1)
 				)
 			)

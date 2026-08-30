@@ -7158,17 +7158,15 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 58.42 134.62 0)
-		(mirror y)
+		(at 58.42 137.16 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "68cfcdef-bb9a-453f-8a77-b5e701f4afb6")
 		(property "Reference" "PL5"
-			(at 58.42 125.73 0)
+			(at 58.42 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7176,7 +7174,7 @@
 			)
 		)
 		(property "Value" "FDD Power"
-			(at 58.42 128.27 0)
+			(at 58.42 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7184,7 +7182,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical"
-			(at 58.42 134.62 0)
+			(at 58.42 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7193,7 +7191,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 58.42 134.62 0)
+			(at 58.42 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7202,7 +7200,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 58.42 134.62 0)
+			(at 58.42 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
