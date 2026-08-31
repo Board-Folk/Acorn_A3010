@@ -25946,15 +25946,15 @@
 	(symbol
 		(lib_id "Device:NetTie_2")
 		(at 106.68 248.92 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fbdfd505-b78f-4385-804e-eeb7d00b4830")
 		(property "Reference" "LK11"
-			(at 107.95 247.6499 90)
+			(at 107.95 250.1901 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25963,7 +25963,7 @@
 			)
 		)
 		(property "Value" "NF"
-			(at 107.95 250.1899 90)
+			(at 107.95 247.6501 90)
 			(effects
 				(font
 					(size 1.27 1.27)

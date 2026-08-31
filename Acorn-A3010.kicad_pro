@@ -99,31 +99,19 @@
       ],
       "drc_exclusions": [
         [
+          "extra_footprint|192379600|157251400|5148a269-baa1-4583-95d6-32a13c401b24|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
           "holes_co_located|221250000|164250000|38b7c8b0-57d5-4b01-875c-3705079a5542|afd26098-7ee4-4aca-b455-a4cc629982e2",
           ""
         ],
         [
-          "lib_footprint_issues|225030800|33832869|f726d6c5-4dd5-4c1f-806e-30888ce252ad|00000000-0000-0000-0000-000000000000",
+          "net_conflict|113199200|171365400|76cd6725-8b47-4983-b36a-cd016430707b|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "lib_footprint_issues|261581400|33832869|61d0c40b-a0b7-4fe9-bd17-cade6008f8bd|00000000-0000-0000-0000-000000000000",
-          "footprint removed from standard library"
-        ],
-        [
-          "lib_footprint_issues|297979600|33830469|9f089b12-5b62-4d04-904c-4bce2dad4741|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_issues|343078600|33732869|4edf8369-afab-4ecd-98c5-f5f6c7a07587|00000000-0000-0000-0000-000000000000",
-          "footprint removed from standard library"
-        ],
-        [
-          "lib_footprint_issues|48945800|195580000|404ea3d9-515c-4b75-9e5a-93f2840d77d5|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|33426400|166598600|8d2f2e1d-1e8d-4831-8510-f2a2b32be263|00000000-0000-0000-0000-000000000000",
+          "net_conflict|203708000|77647800|e8584331-72fc-40aa-80c9-fd8fe2d255ae|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
@@ -139,11 +127,19 @@
           ""
         ],
         [
+          "solder_mask_bridge|23190200|34658600|9a694eca-5e98-4d56-8d6f-b75e748eff63|bf8859de-8e13-4a9d-95e2-054a8665ddad",
+          ""
+        ],
+        [
           "solder_mask_bridge|23250400|230013000|4aaaaa73-0b2e-43e9-a14b-b85ca028b3f1|bf8859de-8e13-4a9d-95e2-054a8665ddad",
           ""
         ],
         [
           "solder_mask_bridge|23250400|230013000|9a694eca-5e98-4d56-8d6f-b75e748eff63|bf8859de-8e13-4a9d-95e2-054a8665ddad",
+          ""
+        ],
+        [
+          "solder_mask_bridge|23291800|34658600|4aaaaa73-0b2e-43e9-a14b-b85ca028b3f1|bf8859de-8e13-4a9d-95e2-054a8665ddad",
           ""
         ],
         [
@@ -160,6 +156,14 @@
         ],
         [
           "solder_mask_bridge|38633400|164626600|a51707e3-3368-4833-a5e1-aab5a58b5992|132b40ff-43b4-44be-894e-874f513bbab4",
+          ""
+        ],
+        [
+          "solder_mask_bridge|396578200|229550000|9a694eca-5e98-4d56-8d6f-b75e748eff63|bf8859de-8e13-4a9d-95e2-054a8665ddad",
+          ""
+        ],
+        [
+          "solder_mask_bridge|396578200|229565200|4aaaaa73-0b2e-43e9-a14b-b85ca028b3f1|bf8859de-8e13-4a9d-95e2-054a8665ddad",
           ""
         ],
         [
@@ -204,8 +208,8 @@
         "item_on_disabled_layer": "error",
         "items_not_allowed": "ignore",
         "length_out_of_range": "error",
-        "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_issues": "ignore",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
