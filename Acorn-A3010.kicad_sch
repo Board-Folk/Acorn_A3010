@@ -1304,6 +1304,48 @@
 		)
 	)
 	(sheet
+		(at 109.22 148.59)
+		(size 21.59 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3c2803d2-8ba0-44ff-83ce-a967818b7786")
+		(property "Sheetname" "Econet"
+			(at 109.22 147.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "econet.kicad_sch"
+			(at 109.22 164.4146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Acorn-A3010"
+				(path "/999882f3-94f8-4a89-9093-27a47d0cb289"
+					(page "18")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 85.09 127)
 		(size 21.59 16.51)
 		(exclude_from_sim no)
