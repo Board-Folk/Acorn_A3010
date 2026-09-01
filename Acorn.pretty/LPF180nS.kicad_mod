@@ -1,7 +1,7 @@
 (footprint "LPF180nS"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 6.4 0)
@@ -19,19 +19,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "e32c93b3-0157-47b5-bd9a-2ee45201436d")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at -0.075 -0.575 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "365d67a1-82d4-4bdf-8b46-ffee32f0cb63")
 		(effects
 			(font
 				(size 1 1)
@@ -133,7 +120,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "68890452-4aeb-4433-9292-437e4be08a2f")
 	)
@@ -182,7 +169,7 @@
 		(uuid "73a2a424-19d3-4bfb-a57b-364e737beaa4")
 	)
 	(pad "5" thru_hole circle
-		(at -2.075 2.675)
+		(at -2.12 2.67)
 		(size 1.2 1.2)
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
@@ -230,7 +217,7 @@
 		(uuid "904b2a44-dd9e-4f6d-aed2-3c3f89bd6c11")
 	)
 	(pad "11" thru_hole circle
-		(at 2.175 -2.575 180)
+		(at 2.22 -2.575 180)
 		(size 1.2 1.2)
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
@@ -245,4 +232,5 @@
 		(remove_unused_layers no)
 		(uuid "1af6eb81-63b3-45e3-9c9e-996e03103a03")
 	)
+	(embedded_fonts no)
 )

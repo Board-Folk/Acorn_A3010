@@ -1,7 +1,7 @@
 (footprint "BPF4_43M"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 6.425 0)
@@ -20,19 +20,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "862c196b-2b83-4c27-98d7-d03034044e80")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "ff944c0d-a0dc-490e-ac7d-36c007be577f")
 		(effects
 			(font
 				(size 1 1)
@@ -134,7 +121,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "1703b2f8-4fd1-4909-b035-042786fab3e7")
 	)
@@ -167,7 +154,7 @@
 		(uuid "fdb75a78-7a8e-40ba-9833-e7109798a452")
 	)
 	(pad "4" thru_hole circle
-		(at -2.125 2.6)
+		(at -2.18 2.6)
 		(size 1.2 1.2)
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
@@ -199,11 +186,12 @@
 		(uuid "741a1103-676a-4876-8594-305bcd1f69d8")
 	)
 	(pad "11" thru_hole circle
-		(at 2.125 -2.65 180)
+		(at 2.18 -2.65 180)
 		(size 1.2 1.2)
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "8bc389e0-32c0-40d0-a2b7-89ed8953d843")
 	)
+	(embedded_fonts no)
 )
