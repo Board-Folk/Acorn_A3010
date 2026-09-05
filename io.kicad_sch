@@ -1843,7 +1843,7 @@
 				(pin input inverted
 					(at 21.59 12.7 180)
 					(length 2.54)
-					(name "Sictin"
+					(name "Slctin"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -22082,7 +22082,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Acorn:PQFP-100_14x20mm_P0.65mm"
+		(property "Footprint" "Package_QFP:TQFP-100_14x14mm_P0.5mm"
 			(at 106.68 120.65 0)
 			(effects
 				(font

@@ -2695,7 +2695,7 @@
 			(pin input inverted
 				(at 21.59 12.7 180)
 				(length 2.54)
-				(name "Sictin"
+				(name "Slctin"
 					(effects
 						(font
 							(size 1.27 1.27)
