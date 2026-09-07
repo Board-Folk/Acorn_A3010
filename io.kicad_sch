@@ -22082,7 +22082,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_QFP:TQFP-100_14x14mm_P0.5mm"
+		(property "Footprint" "Acorn:PQFP-100_14x20mm_P0.65mm"
 			(at 106.68 120.65 0)
 			(effects
 				(font
