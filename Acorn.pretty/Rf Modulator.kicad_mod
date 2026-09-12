@@ -1,7 +1,7 @@
 (footprint "Rf Modulator"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -0.5 0)
@@ -20,19 +20,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "b9c2c9f9-fada-4447-b414-e1cb4f06db77")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "81808c21-3244-4f57-9f6f-84b403db7b9b")
 		(effects
 			(font
 				(size 1 1)
@@ -74,7 +61,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "9fd19339-4b3d-4011-902b-fac7e1709231")
 	)
@@ -90,7 +77,7 @@
 			)
 		)
 	)
-	(pad "MH" thru_hole circle
+	(pad "1" thru_hole circle
 		(at -16 -0.0196 90)
 		(size 6.5 6.5)
 		(drill oval 5 0.9)
@@ -98,7 +85,7 @@
 		(remove_unused_layers no)
 		(uuid "df719aee-4935-4b32-a27e-fc81578be9d7")
 	)
-	(pad "MH" thru_hole circle
+	(pad "1" thru_hole circle
 		(at -0.025 -33.0196 180)
 		(size 6.5 6.5)
 		(drill oval 5 0.9)
@@ -106,7 +93,7 @@
 		(remove_unused_layers no)
 		(uuid "02f86a6c-4eae-4298-8c17-d83f37a4d085")
 	)
-	(pad "MH" thru_hole circle
+	(pad "1" thru_hole circle
 		(at 0.025 33.0196 180)
 		(size 6.5 6.5)
 		(drill oval 5 0.9)
@@ -114,7 +101,7 @@
 		(remove_unused_layers no)
 		(uuid "c5aaf810-3751-4632-9403-8f459ee13868")
 	)
-	(pad "MH" thru_hole circle
+	(pad "1" thru_hole circle
 		(at 16 0.0196 90)
 		(size 6.5 6.5)
 		(drill oval 5 0.9)
@@ -122,4 +109,5 @@
 		(remove_unused_layers no)
 		(uuid "cbf78439-4916-44dd-843b-01d8d7541a92")
 	)
+	(embedded_fonts no)
 )
