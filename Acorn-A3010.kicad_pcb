@@ -108817,7 +108817,7 @@
 				)
 			)
 		)
-		(path "/b04534ef-c242-4ca8-9b8d-9d4b3e26f2f3/88d994c0-59f1-4af7-9a57-f012a37018c3")
+		(path "/b04534ef-c242-4ca8-9b8d-9d4b3e26f2f3/89bc193d-458b-41d1-80c6-e7c233354e4c")
 		(sheetname "/IO/")
 		(sheetfile "io.kicad_sch")
 		(attr smd)
@@ -112906,14 +112906,14 @@
 			)
 		)
 	)
-	(footprint "Fuse:Fuse_2512_6332Metric"
+	(footprint "Fuse:Fuse_2512_6332Metric_Pad1.52x3.35mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "d4800b55-342e-4b41-b7d2-973d819dbb43")
 		(at 205.3336 49.1954 90)
-		(descr "Fuse SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
-		(tags "fuse")
+		(descr "Fuse SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
+		(tags "fuse handsolder")
 		(property "Reference" "FS5"
-			(at -2.6714 2.5146 90)
+			(at 0 -2.63 90)
 			(layer "F.SilkS")
 			(uuid "5d42acd1-53df-443b-9b0f-feb58036158b")
 			(effects
@@ -112924,7 +112924,7 @@
 			)
 		)
 		(property "Value" "250MA 63VAC"
-			(at 0 2.62 90)
+			(at 0 2.63 90)
 			(layer "F.Fab")
 			(uuid "a02afa15-8c57-4b7b-8a4c-a5471b0b9829")
 			(effects
@@ -112936,7 +112936,6 @@
 		)
 		(property "Datasheet" "~"
 			(at 0 0 90)
-			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e6a4d92c-9720-4998-b172-02b5f3e7e6b1")
@@ -112949,7 +112948,6 @@
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
 			(at 0 0 90)
-			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "72e91160-728b-459f-af91-5d7323fe5452")
@@ -112973,7 +112971,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "45c288d1-fff3-4df8-8d71-0c79ce58b76d")
+			(uuid "5ba45bf4-6d33-4aac-b262-d594af5c957a")
 		)
 		(fp_line
 			(start -2.052064 1.71)
@@ -112983,18 +112981,18 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "11c9f0e5-3063-45a0-a7da-90afe06c3276")
+			(uuid "2b6a6cf1-5bc4-4843-a7d8-47c2e49f5668")
 		)
 		(fp_rect
-			(start -3.83 -1.93)
-			(end 3.83 1.93)
+			(start -4 -1.93)
+			(end 4 1.93)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "aa8e69f3-5ebf-4f00-a0f8-fe1181cc76bb")
+			(uuid "24567938-5717-440c-b80e-6d406c6f3ffe")
 		)
 		(fp_rect
 			(start -3.15 -1.6)
@@ -113005,7 +113003,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "bfd158eb-1148-4527-89df-05a3bb043adc")
+			(uuid "3ae82ad1-c0c0-4f83-94d6-5a7798f5f8d3")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
@@ -113019,19 +113017,19 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -2.9 0 90)
-			(size 1.35 3.35)
+			(at -2.9875 0 90)
+			(size 1.525 3.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.185185)
+			(roundrect_rratio 0.163934)
 			(net 179 "+5C")
 			(pintype "passive")
 			(uuid "6033951d-b3a7-43dc-a179-f01bc08feaef")
 		)
 		(pad "2" smd roundrect
-			(at 2.9 0 90)
-			(size 1.35 3.35)
+			(at 2.9875 0 90)
+			(size 1.525 3.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.185185)
+			(roundrect_rratio 0.163934)
 			(net 182 "+5F")
 			(pintype "passive")
 			(uuid "1d4474f3-6f56-4589-ab5b-71336b7602c6")
@@ -116857,7 +116855,7 @@
 				)
 			)
 		)
-		(path "/b04534ef-c242-4ca8-9b8d-9d4b3e26f2f3/4658f46a-cebf-4b2c-9ddf-1ed462b6f7d7")
+		(path "/b04534ef-c242-4ca8-9b8d-9d4b3e26f2f3/4fc46182-a492-4501-add9-ebe125cddf4f")
 		(sheetname "/IO/")
 		(sheetfile "io.kicad_sch")
 		(attr smd)
@@ -118093,14 +118091,14 @@
 			)
 		)
 	)
-	(footprint "Fuse:Fuse_2512_6332Metric"
+	(footprint "Fuse:Fuse_2512_6332Metric_Pad1.52x3.35mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "df9bb988-bc6a-4a1d-bbb9-df362195c5d5")
 		(at 140.7414 47.8536)
-		(descr "Fuse SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
-		(tags "fuse")
+		(descr "Fuse SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
+		(tags "fuse handsolder")
 		(property "Reference" "FS4"
-			(at 5.6896 -0.7874 0)
+			(at 0 -2.63 0)
 			(layer "F.SilkS")
 			(uuid "9df17dce-b52b-49f2-9e0b-a32e5fd77168")
 			(effects
@@ -118111,7 +118109,7 @@
 			)
 		)
 		(property "Value" "250MA 63VAC"
-			(at 0 2.62 0)
+			(at 0 2.63 0)
 			(layer "F.Fab")
 			(uuid "07a572d3-742c-425e-866c-dd9eb7cd72a2")
 			(effects
@@ -118123,7 +118121,6 @@
 		)
 		(property "Datasheet" "~"
 			(at 0 0 0)
-			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "de907612-ece5-4071-b882-1aa193284629")
@@ -118136,7 +118133,6 @@
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
 			(at 0 0 0)
-			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "eaf49623-6375-4d61-b00e-8e8c12b3c3c4")
@@ -118160,7 +118156,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "3e221328-2b0f-4f3f-9755-c7fee73f3f1a")
+			(uuid "80551f38-ebe5-4ad3-9144-be383deb3f97")
 		)
 		(fp_line
 			(start -2.052064 1.71)
@@ -118170,18 +118166,18 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4827bf54-1b80-4d90-8767-9c3cc489ea2f")
+			(uuid "653e31b8-530a-402f-827a-adca8411b015")
 		)
 		(fp_rect
-			(start -3.83 -1.93)
-			(end 3.83 1.93)
+			(start -4 -1.93)
+			(end 4 1.93)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "1cdcbf40-bc02-4e3b-9878-5248f9ba3014")
+			(uuid "1347ab6b-936a-446d-8460-e6eb304992dd")
 		)
 		(fp_rect
 			(start -3.15 -1.6)
@@ -118192,7 +118188,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "c51e17b7-a304-4e29-8199-e851c0877a19")
+			(uuid "05c5292e-bd36-4e37-97c7-4f24821df446")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -118206,19 +118202,19 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -2.9 0)
-			(size 1.35 3.35)
+			(at -2.9875 0)
+			(size 1.525 3.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.185185)
+			(roundrect_rratio 0.163934)
 			(net 179 "+5C")
 			(pintype "passive")
 			(uuid "c1019133-6cf9-4212-8796-3596a267bd81")
 		)
 		(pad "2" smd roundrect
-			(at 2.9 0)
-			(size 1.35 3.35)
+			(at 2.9875 0)
+			(size 1.525 3.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.185185)
+			(roundrect_rratio 0.163934)
 			(net 505 "Net-(FS4-Pad2)")
 			(pintype "passive")
 			(uuid "b28675f5-14f2-4215-9934-f665368e42c8")
