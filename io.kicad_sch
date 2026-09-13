@@ -6050,6 +6050,207 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D_Dual_CommonCathode_AAK"
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 1.27 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Dual_CommonCathode_AAK"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual diode, common cathode on pin 3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Dual_CommonCathode_AAK_0_1"
+				(polyline
+					(pts
+						(xy -3.81 1.27) (xy -1.27 0) (xy -3.81 -1.27) (xy -3.81 1.27) (xy -3.81 1.27) (xy -3.81 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.27) (xy 1.27 0) (xy 3.81 1.27) (xy 3.81 -1.27) (xy 3.81 -1.27) (xy 3.81 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:L_Small"
 			(pin_numbers
 				(hide yes)
@@ -7718,6 +7919,12 @@
 		(uuid "0c4493fe-5d12-4d54-8a2a-78f56cb16850")
 	)
 	(junction
+		(at 146.05 256.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "117add30-8a50-4b0c-bd57-36b211edc2f4")
+	)
+	(junction
 		(at 203.2 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8078,6 +8285,12 @@
 		(uuid "93730073-b420-4ed1-98c7-a50afcc7687f")
 	)
 	(junction
+		(at 146.05 248.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ab24cdf-52ca-45b1-aa15-ffcc3766a9dc")
+	)
+	(junction
 		(at 227.33 275.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8342,6 +8555,10 @@
 	(no_connect
 		(at 128.27 95.25)
 		(uuid "1fee2746-56a4-42c0-9321-4975eed20ca3")
+	)
+	(no_connect
+		(at 137.16 241.3)
+		(uuid "23cafae6-569c-435b-a424-93c9740432a9")
 	)
 	(no_connect
 		(at 398.78 220.98)
@@ -8687,6 +8904,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 256.54) (xy 146.05 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "078c41fb-0da0-40ae-be5c-2aaa17ec7472")
+	)
+	(wire
+		(pts
 			(xy 270.51 260.35) (xy 270.51 262.89)
 		)
 		(stroke
@@ -8984,6 +9211,16 @@
 			(type default)
 		)
 		(uuid "1b35f44f-ed3b-4c25-b084-bdc794aeae2f")
+	)
+	(wire
+		(pts
+			(xy 153.67 248.92) (xy 153.67 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b4f0fe9-67a4-468e-9323-6aedf6e3f5e1")
 	)
 	(wire
 		(pts
@@ -9354,16 +9591,6 @@
 			(type default)
 		)
 		(uuid "2e52f2bd-a0e3-4459-98ad-b2dbdb77d409")
-	)
-	(wire
-		(pts
-			(xy 142.24 242.57) (xy 142.24 243.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e9f1bfc-1901-4fe0-a86b-24ada236ac4b")
 	)
 	(wire
 		(pts
@@ -9934,6 +10161,16 @@
 			(type default)
 		)
 		(uuid "5006b178-fd31-4aee-9b6c-1cc60bbbc7c3")
+	)
+	(wire
+		(pts
+			(xy 146.05 256.54) (xy 146.05 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5230aebf-fdbc-4f29-981d-5b01de37eb6d")
 	)
 	(wire
 		(pts
@@ -11647,16 +11884,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 248.92) (xy 142.24 252.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af97c18c-5328-406d-ab96-4782fd43014f")
-	)
-	(wire
-		(pts
 			(xy 247.65 133.35) (xy 193.04 133.35)
 		)
 		(stroke
@@ -11917,6 +12144,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 259.08) (xy 146.05 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c086a649-1595-4c77-b633-35c2c29069f7")
+	)
+	(wire
+		(pts
 			(xy 128.27 64.77) (xy 175.26 64.77)
 		)
 		(stroke
@@ -12027,7 +12264,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 242.57) (xy 153.67 242.57)
+			(xy 142.24 248.92) (xy 146.05 248.92)
 		)
 		(stroke
 			(width 0)
@@ -12914,6 +13151,16 @@
 			(type default)
 		)
 		(uuid "fc81120d-146c-4966-a8a7-294118730b2b")
+	)
+	(wire
+		(pts
+			(xy 146.05 248.92) (xy 153.67 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc8958ec-a208-4b5b-9ab8-bf1ea8d157f6")
 	)
 	(wire
 		(pts
@@ -15675,6 +15922,76 @@
 			(project "Acorn-A3010"
 				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/b04534ef-c242-4ca8-9b8d-9d4b3e26f2f3"
 					(reference "C153")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Dual_CommonCathode_AAK")
+		(at 137.16 248.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3720b7d9-27a0-4bd8-b058-f5e8932fb0ea")
+		(property "Reference" "D21"
+			(at 130.81 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT"
+			(at 133.35 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+			(at 137.16 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual diode, common cathode on pin 3"
+			(at 137.16 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a93351a-4dd9-4ca7-a41b-39f37b8c8f91")
+		)
+		(pin "2"
+			(uuid "b1c54681-a642-4c21-a504-8fe0f6b03bb1")
+		)
+		(pin "3"
+			(uuid "cc3f1ab2-3b8d-43d7-a4d2-9e025723be52")
+		)
+		(instances
+			(project "Acorn-A3010"
+				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/b04534ef-c242-4ca8-9b8d-9d4b3e26f2f3"
+					(reference "D21")
 					(unit 1)
 				)
 			)
@@ -19433,7 +19750,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 142.24 246.38 0)
+		(at 146.05 251.46 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19442,7 +19759,7 @@
 		(dnp no)
 		(uuid "88dbe97a-dc7c-415a-8341-a5b6115c90f7")
 		(property "Reference" "C75"
-			(at 139.7 245.1035 0)
+			(at 143.51 250.1835 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19451,7 +19768,7 @@
 			)
 		)
 		(property "Value" "68pF"
-			(at 139.7 247.6435 0)
+			(at 143.51 252.7235 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19460,7 +19777,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 142.24 246.38 0)
+			(at 146.05 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19469,7 +19786,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 142.24 246.38 0)
+			(at 146.05 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19478,7 +19795,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 142.24 246.38 0)
+			(at 146.05 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20953,7 +21270,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 142.24 252.73 0)
+		(at 146.05 259.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20962,7 +21279,7 @@
 		(fields_autoplaced yes)
 		(uuid "9baf1bc3-f3c0-4243-8a7d-4edccc2b2094")
 		(property "Reference" "#PWR0154"
-			(at 142.24 259.08 0)
+			(at 146.05 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20971,7 +21288,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 142.24 257.81 0)
+			(at 146.05 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20979,7 +21296,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 252.73 0)
+			(at 146.05 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20988,7 +21305,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 252.73 0)
+			(at 146.05 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20997,7 +21314,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 142.24 252.73 0)
+			(at 146.05 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
