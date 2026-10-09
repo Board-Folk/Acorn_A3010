@@ -6461,7 +6461,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Acorn:RPT-60"
+		(property "Footprint" "Acorn:RPT-60_cutout"
 			(at 76.2 82.55 0)
 			(effects
 				(font
