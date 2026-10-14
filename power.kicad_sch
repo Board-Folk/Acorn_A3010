@@ -8826,12 +8826,12 @@
 	(symbol
 		(lib_id "Switch:SW_DPST")
 		(at 48.26 82.55 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a0d0844b-893a-45fd-b3f3-d6f177ef4d5e")
 		(property "Reference" "SW2"
 			(at 48.26 73.66 0)
