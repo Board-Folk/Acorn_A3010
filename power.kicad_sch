@@ -4703,6 +4703,26 @@
 		)
 		(uuid "ff220719-6c9c-417d-ab7a-7aac039025c1")
 	)
+	(label "AC_SW_L"
+		(at 54.61 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "500b5c65-57ce-4000-83cb-90ead33507ca")
+	)
+	(label "AC_SW_N"
+		(at 54.61 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "546a7c5d-84d1-475f-81d8-359ef1e49260")
+	)
 	(label "perimeter-shield"
 		(at 124.46 99.06 0)
 		(effects
@@ -4712,6 +4732,26 @@
 			(justify left bottom)
 		)
 		(uuid "8956c508-22d1-4cc2-9e12-58f8156c61a7")
+	)
+	(label "AC_L"
+		(at 36.83 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d633572c-5f8a-4ce6-90ac-b776f83b3a25")
+	)
+	(label "AC_N"
+		(at 36.83 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f7899552-28cd-42db-8636-854b4ee204f1")
 	)
 	(symbol
 		(lib_id "Device:C_Small")

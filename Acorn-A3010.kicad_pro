@@ -99,10 +99,6 @@
       ],
       "drc_exclusions": [
         [
-          "holes_co_located|221250000|164250000|38b7c8b0-57d5-4b01-875c-3705079a5542|afd26098-7ee4-4aca-b455-a4cc629982e2",
-          ""
-        ],
-        [
           "net_conflict|113199200|171365400|76cd6725-8b47-4983-b36a-cd016430707b|00000000-0000-0000-0000-000000000000",
           ""
         ],
@@ -152,14 +148,6 @@
         ],
         [
           "solder_mask_bridge|38633400|164626600|a51707e3-3368-4833-a5e1-aab5a58b5992|132b40ff-43b4-44be-894e-874f513bbab4",
-          ""
-        ],
-        [
-          "solder_mask_bridge|396578200|229550000|9a694eca-5e98-4d56-8d6f-b75e748eff63|bf8859de-8e13-4a9d-95e2-054a8665ddad",
-          ""
-        ],
-        [
-          "solder_mask_bridge|396578200|229565200|4aaaaa73-0b2e-43e9-a14b-b85ca028b3f1|bf8859de-8e13-4a9d-95e2-054a8665ddad",
           ""
         ],
         [
@@ -608,6 +596,20 @@
         "via_diameter": 1.3,
         "via_drill": 0.9,
         "wire_width": 6
+      },
+      {
+        "clearance": 1.8,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "AC_Power",
+        "pcb_color": "rgb(255, 44, 145)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 2.0,
+        "via_diameter": 2.5,
+        "via_drill": 1.7
       }
     ],
     "meta": {
@@ -615,7 +617,12 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "AC_Power",
+        "pattern": "*AC_*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
