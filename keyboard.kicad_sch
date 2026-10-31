@@ -22182,6 +22182,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C720477"
+			(at 337.82 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "SKRKAEE020"
+			(at 337.82 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "faa4b981-f7a6-45db-8cd0-d5c88caf294d")
 		)
