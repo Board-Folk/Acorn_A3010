@@ -20458,7 +20458,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "2bf9dd40-a434-40c8-98eb-fb9ff5a91559")
+			(uuid "f2a60ec4-2d98-4b75-abb0-22c976824e9e")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 2.5 0)
@@ -20475,7 +20475,7 @@
 		(pad "1" thru_hole circle
 			(at -16 -0.0196 90)
 			(size 6.5 6.5)
-			(drill oval 5 1.1)
+			(drill oval 5 1.25)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 23 "GND")
@@ -20486,7 +20486,7 @@
 		(pad "1" thru_hole circle
 			(at -0.025 -33.0196 180)
 			(size 6.5 6.5)
-			(drill oval 5 1.1)
+			(drill oval 5 1.25)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 23 "GND")
@@ -20497,7 +20497,7 @@
 		(pad "1" thru_hole circle
 			(at 0.025 33.0196 180)
 			(size 6.5 6.5)
-			(drill oval 5 1.1)
+			(drill oval 5 1.25)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 23 "GND")
@@ -20508,7 +20508,7 @@
 		(pad "1" thru_hole circle
 			(at 16 0.0196 90)
 			(size 6.5 6.5)
-			(drill oval 5 1.1)
+			(drill oval 5 1.25)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 23 "GND")
