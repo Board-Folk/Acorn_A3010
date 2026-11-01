@@ -726,6 +726,12 @@
           "label": "JLCPCB BOM",
           "name": "JLCPCB BOM",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DigiKey",
+          "name": "DigiKey",
+          "show": false
         }
       ],
       "filter_string": "",
