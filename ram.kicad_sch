@@ -4319,6 +4319,12 @@
 		(uuid "80c6001d-80ef-4338-90e1-7c67d2c49743")
 	)
 	(junction
+		(at 255.27 274.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82ee196e-1afc-475c-9e30-6ec05f84bdf4")
+	)
+	(junction
 		(at 81.28 238.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4427,12 +4433,12 @@
 		(uuid "fe57f2f5-53b5-4c8b-a65e-fdf19fdfdc81")
 	)
 	(no_connect
-		(at 280.67 271.78)
-		(uuid "3b22b122-7d9b-4afe-b7b9-0a0500d19c44")
-	)
-	(no_connect
 		(at 280.67 269.24)
 		(uuid "45978e80-d91c-4e95-b068-8ebbd3f9b932")
+	)
+	(no_connect
+		(at 280.67 274.32)
+		(uuid "58ea261c-e3cb-4903-81b5-055cef63322b")
 	)
 	(no_connect
 		(at 280.67 266.7)
@@ -11122,6 +11128,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 269.24) (xy 255.27 274.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f479f375-d22a-40e6-be6c-c2b39bfa421d")
+	)
+	(wire
+		(pts
 			(xy 241.3 123.19) (xy 247.65 123.19)
 		)
 		(stroke
@@ -14274,28 +14290,6 @@
 			)
 		)
 	)
-	(global_label "~{I13}"
-		(shape output)
-		(at 280.67 274.32 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7c38969b-efe5-41e0-a778-0a9522110430")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 286.679 274.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "~{Ras}"
 		(shape input)
 		(at 146.05 45.72 180)
@@ -14364,7 +14358,7 @@
 	)
 	(global_label "I13"
 		(shape input)
-		(at 255.27 269.24 180)
+		(at 255.27 266.7 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14372,14 +14366,36 @@
 			)
 			(justify right)
 		)
-		(uuid "f658c6f9-1b12-4b68-b810-f1ea0b33c3c0")
+		(uuid "ccdd9960-dfcb-43d7-9fa7-d126f97268c5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 249.261 269.24 0)
+			(at 249.261 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "~{I13}"
+		(shape output)
+		(at 280.67 271.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "da5d493b-0907-4c07-89e2-bda93ba77ec3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 286.679 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -20588,72 +20604,6 @@
 			(project "Acorn-A3010"
 				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/2a97f30b-a871-4784-a798-0ed044646890"
 					(reference "RP6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 255.27 266.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b985fc18-1af1-45a3-b8e5-2ea32dd7dd72")
-		(property "Reference" "#PWR014"
-			(at 255.27 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 255.27 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 255.27 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 255.27 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 255.27 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8d7f16f4-8712-4df0-8435-e5f1d705bdc0")
-		)
-		(instances
-			(project "Acorn-A3010"
-				(path "/999882f3-94f8-4a89-9093-27a47d0cb289/2a97f30b-a871-4784-a798-0ed044646890"
-					(reference "#PWR014")
 					(unit 1)
 				)
 			)
